@@ -22,6 +22,8 @@ import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 
 /**
  * @cdk.module isomorphism

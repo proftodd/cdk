@@ -26,7 +26,7 @@ package org.openscience.cdk.isomorphism;
 
 import org.junit.Test;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

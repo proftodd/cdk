@@ -20,6 +20,7 @@ package org.openscience.cdk.isomorphism.matchers;
 
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 import java.util.Objects;
 

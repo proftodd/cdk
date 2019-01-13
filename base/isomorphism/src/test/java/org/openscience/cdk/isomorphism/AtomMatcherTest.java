@@ -27,7 +27,7 @@ package org.openscience.cdk.isomorphism;
 import org.junit.Test;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IPseudoAtom;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

@@ -23,6 +23,7 @@ import java.util.Set;
 
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 /**
  *  A QueryAtom that matches all symbols in this container. You may add symbols

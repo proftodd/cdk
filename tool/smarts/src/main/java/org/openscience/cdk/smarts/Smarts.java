@@ -37,6 +37,8 @@ import org.openscience.cdk.isomorphism.matchers.Expr;
 import org.openscience.cdk.isomorphism.matchers.QueryAtom;
 import org.openscience.cdk.isomorphism.matchers.QueryAtomContainer;
 import org.openscience.cdk.isomorphism.matchers.QueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.stereo.DoubleBondStereochemistry;
 import org.openscience.cdk.stereo.TetrahedralChirality;
 import org.openscience.cdk.tools.ILoggingTool;
@@ -60,8 +62,8 @@ import static org.openscience.cdk.isomorphism.matchers.Expr.Type.*;
 /**
  * Parse and generate the SMARTS query language. Given an {@link IAtomContainer}
  * a SMARTS pattern is parsed and new
- * {@link org.openscience.cdk.isomorphism.matchers.IQueryAtom}s and
- * {@link org.openscience.cdk.isomorphism.matchers.IQueryBond}s are appended
+ * {@link IQueryAtom}s and
+ * {@link IQueryBond}s are appended
  * to the connection table. Each query atom/bond contains an {@link Expr} that
  * describes the predicate to check when matching. This {@link Expr} is also
  * used for generating SMARTS.
@@ -2046,8 +2048,8 @@ public final class Smarts {
      * @param smarts the SMARTS string
      * @param flavor the SMARTS flavor (e.g. {@link Smarts#FLAVOR_LOOSE}.
      * @see Expr
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryAtom
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryBond
+     * @see IQueryAtom
+     * @see IQueryBond
      * @return whether the SMARTS was valid
      */
     public static boolean parse(IAtomContainer mol, String smarts, int flavor) {
@@ -2066,8 +2068,8 @@ public final class Smarts {
      * @param mol the molecule to store the query in
      * @param smarts the SMARTS string
      * @see Expr
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryAtom
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryBond
+     * @see IQueryAtom
+     * @see IQueryBond
      * @return whether the SMARTS was valid
      */
     public static boolean parse(IAtomContainer mol, String smarts) {
@@ -2134,8 +2136,8 @@ public final class Smarts {
      * @param mol the query molecule
      * @return the SMARTS
      * @see Expr
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryAtom
-     * @see org.openscience.cdk.isomorphism.matchers.IQueryBond
+     * @see IQueryAtom
+     * @see IQueryBond
      */
     public static String generate(IAtomContainer mol) {
         return new Generator(mol).generate();

@@ -40,6 +40,7 @@ import org.openscience.cdk.interfaces.IElectronContainer;
 import org.openscience.cdk.interfaces.ILonePair;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStereoElement;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 
 import static org.openscience.cdk.isomorphism.matchers.Expr.Type.*;
 

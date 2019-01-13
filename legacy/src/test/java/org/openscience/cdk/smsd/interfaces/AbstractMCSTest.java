@@ -28,7 +28,7 @@ import java.util.Map;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 
 /**
  * @author Syed Asad Rahman &lt;asad@ebi.ac.uk&gt;

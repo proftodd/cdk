@@ -1,4 +1,4 @@
-/* Copyright (C) 2007  Egon Willighagen <egonw@users.sf.net>
+/* Copyright (C) 2004-2007  Egon Willighagen <egonw@users.sf.net>
  *
  * Contact: cdk-devel@lists.sourceforge.net
  *
@@ -16,19 +16,25 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.isomorphism.matchers;
+package org.openscience.cdk.isomorphismmatchers;
 
-import org.openscience.cdk.interfaces.IAtomContainer;
+import org.openscience.cdk.interfaces.IBond;
 
 /**
- * General concept of a IAtomContainer aimed at doing molecular subgraph
- * queries using the UniversalIsomorphismTester.
+ * Defines the abililty to be matched against IBond's.
  *
- * @author      egonw
- * @cdk.module  interfaces
+ * @cdk.module interfaces
  * @cdk.githash
- * @see         org.openscience.cdk.isomorphism.UniversalIsomorphismTester
+ * @see        org.openscience.cdk.isomorphism.Pattern
  */
-public interface IQueryAtomContainer extends IAtomContainer {
+public interface IQueryBond extends IBond {
+
+    /**
+     * Returns true of the given <code>bond</code> matches this IQueryBond.
+     *
+     * @param bond IBond to match against
+     * @return     true, if this IQueryBond matches the given IBond
+     */
+    public boolean matches(IBond bond);
 
 }

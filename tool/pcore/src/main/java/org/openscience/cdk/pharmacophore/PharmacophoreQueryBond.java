@@ -20,7 +20,7 @@ package org.openscience.cdk.pharmacophore;
 
 import org.openscience.cdk.Bond;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.BondRef;
 
 /**

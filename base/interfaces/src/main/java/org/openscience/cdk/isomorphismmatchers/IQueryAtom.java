@@ -16,25 +16,24 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.isomorphism.matchers;
+package org.openscience.cdk.isomorphismmatchers;
 
-import org.openscience.cdk.interfaces.IBond;
+import org.openscience.cdk.interfaces.IAtom;
 
 /**
- * Defines the abililty to be matched against IBond's.
+ * Defines the ability to be matched against {@link IAtom}'s.
  *
  * @cdk.module interfaces
  * @cdk.githash
  * @see        org.openscience.cdk.isomorphism.Pattern
  */
-public interface IQueryBond extends IBond {
+public interface IQueryAtom extends IAtom {
 
     /**
-     * Returns true of the given <code>bond</code> matches this IQueryBond.
+     * Returns true of the given <code>atom</code> matches this IQueryAtom.
      *
-     * @param bond IBond to match against
-     * @return     true, if this IQueryBond matches the given IBond
+     * @param atom IAtom to match against
+     * @return     true, if this IQueryAtom matches the given IAtom
      */
-    public boolean matches(IBond bond);
-
+    public boolean matches(IAtom atom);
 }

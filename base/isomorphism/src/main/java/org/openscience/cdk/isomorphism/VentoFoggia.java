@@ -24,11 +24,9 @@
 
 package org.openscience.cdk.isomorphism;
 
-import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.graph.GraphUtil;
-import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;

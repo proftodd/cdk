@@ -19,7 +19,7 @@ package org.openscience.cdk.isomorphism.matchers.smarts;
 
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 /**
  * This class matches a logical operator that connects two query atoms. Logical

@@ -27,9 +27,9 @@ import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
