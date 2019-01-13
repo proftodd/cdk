@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.smilesio;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -31,7 +31,9 @@ import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.io.iterator.IteratingSMILESReader;
+import org.openscience.cdk.io.DefaultChemObjectReader;
+import org.openscience.cdk.io.SimpleChemObjectReaderTest;
+import org.openscience.cdk.smilesio.iterator.IteratingSMILESReader;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;

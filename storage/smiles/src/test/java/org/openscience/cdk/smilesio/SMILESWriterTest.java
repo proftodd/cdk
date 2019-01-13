@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.smilesio;
 
 import java.io.StringWriter;
 import java.util.Properties;
@@ -32,6 +32,7 @@ import org.openscience.cdk.AtomContainer;
 import org.openscience.cdk.AtomContainerSet;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.interfaces.IAtomContainer;
+import org.openscience.cdk.io.ChemObjectIOTest;
 import org.openscience.cdk.io.listener.PropertiesListener;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
@@ -41,7 +42,7 @@ import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
  *
  * @cdk.module test-smiles
  *
- * @see org.openscience.cdk.io.SMILESWriter
+ * @see org.openscience.cdk.smilesio.SMILESWriter
  */
 public class SMILESWriterTest extends ChemObjectIOTest {
 

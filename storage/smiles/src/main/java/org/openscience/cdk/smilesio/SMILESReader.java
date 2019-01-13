@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.smilesio;
 
 import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
@@ -31,9 +31,10 @@ import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.interfaces.IChemSequence;
+import org.openscience.cdk.io.DefaultChemObjectReader;
 import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.io.formats.SMILESFormat;
-import org.openscience.cdk.io.iterator.IteratingSMILESReader;
+import org.openscience.cdk.smilesio.iterator.IteratingSMILESReader;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
@@ -66,7 +67,7 @@ import java.io.StringReader;
  * @cdk.iooptions
  * @cdk.keyword file format, SMILES
  *
- * @see org.openscience.cdk.io.iterator.IteratingSMILESReader
+ * @see org.openscience.cdk.smilesio.iterator.IteratingSMILESReader
  */
 public class SMILESReader extends DefaultChemObjectReader {
 

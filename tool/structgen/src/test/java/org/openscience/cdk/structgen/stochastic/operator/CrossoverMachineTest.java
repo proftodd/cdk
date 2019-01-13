@@ -31,7 +31,7 @@ import org.openscience.cdk.graph.ConnectivityChecker;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
-import org.openscience.cdk.io.SMILESReader;
+import org.openscience.cdk.smilesio.SMILESReader;
 import org.openscience.cdk.silent.AtomContainerSet;
 import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
 

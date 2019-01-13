@@ -19,7 +19,7 @@
  * along with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.smilesio;
 
 import java.io.InputStream;
 
@@ -29,6 +29,7 @@ import org.junit.Test;
 import org.openscience.cdk.AtomContainerSet;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
+import org.openscience.cdk.io.SimpleChemObjectReaderTest;
 
 /**
  * @cdk.module test-smiles

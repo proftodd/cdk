@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io.iterator;
+package org.openscience.cdk.smilesio.iterator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -35,6 +35,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.io.formats.SMILESFormat;
+import org.openscience.cdk.io.iterator.DefaultIteratingChemObjectReader;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
@@ -53,7 +54,7 @@ import org.openscience.cdk.tools.LoggingToolFactory;
  * @cdk.githash
  * @cdk.iooptions
  *
- * @see org.openscience.cdk.io.SMILESReader
+ * @see org.openscience.cdk.smilesio.SMILESReader
  *
  * @author Egon Willighagen &lt;egonw@sci.kun.nl&gt;
  * @cdk.created    2004-12-16

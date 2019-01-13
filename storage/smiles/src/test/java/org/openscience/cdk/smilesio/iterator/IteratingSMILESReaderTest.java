@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *  */
-package org.openscience.cdk.io.iterator;
+package org.openscience.cdk.smilesio.iterator;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
@@ -48,7 +48,7 @@ import static org.junit.Assert.assertTrue;
  * TestCase for the reading SMILES mol files using one test file.
  *
  * @cdk.module test-smiles
- * @see org.openscience.cdk.io.SMILESReader
+ * @see org.openscience.cdk.smilesio.SMILESReader
  */
 public class IteratingSMILESReaderTest extends CDKTestCase {
 

@@ -19,7 +19,7 @@
  * along with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.smilesio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -36,6 +36,7 @@ import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.interfaces.IChemSequence;
+import org.openscience.cdk.io.DefaultChemObjectReader;
 import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.io.formats.MoSSOutputFormat;
 import org.openscience.cdk.smiles.SmilesParser;
