@@ -21,6 +21,7 @@ package org.openscience.cdk.atomtype;
 import java.util.Map;
 
 import org.junit.Assert;
+import org.openscience.cdk.atomtype.sybyl.SybylAtomTypeMatcher;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

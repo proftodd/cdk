@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.config.atomtypes;
+package org.openscience.cdk.config.atomtypes.owl;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -30,6 +30,8 @@ import java.util.Map;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.openscience.cdk.config.OWLBasedAtomTypeConfigurator;
+import org.openscience.cdk.config.atomtypes.OWLAtomTypeReader;
+import org.openscience.cdk.config.atomtypes.owl.OWLAtomTypeMappingHandler;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

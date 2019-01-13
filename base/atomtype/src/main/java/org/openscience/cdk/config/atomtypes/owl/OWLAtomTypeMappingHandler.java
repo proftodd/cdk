@@ -16,7 +16,7 @@
  *  License along with this library; if not, write to the Free Software
  *  Foundation, 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.config.atomtypes;
+package org.openscience.cdk.config.atomtypes.owl;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;

@@ -16,11 +16,12 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.atomtype;
+package org.openscience.cdk.atomtype.estate;
 
 import java.util.List;
 
 import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.atomtype.IAtomTypeMatcher;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

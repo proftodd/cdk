@@ -15,7 +15,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.atomtype;
+package org.openscience.cdk.atomtype.sybyl;
 
 import java.io.InputStream;
 import java.util.Hashtable;
@@ -24,6 +24,8 @@ import java.util.Map;
 
 import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.aromaticity.Aromaticity;
+import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
+import org.openscience.cdk.atomtype.IAtomTypeMatcher;
 import org.openscience.cdk.atomtype.mapper.AtomTypeMapper;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.CDKException;
