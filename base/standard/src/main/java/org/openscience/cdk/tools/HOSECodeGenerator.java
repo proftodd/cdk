@@ -42,7 +42,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
-import org.openscience.cdk.smiles.InvPair;
+import org.openscience.cdk.smilesio.InvPair;
 
 /**
  * Generates HOSE codes {@cdk.cite BRE78}.

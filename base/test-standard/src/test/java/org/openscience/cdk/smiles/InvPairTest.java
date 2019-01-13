@@ -24,6 +24,7 @@ import org.openscience.cdk.Atom;
 import org.openscience.cdk.CDKTestCase;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;
+import org.openscience.cdk.smilesio.InvPair;
 
 /**
  * @cdk.module     test-standard
