@@ -34,7 +34,7 @@ import org.openscience.cdk.fingerprint.Fingerprinter;
 import org.openscience.cdk.fingerprint.ICountFingerprint;
 import org.openscience.cdk.fingerprint.IntArrayCountFingerprint;
 import org.openscience.cdk.fingerprint.IntArrayFingerprint;
-import org.openscience.cdk.fingerprint.LingoFingerprinter;
+import org.openscience.cdk.smilesfingerprint.LingoFingerprinter;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.templates.TestMoleculeFactory;
