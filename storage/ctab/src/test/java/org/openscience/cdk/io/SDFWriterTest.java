@@ -44,7 +44,7 @@ import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.io.listener.PropertiesListener;
-import org.openscience.cdk.smilesio.InvPair;
+import org.openscience.cdk.graph.invariant.InvPair;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 
 import static org.junit.Assert.assertThat;

@@ -25,7 +25,6 @@ package org.openscience.cdk.graph.invariant;
 import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.smilesio.InvPair;
 import org.openscience.cdk.tools.periodictable.PeriodicTable;
 
 import java.util.ArrayList;

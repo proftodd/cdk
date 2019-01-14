@@ -3,7 +3,7 @@ package org.openscience.cdk.smsd.labelling;
 import org.openscience.cdk.graph.invariant.CanonicalLabeler;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.smilesio.InvPair;
+import org.openscience.cdk.graph.invariant.InvPair;
 
 /**
  * @cdk.module smsd
