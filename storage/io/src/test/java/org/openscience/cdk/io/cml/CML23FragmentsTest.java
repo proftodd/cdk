@@ -42,7 +42,7 @@ import org.openscience.cdk.qsar.DescriptorSpecification;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.DoubleResult;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import java.io.ByteArrayInputStream;
 import java.util.Iterator;

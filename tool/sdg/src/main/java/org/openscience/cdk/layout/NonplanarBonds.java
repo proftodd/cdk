@@ -36,11 +36,11 @@ import org.openscience.cdk.interfaces.IDoubleBondStereochemistry;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.ringsearch.RingSearch;
-import org.openscience.cdk.stereo.Atropisomeric;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.Octahedral;
-import org.openscience.cdk.stereo.SquarePlanar;
-import org.openscience.cdk.stereo.TrigonalBipyramidal;
+import org.openscience.cdk.basestereo.Atropisomeric;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.Octahedral;
+import org.openscience.cdk.basestereo.SquarePlanar;
+import org.openscience.cdk.basestereo.TrigonalBipyramidal;
 import org.openscience.cdk.tools.LoggingToolFactory;
 
 import javax.vecmath.Point2d;

@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-package org.openscience.cdk.stereo;
+package org.openscience.cdk.basestereo;
 
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -29,8 +29,6 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IStereoElement;
 
 import java.util.List;
-
-import static org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
 
 /**
  * Extended Cis/Trans double bond configuration. This stereo element is

@@ -46,8 +46,8 @@ import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.tools.periodictable.PeriodicTable;
 
 import static org.openscience.cdk.interfaces.IDoubleBondStereochemistry.Conformation;

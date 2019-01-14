@@ -38,7 +38,7 @@ import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 
 import java.util.ArrayList;
 import java.util.Collections;

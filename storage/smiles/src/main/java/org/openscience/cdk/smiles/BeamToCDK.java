@@ -24,18 +24,19 @@
 
 package org.openscience.cdk.smiles;
 
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.interfaces.IStereoElement;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedCisTrans;
-import org.openscience.cdk.stereo.Octahedral;
-import org.openscience.cdk.stereo.SquarePlanar;
-import org.openscience.cdk.stereo.TetrahedralChirality;
-import org.openscience.cdk.stereo.TrigonalBipyramidal;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedCisTrans;
+import org.openscience.cdk.basestereo.Octahedral;
+import org.openscience.cdk.basestereo.SquarePlanar;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TrigonalBipyramidal;
 import uk.ac.ebi.beam.Atom;
 import uk.ac.ebi.beam.Bond;
 import uk.ac.ebi.beam.Configuration;
@@ -566,7 +567,7 @@ final class BeamToCDK {
         Stereo stereo = g.configurationOf(u).shorthand() == Configuration.CLOCKWISE ? Stereo.CLOCKWISE
                 : Stereo.ANTI_CLOCKWISE;
 
-        return new org.openscience.cdk.stereo.ExtendedTetrahedral(atoms[u], new IAtom[]{atoms[xs[0]], atoms[xs[1]],
+        return new ExtendedTetrahedral(atoms[u], new IAtom[]{atoms[xs[0]], atoms[xs[1]],
                 atoms[xs[2]], atoms[xs[3]]}, stereo);
     }
 

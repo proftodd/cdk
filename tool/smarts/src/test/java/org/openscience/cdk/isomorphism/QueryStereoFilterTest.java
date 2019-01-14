@@ -32,8 +32,8 @@ import org.openscience.cdk.isomorphism.matchers.QueryAtomContainer;
 import org.openscience.cdk.silent.Atom;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.smarts.Smarts;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import java.util.ArrayList;
 

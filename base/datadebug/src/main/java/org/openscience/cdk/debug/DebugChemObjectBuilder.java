@@ -60,8 +60,8 @@ import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStrand;
 import org.openscience.cdk.interfaces.ISubstance;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 /**
  * A helper class to instantiate a {@link IChemObject} for the original CDK

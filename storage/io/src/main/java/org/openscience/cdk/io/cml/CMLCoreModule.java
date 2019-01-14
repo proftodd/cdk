@@ -54,7 +54,7 @@ import org.openscience.cdk.interfaces.IReactionSet;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStrand;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;

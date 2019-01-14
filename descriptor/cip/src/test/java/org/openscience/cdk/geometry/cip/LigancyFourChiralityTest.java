@@ -36,7 +36,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 /**
  * @cdk.module test-cip

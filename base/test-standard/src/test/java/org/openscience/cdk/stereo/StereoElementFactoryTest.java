@@ -26,7 +26,8 @@ package org.openscience.cdk.stereo;
 
 import com.google.common.collect.Iterables;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.basestereo.ExtendedCisTrans;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

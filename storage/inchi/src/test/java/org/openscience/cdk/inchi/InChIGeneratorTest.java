@@ -24,10 +24,8 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;
@@ -47,10 +45,9 @@ import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
 import org.openscience.cdk.io.MDLV2000Reader;
-import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import net.sf.jniinchi.INCHI_RET;
 

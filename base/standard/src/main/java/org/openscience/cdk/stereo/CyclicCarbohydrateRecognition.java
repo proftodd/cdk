@@ -24,6 +24,7 @@
 
 package org.openscience.cdk.stereo;
 
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

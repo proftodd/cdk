@@ -66,7 +66,7 @@ import org.openscience.cdk.silent.PseudoAtom;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.smiles.SmilesGenerator;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.CDKHydrogenAdder;
 

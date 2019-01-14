@@ -39,7 +39,7 @@ import org.openscience.cdk.silent.Atom;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.silent.Bond;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;

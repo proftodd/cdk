@@ -46,8 +46,6 @@ import net.sf.jniinchi.JniInchiStereo0D;
 import net.sf.jniinchi.JniInchiWrapper;
 
 import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.config.Isotopes;
-import org.openscience.cdk.config.IsotopeFactory;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -57,7 +55,7 @@ import org.openscience.cdk.interfaces.IDoubleBondStereochemistry;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

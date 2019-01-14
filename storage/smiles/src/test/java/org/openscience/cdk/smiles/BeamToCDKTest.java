@@ -36,12 +36,10 @@ import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import uk.ac.ebi.beam.AtomBuilder;
-import uk.ac.ebi.beam.Bond;
 import uk.ac.ebi.beam.Graph;
 import uk.ac.ebi.beam.Element;
-import uk.ac.ebi.beam.Functions;
 
 import java.io.IOException;
 import java.util.Iterator;

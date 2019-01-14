@@ -66,8 +66,8 @@ import org.openscience.cdk.protein.data.PDBAtom;
 import org.openscience.cdk.protein.data.PDBMonomer;
 import org.openscience.cdk.protein.data.PDBPolymer;
 import org.openscience.cdk.protein.data.PDBStructure;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import java.util.Locale;
 

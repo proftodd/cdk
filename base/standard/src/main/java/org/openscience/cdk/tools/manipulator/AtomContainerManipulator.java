@@ -65,11 +65,11 @@ import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.ringsearch.RingSearch;
 import org.openscience.cdk.sgroup.Sgroup;
 import org.openscience.cdk.sgroup.SgroupKey;
-import org.openscience.cdk.stereo.Atropisomeric;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedCisTrans;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.Atropisomeric;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedCisTrans;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;

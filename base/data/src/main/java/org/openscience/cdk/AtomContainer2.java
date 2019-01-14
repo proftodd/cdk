@@ -39,9 +39,9 @@ import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.sgroup.Sgroup;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.tools.manipulator.SgroupManipulator;
 
 import java.util.ArrayList;

@@ -21,10 +21,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-package org.openscience.cdk.stereo;
+package org.openscience.cdk.basestereo;
 
 import org.junit.Test;
 import org.mockito.Mockito;
+import org.openscience.cdk.basestereo.TrigonalBipyramidal;
 import org.openscience.cdk.exception.InvalidSmilesException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -40,26 +41,24 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
-public class OctahedralTest {
+public class TrigonalBipyramidalTest {
 
-
-    @Test public void normalizeOh() throws InvalidSmilesException {
+    @Test public void normalize() throws InvalidSmilesException {
         SmilesParser             smipar = new SmilesParser(SilentChemObjectBuilder.getInstance());
-        IAtomContainer           mol    = smipar.parseSmiles("C[Co@OH8](F)(Br)(Cl)(I)S");
+        IAtomContainer           mol    = smipar.parseSmiles("C[As@TB3](Cl)(Cl)(C)Cl");
         Iterator<IStereoElement> ses    = mol.stereoElements().iterator();
         assertTrue(ses.hasNext());
         IStereoElement se = ses.next();
-        assertThat(se, instanceOf(Octahedral.class));
-        assertThat(se.getConfigOrder(), is(8));
-        Octahedral oh = (Octahedral) se;
-        Octahedral ohNorm = oh.normalize();
-        assertThat(ohNorm.getCarriers(), is(Arrays.asList(
+        assertThat(se, instanceOf(TrigonalBipyramidal.class));
+        assertThat(se.getConfigOrder(), is(3));
+        TrigonalBipyramidal tb = (TrigonalBipyramidal) se;
+        TrigonalBipyramidal tbNorm = tb.normalize();
+        assertThat(tbNorm.getCarriers(), is(Arrays.asList(
             mol.getAtom(0),
             mol.getAtom(2),
-            mol.getAtom(4),
             mol.getAtom(3),
             mol.getAtom(5),
-            mol.getAtom(6)
+            mol.getAtom(4)
         )));
     }
 
@@ -72,8 +71,7 @@ public class OctahedralTest {
         IAtom a4 = Mockito.mock(IAtom.class);
         IAtom a5 = Mockito.mock(IAtom.class);
         IAtom a6 = Mockito.mock(IAtom.class);
-        IAtom a7 = Mockito.mock(IAtom.class);
-        new Octahedral(a0, new IAtom[]{a1,a2,a3,a4,a5,a6,a7}, 1);
+        new TrigonalBipyramidal(a0, new IAtom[]{a1,a2,a3,a4,a5,a6}, 1);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -84,7 +82,6 @@ public class OctahedralTest {
         IAtom a3 = Mockito.mock(IAtom.class);
         IAtom a4 = Mockito.mock(IAtom.class);
         IAtom a5 = Mockito.mock(IAtom.class);
-        IAtom a6 = Mockito.mock(IAtom.class);
-        new Octahedral(a0, new IAtom[]{a1,a2,a3,a4,a5,a6}, 32);
+        new TrigonalBipyramidal(a0, new IAtom[]{a1,a2,a3,a4,a5}, 32);
     }
 }
