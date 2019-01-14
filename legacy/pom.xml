@@ -60,7 +60,7 @@
         </dependency>
         <dependency>
             <groupId>org.openscience.cdk</groupId>
-            <artifactId>cdk-signature</artifactId>
+            <artifactId>cdk-fingerprint</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
