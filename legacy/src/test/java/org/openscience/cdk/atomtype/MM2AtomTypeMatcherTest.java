@@ -43,10 +43,6 @@ import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
 
-import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Checks the functionality of the AtomType-MMFF2AtomTypeMatcher.
  *
