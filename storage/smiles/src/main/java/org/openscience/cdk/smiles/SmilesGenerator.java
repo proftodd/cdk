@@ -28,6 +28,7 @@ import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.ConnectedComponents;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.graph.invariant.Canon;
+import org.openscience.cdk.inchi.InChINumbersTools;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
@@ -698,7 +699,6 @@ public final class SmilesGenerator {
     private static long[] inchiNumbers(IAtomContainer container) throws CDKException {
         // TODO: create an interface so we don't have to dynamically load the
         // class each time
-        String cname = "org.openscience.cdk.graph.invariant.InChINumbersTools";
         String mname = "getUSmilesNumbers";
 
         List<IAtom> rgrps = getRgrps(container, Elements.Rutherfordium);
@@ -708,12 +708,9 @@ public final class SmilesGenerator {
         }
 
         try {
-            Class<?> c = Class.forName(cname);
+            Class<?> c = InChINumbersTools.class;
             Method method = c.getDeclaredMethod("getUSmilesNumbers", IAtomContainer.class);
             return (long[]) method.invoke(c, container);
-        } catch (ClassNotFoundException e) {
-            throw new CDKException("The cdk-inchi module is not loaded,"
-                    + " this module is need when generating absolute SMILES.");
         } catch (NoSuchMethodException e) {
             throw new CDKException("The method " + mname + " was not found", e);
         } catch (InvocationTargetException e) {

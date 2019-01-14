@@ -27,6 +27,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,11 +36,13 @@ import org.openscience.cdk.AtomContainer;
 import org.openscience.cdk.CDK;
 import org.openscience.cdk.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;
+import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
+import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.io.MDLV2000Reader;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
@@ -162,9 +165,9 @@ public class InChIGeneratorFactoryTest {
     public void testSMILESConversion_TopologicalCentre() throws CDKException {
 
         // (2R,3R,4S,5R,6S)-3,5-dimethylheptane-2,4,6-triol
-        SmilesParser parser = new SmilesParser(DefaultChemObjectBuilder.getInstance());
-        IAtomContainer container = parser.parseSmiles("C[C@@H](O)[C@@H](C)[C@@H](O)[C@H](C)[C@H](C)O");
-
+        InputStream is = InChIGeneratorFactoryTest.class.getResourceAsStream("/dimethylheptanetriol.mol");
+        MDLV2000Reader reader = new MDLV2000Reader(is);
+        IAtomContainer container = reader.read(DefaultChemObjectBuilder.getInstance().newAtomContainer());
         InChIGenerator generator = InChIGeneratorFactory.getInstance().getInChIGenerator(container);
 
         String expected = "InChI=1S/C9H20O3/c1-5(7(3)10)9(12)6(2)8(4)11/h5-12H,1-4H3/t5-,6-,7-,8+,9-/m1/s1";
@@ -176,11 +179,17 @@ public class InChIGeneratorFactoryTest {
 
     @Test
     public void dontIgnoreMajorIsotopes() throws CDKException {
-        SmilesParser smipar = new SmilesParser(SilentChemObjectBuilder.getInstance());
+        IChemObjectBuilder builder = DefaultChemObjectBuilder.getInstance();
+        IAtomContainer c12methane = builder.newAtomContainer();
+        c12methane.addAtom(builder.newInstance(IAtom.class, Elements.CARBON.getSymbol()));
+        c12methane.getAtom(0).setMassNumber(14);
+
+        IAtomContainer methane = builder.newAtomContainer();
+        methane.addAtom(builder.newInstance(IAtom.class, Elements.CARBON.getSymbol()));
         InChIGeneratorFactory inchifact = InChIGeneratorFactory.getInstance();
-        assertThat(inchifact.getInChIGenerator(smipar.parseSmiles("[12CH4]")).getInchi(),
+        assertThat(inchifact.getInChIGenerator(c12methane).getInchi(),
                    containsString("/i"));
-        assertThat(inchifact.getInChIGenerator(smipar.parseSmiles("C")).getInchi(),
+        assertThat(inchifact.getInChIGenerator(methane).getInchi(),
                    not(containsString("/i")));
     }
 
@@ -188,8 +197,9 @@ public class InChIGeneratorFactoryTest {
     // (C/C=C=C=C=C/C) longer ones should be ignored
     @Test
     public void longerExtendedTetrahedralsIgnored() throws Exception {
-        SmilesParser smipar = new SmilesParser(SilentChemObjectBuilder.getInstance());
-        IAtomContainer mol  = smipar.parseSmiles("CC=C=C=[C@]=C=C=CC");
+        InputStream is = InChIGeneratorFactoryTest.class.getResourceAsStream("/nonaheptaene.mol");
+        MDLV2000Reader reader = new MDLV2000Reader(is);
+        IAtomContainer mol = reader.read(DefaultChemObjectBuilder.getInstance().newAtomContainer());
         InChIGenerator gen = InChIGeneratorFactory.getInstance().getInChIGenerator(mol);
         Assert.assertEquals(gen.getReturnStatus(), INCHI_RET.OKAY);
         Assert.assertEquals("InChI=1S/C9H8/c1-3-5-7-9-8-6-4-2/h3-4H,1-2H3", gen.getInchi());

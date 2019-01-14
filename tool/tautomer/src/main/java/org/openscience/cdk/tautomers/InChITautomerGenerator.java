@@ -28,7 +28,7 @@ import java.util.regex.Pattern;
 
 import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
-import org.openscience.cdk.graph.invariant.InChINumbersTools;
+import org.openscience.cdk.inchi.InChINumbersTools;
 import org.openscience.cdk.inchi.InChIGenerator;
 import org.openscience.cdk.inchi.InChIGeneratorFactory;
 import org.openscience.cdk.interfaces.IAtom;
