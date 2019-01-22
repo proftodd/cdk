@@ -30,7 +30,7 @@ import org.openscience.cdk.qsar.IMolecularDescriptor;
 import org.openscience.cdk.qsar.descriptors.molecular.MolecularDescriptorTest;
 import org.openscience.cdk.qsar.result.DoubleArrayResult;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.tools.ProteinBuilderTool;
+import org.openscience.cdk.pdb.tools.ProteinBuilderTool;
 
 /**
  * TestSuite that runs test for the TAE descriptors

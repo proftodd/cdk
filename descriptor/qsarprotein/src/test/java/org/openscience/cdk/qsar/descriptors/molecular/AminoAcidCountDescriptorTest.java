@@ -26,7 +26,7 @@ import org.openscience.cdk.qsar.IMolecularDescriptor;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.qsar.result.IntegerArrayResult;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.tools.ProteinBuilderTool;
+import org.openscience.cdk.pdb.tools.ProteinBuilderTool;
 
 /**
  * TestSuite that runs a test for the AtomCountDescriptor.

@@ -16,12 +16,14 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.pdb.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.interfaces.IBioPolymer;
+import org.openscience.cdk.pdb.tools.ProteinBuilderTool;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * @cdk.module test-pdb
