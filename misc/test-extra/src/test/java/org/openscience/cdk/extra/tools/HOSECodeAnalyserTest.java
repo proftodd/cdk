@@ -16,13 +16,14 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.extra.tools;
 
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.extra.tools.HOSECodeAnalyser;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * @cdk.module test-extra

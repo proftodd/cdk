@@ -21,7 +21,7 @@
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.extra.tools;
 
 import java.io.InputStream;
 
@@ -32,6 +32,8 @@ import org.openscience.cdk.extra.tools.BremserOneSphereHOSECodePredictor;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.io.IChemObjectReader.Mode;
 import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.HOSECodeGenerator;
 
 /**
  * Tests the HOSECode genertor.
