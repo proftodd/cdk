@@ -41,7 +41,7 @@ import org.openscience.cdk.reaction.tools.StructureResonanceGenerator;
 import org.openscience.cdk.reaction.type.ElectronImpactNBEReaction;
 import org.openscience.cdk.reaction.type.parameters.IParameterReact;
 import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * <p>This class contains the necessary information to predict ionization

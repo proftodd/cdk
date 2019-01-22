@@ -30,10 +30,10 @@ import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.smiles.SmilesGenerator;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.tools.HOSECodeGenerator;
+import org.openscience.cdk.standard.tools.HOSECodeGenerator;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 import java.util.HashSet;
 import java.util.Set;

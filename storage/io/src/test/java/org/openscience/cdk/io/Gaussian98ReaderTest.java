@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

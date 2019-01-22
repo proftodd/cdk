@@ -51,9 +51,9 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.ringsearch.AllRingsFinder;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * This class containes set of modules required to clean a molecule

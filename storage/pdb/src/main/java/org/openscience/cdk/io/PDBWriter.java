@@ -45,8 +45,8 @@ import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.io.formats.PDBFormat;
 import org.openscience.cdk.io.setting.BooleanIOSetting;
 import org.openscience.cdk.io.setting.IOSetting;
-import org.openscience.cdk.tools.FormatStringBuffer;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.FormatStringBuffer;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
 
 /**
  * Saves small molecules in a rudimentary PDB format. It does not allow

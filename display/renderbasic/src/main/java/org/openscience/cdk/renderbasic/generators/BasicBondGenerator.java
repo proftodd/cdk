@@ -51,8 +51,8 @@ import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerComparatorBy2DCenter;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerComparatorBy2DCenter;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * Generator for elements from bonds. Only two-atom bonds are supported

@@ -35,7 +35,7 @@ import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * Finds the Smallest Set of Smallest Rings.

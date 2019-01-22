@@ -35,7 +35,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.io.ChemObjectIOTest;
 import org.openscience.cdk.io.listener.PropertiesListener;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * TestCase for the writer for SMILES files.

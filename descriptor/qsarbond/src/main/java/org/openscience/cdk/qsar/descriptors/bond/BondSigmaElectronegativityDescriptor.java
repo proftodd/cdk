@@ -27,7 +27,7 @@ import org.openscience.cdk.qsar.DescriptorSpecification;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.IBondDescriptor;
 import org.openscience.cdk.qsar.result.DoubleResult;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  *  The calculation of bond-Polarizability is calculated determining the

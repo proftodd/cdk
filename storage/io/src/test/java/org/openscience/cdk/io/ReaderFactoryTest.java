@@ -51,7 +51,7 @@ import org.openscience.cdk.io.formats.PubChemCompoundXMLFormat;
 import org.openscience.cdk.io.formats.PubChemSubstanceXMLFormat;
 import org.openscience.cdk.io.formats.ShelXFormat;
 import org.openscience.cdk.io.formats.XYZFormat;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 /**
  * TestCase for the instantiation and functionality of the {@link ReaderFactory}.

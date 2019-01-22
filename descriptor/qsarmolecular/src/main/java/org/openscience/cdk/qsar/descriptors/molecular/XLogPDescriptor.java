@@ -51,8 +51,8 @@ import org.openscience.cdk.qsar.result.DoubleResult;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.smarts.SmartsPattern;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * <p>Prediction of logP based on the atom-type method called XLogP. <b>Requires

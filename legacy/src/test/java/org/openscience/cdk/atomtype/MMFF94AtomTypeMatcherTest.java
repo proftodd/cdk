@@ -40,7 +40,7 @@ import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.extra.tools.AtomTypeTools;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 
 /**
  * Checks the functionality of the AtomType-MMFF94AtomTypeMatcher.

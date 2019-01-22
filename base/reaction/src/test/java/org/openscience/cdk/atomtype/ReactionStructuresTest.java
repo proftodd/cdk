@@ -36,8 +36,8 @@ import org.openscience.cdk.reaction.type.HeterolyticCleavageSBReactionTest;
 import org.openscience.cdk.reaction.type.HomolyticCleavageReactionTest;
 import org.openscience.cdk.reaction.type.RadicalSiteInitiationHReactionTest;
 import org.openscience.cdk.reaction.type.SharingChargeDBReactionTest;
-import org.openscience.cdk.tools.LonePairElectronChecker;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * @cdk.module test-reaction

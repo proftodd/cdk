@@ -37,7 +37,7 @@ import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 /**
  * TestCase for the reading HIN mol files using one test file.

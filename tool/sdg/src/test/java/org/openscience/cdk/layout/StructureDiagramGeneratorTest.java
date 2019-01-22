@@ -53,7 +53,7 @@ import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.stereo.StereoElementFactory;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;

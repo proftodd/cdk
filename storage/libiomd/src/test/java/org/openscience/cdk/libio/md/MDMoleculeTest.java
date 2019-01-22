@@ -46,7 +46,7 @@ import org.openscience.cdk.libio.cml.Convertor;
 import org.openscience.cdk.libio.cml.MDMoleculeCustomizer;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import org.xmlcml.cml.element.CMLAtom;
 

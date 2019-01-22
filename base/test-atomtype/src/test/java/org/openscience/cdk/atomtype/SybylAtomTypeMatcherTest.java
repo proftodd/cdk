@@ -42,7 +42,7 @@ import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.io.Mol2Reader;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 
 /**
  * This class tests the perception of Sybyl atom types, which uses

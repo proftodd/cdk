@@ -34,7 +34,7 @@ import org.openscience.cdk.io.ISimpleChemObjectReader;
 import org.openscience.cdk.io.MDLV2000Reader;
 import org.openscience.cdk.io.PDBReader;
 import org.openscience.cdk.silent.AtomContainer;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import java.io.InputStream;
 import java.util.List;

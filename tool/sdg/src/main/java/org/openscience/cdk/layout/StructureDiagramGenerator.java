@@ -56,9 +56,9 @@ import org.openscience.cdk.sgroup.SgroupType;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;

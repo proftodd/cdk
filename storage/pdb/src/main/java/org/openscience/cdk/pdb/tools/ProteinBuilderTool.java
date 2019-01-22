@@ -35,7 +35,7 @@ import org.openscience.cdk.interfaces.IStrand;
 import org.openscience.cdk.templates.AminoAcids;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.util.Map;
 

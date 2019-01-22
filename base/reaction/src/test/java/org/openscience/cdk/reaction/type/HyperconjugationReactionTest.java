@@ -38,7 +38,7 @@ import org.openscience.cdk.reaction.IReactionProcess;
 import org.openscience.cdk.reaction.ReactionProcessTest;
 import org.openscience.cdk.reaction.type.parameters.IParameterReact;
 import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

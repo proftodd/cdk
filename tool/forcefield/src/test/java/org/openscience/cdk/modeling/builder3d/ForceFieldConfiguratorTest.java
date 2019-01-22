@@ -39,7 +39,7 @@ import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.tools.HOSECodeGenerator;
+import org.openscience.cdk.standard.tools.HOSECodeGenerator;
 
 import org.junit.Test;
 

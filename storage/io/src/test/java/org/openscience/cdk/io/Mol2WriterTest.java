@@ -34,8 +34,8 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.silent.AtomContainer;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import java.io.IOException;
 import java.io.InputStream;

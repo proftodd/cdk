@@ -56,7 +56,7 @@ import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.BondManipulator;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 /**
  * TestCase for reading CML 2 files using a few test files

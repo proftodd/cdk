@@ -43,7 +43,7 @@ import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.reaction.tools.StructureResonanceGenerator;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * <p>The calculation of the Gasteiger (PEPE) partial charges is based on

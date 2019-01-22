@@ -33,7 +33,7 @@ import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemSequence;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
 
 /**
  * @cdk.module test-io

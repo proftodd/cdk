@@ -45,7 +45,7 @@ import org.openscience.cdk.qsar.result.DoubleResult;
 import org.openscience.cdk.qsar.result.DoubleResultType;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 
 /**
  * Polar surface area expressed as a ratio to molecular size. Calculates <b>tpsaEfficiency</b>, which is

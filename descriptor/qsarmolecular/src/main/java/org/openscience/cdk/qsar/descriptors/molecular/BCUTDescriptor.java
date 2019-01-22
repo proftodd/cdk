@@ -39,8 +39,8 @@ import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.LonePairElectronChecker;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import Jama.EigenvalueDecomposition;
 import Jama.Matrix;

@@ -24,11 +24,10 @@ import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.legacy.tools.IonizationPotentialTool;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.tools.CDKTestCase;
-import org.openscience.cdk.tools.LonePairElectronChecker;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

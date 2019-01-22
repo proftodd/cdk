@@ -46,7 +46,7 @@ import org.openscience.cdk.layout.AtomPlacer;
 import org.openscience.cdk.ringsearch.RingPartitioner;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  *  The main class to generate the 3D coordinates of a molecule ModelBuilder3D.

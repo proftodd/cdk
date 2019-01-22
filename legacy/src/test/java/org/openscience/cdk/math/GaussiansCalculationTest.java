@@ -37,8 +37,8 @@ import org.openscience.cdk.math.qm.ClosedShellJob;
 import org.openscience.cdk.math.qm.GaussiansBasis;
 import org.openscience.cdk.math.qm.Orbitals;
 import org.openscience.cdk.math.qm.SimpleBasisSet;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

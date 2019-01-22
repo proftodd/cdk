@@ -36,9 +36,9 @@ import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.IChemFormatMatcher;
 import org.openscience.cdk.io.formats.IResourceFormat;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 
 import java.io.InputStream;
 

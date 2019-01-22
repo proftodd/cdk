@@ -33,8 +33,7 @@ import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.tools.CDKTestCase;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
-import org.openscience.cdk.tools.valencycheck.CDKValencyChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 
 /**
  * Tests CDK's valency checker capabilities in terms of example molecules.

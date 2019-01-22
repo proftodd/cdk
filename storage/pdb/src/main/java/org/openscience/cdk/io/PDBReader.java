@@ -64,7 +64,7 @@ import org.openscience.cdk.protein.data.PDBStrand;
 import org.openscience.cdk.protein.data.PDBStructure;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 
 /**
  * Reads the contents of a PDBFile.

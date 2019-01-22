@@ -42,7 +42,7 @@ import org.openscience.cdk.ringsearch.RingPartitioner;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.BondManipulator;
-import org.openscience.cdk.tools.manipulator.RingSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingSetManipulator;
 
 /**
  * Provides methods for checking whether an atoms valences are saturated with

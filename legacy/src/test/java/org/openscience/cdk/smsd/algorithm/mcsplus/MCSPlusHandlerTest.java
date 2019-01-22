@@ -44,7 +44,7 @@ import org.openscience.cdk.smsd.Isomorphism;
 import org.openscience.cdk.smsd.interfaces.AbstractMCSAlgorithmTest;
 import org.openscience.cdk.smsd.interfaces.Algorithm;
 import org.openscience.cdk.smsd.tools.MolHandler;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * Unit testing for the {@link MCSPlusHandler} class.

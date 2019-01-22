@@ -48,7 +48,7 @@ import org.openscience.cdk.qsar.result.IntegerArrayResult;
 import org.openscience.cdk.qsar.result.IntegerResult;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.diff.AtomContainerDiff;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * Tests for molecular descriptors.

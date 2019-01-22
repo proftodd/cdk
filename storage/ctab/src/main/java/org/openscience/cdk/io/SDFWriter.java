@@ -51,7 +51,7 @@ import org.openscience.cdk.sgroup.SgroupType;
 import org.openscience.cdk.graph.invariant.InvPair;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 /**
  * Writes MDL SD files ({@cdk.cite DAL92}). A MDL SD file contains one or more molecules,

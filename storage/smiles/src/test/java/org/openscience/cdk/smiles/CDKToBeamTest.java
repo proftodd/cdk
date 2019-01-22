@@ -42,7 +42,7 @@ import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import uk.ac.ebi.beam.Graph;
 import uk.ac.ebi.beam.Element;
 

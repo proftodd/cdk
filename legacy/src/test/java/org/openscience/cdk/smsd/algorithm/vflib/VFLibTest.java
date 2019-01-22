@@ -47,7 +47,7 @@ import org.openscience.cdk.smsd.algorithm.vflib.map.VFMapper;
 import org.openscience.cdk.smsd.algorithm.vflib.map.VFState;
 import org.openscience.cdk.smsd.algorithm.vflib.query.QueryCompiler;
 import org.openscience.cdk.smsd.tools.ExtAtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * Unit testing for the {@link VFMapper}, {@link VFState}, {@link Match} class.

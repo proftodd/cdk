@@ -45,7 +45,7 @@ import org.openscience.cdk.smiles.CxSmilesState.DataSgroup;
 import org.openscience.cdk.smiles.CxSmilesState.PolymerSgroup;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import uk.ac.ebi.beam.Graph;
 
 import javax.vecmath.Point2d;

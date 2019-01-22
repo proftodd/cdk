@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
 
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.tools.HOSECodeGenerator;
+import org.openscience.cdk.standard.tools.HOSECodeGenerator;
 
 /**
  * Assigns charges to atom types.

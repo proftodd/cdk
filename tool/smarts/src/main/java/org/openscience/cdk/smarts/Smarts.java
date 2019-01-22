@@ -43,7 +43,7 @@ import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

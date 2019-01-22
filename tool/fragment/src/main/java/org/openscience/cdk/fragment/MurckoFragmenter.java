@@ -40,7 +40,7 @@ import org.openscience.cdk.ringsearch.RingSearch;
 import org.openscience.cdk.smiles.SmilesGenerator;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

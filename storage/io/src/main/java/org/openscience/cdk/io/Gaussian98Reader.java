@@ -47,7 +47,7 @@ import org.openscience.cdk.io.setting.BooleanIOSetting;
 import org.openscience.cdk.io.setting.IOSetting;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
 import org.openscience.cdk.tools.periodictable.PeriodicTable;
 
 /**

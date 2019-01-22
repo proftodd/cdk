@@ -35,7 +35,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.smsd.interfaces.Algorithm;
 import org.openscience.cdk.smsd.tools.ExtAtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * @author Syed Asad Rahman &lt;asad@ebi.ac.uk&gt;

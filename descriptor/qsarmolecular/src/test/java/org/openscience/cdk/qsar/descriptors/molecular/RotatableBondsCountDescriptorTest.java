@@ -33,7 +33,7 @@ import org.openscience.cdk.qsar.result.IntegerResult;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import static org.hamcrest.Matchers.is;
 

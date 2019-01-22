@@ -41,7 +41,7 @@ import org.openscience.cdk.qsar.tools.AtomicProperties;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.BondManipulator;
 
 /**

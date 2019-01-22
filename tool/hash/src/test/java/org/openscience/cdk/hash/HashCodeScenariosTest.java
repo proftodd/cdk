@@ -42,7 +42,7 @@ import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.io.iterator.IteratingSDFReader;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.io.IOException;
 import java.io.InputStream;

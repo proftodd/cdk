@@ -44,7 +44,7 @@ import org.openscience.cdk.io.IChemObjectReader.Mode;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import static org.junit.Assert.assertNotNull;
 

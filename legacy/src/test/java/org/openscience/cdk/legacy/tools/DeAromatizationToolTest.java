@@ -28,9 +28,8 @@ import org.junit.Test;
 import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.data.Ring;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.legacy.tools.DeAromatizationTool;
 import org.openscience.cdk.tools.CDKTestCase;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import java.util.Iterator;
 

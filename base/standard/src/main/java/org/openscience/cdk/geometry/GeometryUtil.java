@@ -37,8 +37,8 @@ import org.openscience.cdk.sgroup.SgroupBracket;
 import org.openscience.cdk.sgroup.SgroupKey;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;

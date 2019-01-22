@@ -54,7 +54,7 @@ import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.stereo.StereoTool;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

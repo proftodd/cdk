@@ -38,7 +38,7 @@ import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.sgroup.Sgroup;
 import org.openscience.cdk.sgroup.SgroupKey;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 import uk.ac.ebi.beam.Functions;
 import uk.ac.ebi.beam.Graph;
 

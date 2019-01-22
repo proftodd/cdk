@@ -49,8 +49,8 @@ import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
 
 /**
  * A set of static utility classes for geometric calculations and operations.

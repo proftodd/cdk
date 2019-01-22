@@ -59,7 +59,7 @@ import org.openscience.cdk.silent.Reaction;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * TestCase for the reading CML 2 files using a few test files

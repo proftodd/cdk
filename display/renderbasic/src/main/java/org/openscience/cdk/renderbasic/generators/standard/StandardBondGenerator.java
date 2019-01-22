@@ -47,7 +47,7 @@ import org.openscience.cdk.renderbasic.elements.path.PathElement;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerSetManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerSetManipulator;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Tuple2d;

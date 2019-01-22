@@ -34,6 +34,8 @@ import org.junit.Test;
 import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;

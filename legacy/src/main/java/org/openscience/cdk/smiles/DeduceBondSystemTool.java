@@ -40,7 +40,7 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.ringsearch.AllRingsFinder;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.RingManipulator;
+import org.openscience.cdk.standard.tools.manipulator.RingManipulator;
 
 import java.util.ArrayList;
 import java.util.Iterator;
