@@ -17,7 +17,7 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.io.formats;
 
 import java.io.BufferedReader;
 import java.io.CharArrayReader;
@@ -33,10 +33,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-import org.openscience.cdk.io.formats.IChemFormat;
-import org.openscience.cdk.io.formats.IChemFormatMatcher;
 import org.openscience.cdk.io.formats.IChemFormatMatcher.MatchResult;
-import org.openscience.cdk.io.formats.XYZFormat;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

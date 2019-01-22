@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.io.formats;
 
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * See <a href="http://www.daylight.com/smiles/f_smiles.html">here</a>.

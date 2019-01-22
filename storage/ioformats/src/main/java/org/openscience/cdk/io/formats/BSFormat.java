@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.io.formats;
 
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * See <a href="http://www.orc.uni-linz.ac.at/mueller/ball_and_stick.shtml">here</a>.

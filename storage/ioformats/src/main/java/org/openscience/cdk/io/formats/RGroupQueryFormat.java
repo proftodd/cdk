@@ -24,7 +24,7 @@
  */
 package org.openscience.cdk.io.formats;
 
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * Format for Symyx RGfiles (Rgroup query files).

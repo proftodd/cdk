@@ -20,7 +20,7 @@ package org.openscience.cdk.io.formats;
 
 import java.util.StringTokenizer;
 
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * See <a href="http://www.hyper.com/">here</a>.

@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.io.formats;
 
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * See <a href="http://ruby.chemie.uni-freiburg.de/~martin/chemtool/chemtool.html">here</a>.

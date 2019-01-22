@@ -25,7 +25,7 @@ package org.openscience.cdk.io.formats;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * @cdk.module test-ioformats

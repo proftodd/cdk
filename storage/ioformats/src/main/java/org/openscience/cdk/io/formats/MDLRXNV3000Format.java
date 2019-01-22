@@ -18,9 +18,7 @@
  */
 package org.openscience.cdk.io.formats;
 
-import org.openscience.cdk.tools.DataFeatures;
-
-import java.util.List;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * See <a href="http://www.mdl.com/downloads/public/ctfile/ctfile.jsp">here</a>.

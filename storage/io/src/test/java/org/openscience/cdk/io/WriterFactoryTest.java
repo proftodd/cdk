@@ -27,7 +27,7 @@ import org.junit.Test;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.XYZFormat;
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * TestCase for the writing files.

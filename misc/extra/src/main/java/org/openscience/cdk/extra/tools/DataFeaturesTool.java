@@ -27,7 +27,7 @@ import org.openscience.cdk.geometry.CrystalGeometryTools;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.extra.tools.features.MoleculeFeaturesTool;
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.ioformats.tools.DataFeatures;
 
 /**
  * Utility that helps determine which data features are present.
@@ -35,7 +35,7 @@ import org.openscience.cdk.tools.DataFeatures;
  * @author egonw
  * @cdk.githash
  *
- * @see    org.openscience.cdk.tools.DataFeatures
+ * @see    DataFeatures
  */
 public class DataFeaturesTool {
 

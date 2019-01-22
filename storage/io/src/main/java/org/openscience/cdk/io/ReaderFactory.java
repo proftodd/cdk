@@ -27,6 +27,7 @@ import java.util.List;
 import java.util.zip.GZIPInputStream;
 
 import org.openscience.cdk.exception.CDKException;
+import org.openscience.cdk.io.formats.FormatFactory;
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.IChemFormatMatcher;
 import org.openscience.cdk.tools.ILoggingTool;
@@ -52,7 +53,7 @@ import org.openscience.cdk.tools.LoggingToolFactory;
 public class ReaderFactory {
 
     private static ILoggingTool logger        = LoggingToolFactory.createLoggingTool(ReaderFactory.class);
-    private FormatFactory       formatFactory = null;
+    private FormatFactory formatFactory = null;
     private int                 headerLength  = 8192;
 
     /**

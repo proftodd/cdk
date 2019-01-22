@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.ioformats.tools;
 
 /**
  * Class with constants for possible data features defined in the

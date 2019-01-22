@@ -31,6 +31,7 @@ import org.junit.experimental.categories.Category;
 import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.data.PseudoAtom;
+import org.openscience.cdk.io.formats.FormatFactory;
 import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
