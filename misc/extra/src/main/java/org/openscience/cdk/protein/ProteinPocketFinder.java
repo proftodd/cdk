@@ -43,7 +43,7 @@ import org.openscience.cdk.interfaces.IChemSequence;
 import org.openscience.cdk.io.ISimpleChemObjectReader;
 import org.openscience.cdk.io.ReaderFactory;
 import org.openscience.cdk.protein.data.PDBAtom;
-import org.openscience.cdk.tools.GridGenerator;
+import org.openscience.cdk.extra.tools.GridGenerator;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;

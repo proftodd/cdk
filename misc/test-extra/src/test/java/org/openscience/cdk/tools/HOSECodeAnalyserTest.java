@@ -22,6 +22,7 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.extra.tools.HOSECodeAnalyser;
 
 /**
  * @cdk.module test-extra

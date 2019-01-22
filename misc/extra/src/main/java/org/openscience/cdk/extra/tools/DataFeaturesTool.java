@@ -21,12 +21,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.extra.tools;
 
 import org.openscience.cdk.geometry.CrystalGeometryTools;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.tools.features.MoleculeFeaturesTool;
+import org.openscience.cdk.extra.tools.features.MoleculeFeaturesTool;
+import org.openscience.cdk.tools.DataFeatures;
 
 /**
  * Utility that helps determine which data features are present.
