@@ -103,7 +103,7 @@ public interface IChemObjectIO extends Closeable {
     /**
      * Add an IOSetting to the reader/writer. If the name clashes with
      * another setting the original setting will be returned. This method
-     * should be called when assigning field settings:
+     * should be called when assigning field setting:
      *
      * <pre>{@code
      * private BooleanIOSetting setting; // field
@@ -125,10 +125,10 @@ public interface IChemObjectIO extends Closeable {
 
     /**
      * Adds a collection of {@link IOSetting}s to the reader/writer. This
-     * is useful for transferring/propagating settings between different
+     * is useful for transferring/propagating setting between different
      * reader/writer.
      *
-     * When the new settings are added if there is a setting with the same
+     * When the new setting are added if there is a setting with the same
      * name already stored the value for the new setting is set on the managed
      * setting (See. IteratingSDFReader/SDFWriter for propagation examples).
      * Note that if the setting is invalid (a CDKException thrown) then the setting
@@ -139,11 +139,11 @@ public interface IChemObjectIO extends Closeable {
      * IChemObjectReader reader1 = ...;
      * IChemObjectReader reader2 = ...;
      *
-     * // settings transferred from reader2 to reader1
+     * // setting transferred from reader2 to reader1
      * reader1.addSettings(reader2.getSettings());
      * }</pre>
      *
-     * @param settings collection of settings to add
+     * @param settings collection of setting to add
      * @see #getSettings()
      */
     public void addSettings(Collection<IOSetting> settings);

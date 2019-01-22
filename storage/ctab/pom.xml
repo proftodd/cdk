@@ -83,6 +83,12 @@
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.openscience.cdk</groupId>
+            <artifactId>cdk-coreio</artifactId>
+            <version>2.3-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 

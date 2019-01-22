@@ -33,9 +33,9 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 /**
- * Provides dynamic management of settings. This
+ * Provides dynamic management of setting. This
  * was created with the intention of managing {@link IOSetting}'s for {@link org.openscience.cdk.io.IChemObjectIO}
- * however it could be recycled for other purposes where dynamic settings are required.
+ * however it could be recycled for other purposes where dynamic setting are required.
  * Settings are stored in a {@link Map} using the name of the setting as the key. The name is
  * normalised (lowercase and whitespace removal) to allow 'fuzzy' setting access. This means
  * that character case differences do not affect the retrieval of objects.
@@ -153,7 +153,7 @@ public class SettingManager<T extends ISetting> {
     /**
      * Access the setting stored for given name. If not setting is found the provided
      * name an {@link InvalidParameterException} will be thrown. The method is generic
-     * to allow simplified access to settings. This however means that if the incorrect
+     * to allow simplified access to setting. This however means that if the incorrect
      * type is provided a {@link ClassCastException} may be thrown.
      * 
      * <pre>{@code
@@ -178,7 +178,7 @@ public class SettingManager<T extends ISetting> {
         if (settings.containsKey(key)) return (S) settings.get(key);
 
         throw new InvalidParameterException("No setting found for name " + name + "(key=" + key + ") "
-                + "available settings are: " + settings.keySet());
+                + "available setting are: " + settings.keySet());
 
     }
 
@@ -222,9 +222,9 @@ public class SettingManager<T extends ISetting> {
     }
 
     /**
-     * Access a collection of all settings in the manager.
+     * Access a collection of all setting in the manager.
      *
-     * @return collection of managed settings
+     * @return collection of managed setting
      */
     public Collection<T> getSettings() {
         return settings.values();
@@ -236,12 +236,12 @@ public class SettingManager<T extends ISetting> {
      * Note: it is preferable to use the collection's accessor {@link #getSettings()}
      * 
      * Usage: <pre>{@code
-     * IOSetting[] settings = manager.toArray(new IOSetting[0]);
+     * IOSetting[] setting = manager.toArray(new IOSetting[0]);
      * }</pre>
      *
      * @param c empty array of type to generate
      *
-     * @return new fixed array of the settings managed by the manager
+     * @return new fixed array of the setting managed by the manager
      *
      * @see #getSettings()
      */

@@ -21,6 +21,7 @@
         <module>pdbcml</module>
         <module>inchi</module>
         <module>smiles</module>
+        <module>coreio</module>
     </modules>
     <packaging>pom</packaging>
     <artifactId>cdk-storage</artifactId>

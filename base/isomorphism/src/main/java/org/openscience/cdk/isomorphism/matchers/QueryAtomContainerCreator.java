@@ -27,12 +27,12 @@ import java.util.Iterator;
  * Utilities for creating queries from 'real' molecules. Note that most of this
  * functionality has now been replaced by the
  * {@link QueryAtomContainer#create(IAtomContainer, Expr.Type...)} method and
- * the documentation simply indicates what settings are used.
+ * the documentation simply indicates what setting are used.
  */
 public class QueryAtomContainerCreator {
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * QueryAtomContainer.create(container,
@@ -56,7 +56,7 @@ public class QueryAtomContainerCreator {
     }
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * QueryAtomContainer.create(container,
@@ -74,7 +74,7 @@ public class QueryAtomContainerCreator {
     }
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * QueryAtomContainer.create(container,
@@ -123,7 +123,7 @@ public class QueryAtomContainerCreator {
     }
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * // aromaticity = true
@@ -150,7 +150,7 @@ public class QueryAtomContainerCreator {
     }
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * // aromaticity = true
@@ -172,7 +172,7 @@ public class QueryAtomContainerCreator {
     }
 
     /**
-     * Creates a QueryAtomContainer with the following settings:
+     * Creates a QueryAtomContainer with the following setting:
      *
      * <pre>
      * QueryAtomContainer.create(container,

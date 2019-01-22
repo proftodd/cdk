@@ -22,7 +22,7 @@ import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.ISetting;
 
 /**
- * An interface for reader settings. It is subclassed by implementations,
+ * An interface for reader setting. It is subclassed by implementations,
  * one for each type of field, e.g. IntReaderSetting.
  *
  * @cdk.module io

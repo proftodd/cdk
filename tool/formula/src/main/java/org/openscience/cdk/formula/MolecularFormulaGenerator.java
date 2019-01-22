@@ -93,7 +93,7 @@ public class MolecularFormulaGenerator implements IFormulaGenerator {
      */
     private static boolean isIllPosed(double minMass, double maxMass, MolecularFormulaRange mfRange) {
         // when the number of integers to decompose is incredible large
-        // we have to adjust the internal settings (e.g. precision!)
+        // we have to adjust the internal setting (e.g. precision!)
         // instead we simply fallback to the full enumeration method
         if (maxMass - minMass >= 1) return true;
         if (maxMass > 400000) return true;

@@ -50,7 +50,7 @@
     </issueManagement>
 
     <!-- define the cdk.repo.url and cdk.repo.snapshots.url properties in 
-         ~/.m2/settings.xml -->
+         ~/.m2/setting.xml -->
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>

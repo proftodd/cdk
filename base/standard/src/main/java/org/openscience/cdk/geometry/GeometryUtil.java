@@ -1162,7 +1162,7 @@ public final class GeometryUtil {
         double ratio;
         /*
          * Desired bond length for storing structures in MDL mol files This
-         * should probably be set externally (from system wide settings)
+         * should probably be set externally (from system wide setting)
          */
         double desiredBondLength = 1.5;
         // loop over all bonds and determine the mean bond distance

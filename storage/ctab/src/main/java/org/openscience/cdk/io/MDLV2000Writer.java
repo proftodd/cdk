@@ -87,7 +87,7 @@ import java.util.regex.Pattern;
  * writer.close();
  * </pre>
  * 
- * <p>The writer has two IO settings: one for writing 2D coordinates, even if
+ * <p>The writer has two IO setting: one for writing 2D coordinates, even if
  * 3D coordinates are given for the written data; the second writes aromatic
  * bonds as bond type 4, which is, strictly speaking, a query bond type, but
  * my many tools used to reflect aromaticity. The full IO setting API is
@@ -1149,9 +1149,9 @@ public class MDLV2000Writer extends DefaultChemObjectWriter {
     }
 
     /**
-     * Initializes IO settings.<br>
+     * Initializes IO setting.<br>
      * Please note with regards to "writeAromaticBondTypes": bond type values 4 through 8 are for SSS queries only,
-     * so a 'query file' is created if the container has aromatic bonds and this settings is true.
+     * so a 'query file' is created if the container has aromatic bonds and this setting is true.
      */
     private void initIOSettings() {
         forceWriteAs2DCoords = addSetting(new BooleanIOSetting(OptForceWriteAs2DCoordinates, IOSetting.Importance.LOW,
