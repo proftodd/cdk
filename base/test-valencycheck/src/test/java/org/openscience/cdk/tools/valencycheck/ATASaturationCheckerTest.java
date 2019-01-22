@@ -16,7 +16,7 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.tools.valencycheck;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -36,8 +36,12 @@ import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.smiles.SmilesParser;
+import org.openscience.cdk.tools.AtomTypeTools;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.tools.valencycheck.AtomTypeAwareSaturationChecker;
+import org.openscience.cdk.tools.valencycheck.SaturationChecker;
 
 /**
  * A test class for the AtomTypeAwereSaturationChecker-class
@@ -48,7 +52,7 @@ import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
  */
 public class ATASaturationCheckerTest extends CDKTestCase {
 
-    SaturationChecker                      satcheck   = null;
+    SaturationChecker satcheck   = null;
     boolean                                standAlone = false;
     private static SmilesParser            sp         = new SmilesParser(SilentChemObjectBuilder.getInstance());
     private AtomTypeAwareSaturationChecker atasc      = new AtomTypeAwareSaturationChecker();

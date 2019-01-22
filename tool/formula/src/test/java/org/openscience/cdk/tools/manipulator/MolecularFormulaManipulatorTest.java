@@ -51,7 +51,7 @@ import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.io.MDLV2000Reader;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 
 /**
  * Checks the functionality of the MolecularFormulaManipulator.

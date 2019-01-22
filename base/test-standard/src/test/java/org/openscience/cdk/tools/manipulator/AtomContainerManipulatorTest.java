@@ -68,7 +68,7 @@ import org.openscience.cdk.smiles.SmilesGenerator;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 
 /**
  * @cdk.module test-standard

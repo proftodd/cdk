@@ -52,7 +52,7 @@ import org.openscience.cdk.isomorphism.matchers.smarts.AnyAtom;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.smsd.tools.TimeManager;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 /**

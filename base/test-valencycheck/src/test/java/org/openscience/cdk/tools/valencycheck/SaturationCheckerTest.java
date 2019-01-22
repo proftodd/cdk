@@ -16,7 +16,7 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.tools.valencycheck;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -31,6 +31,8 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.ISingleElectron;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.valencycheck.SaturationChecker;
 
 /**
  * @cdk.module test-valencycheck

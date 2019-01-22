@@ -26,7 +26,7 @@ import org.openscience.cdk.graph.ConnectivityChecker;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.tools.SaturationChecker;
+import org.openscience.cdk.tools.valencycheck.SaturationChecker;
 
 /**
  * @cdk.module test-structgen

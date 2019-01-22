@@ -28,7 +28,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.math.RandomNumbersTool;
 import org.openscience.cdk.structgen.stochastic.PartialFilledStructureMerger;
-import org.openscience.cdk.tools.SaturationChecker;
+import org.openscience.cdk.tools.valencycheck.SaturationChecker;
 
 /**
  * Modified molecular structures by applying crossover operator on a pair of parent structures

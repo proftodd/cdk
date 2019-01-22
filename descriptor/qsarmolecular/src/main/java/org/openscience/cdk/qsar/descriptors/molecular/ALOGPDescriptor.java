@@ -38,7 +38,7 @@ import org.openscience.cdk.qsar.result.DoubleArrayResultType;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.ringsearch.AllRingsFinder;
 import org.openscience.cdk.tools.AtomicProperties;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
@@ -85,7 +85,7 @@ import org.openscience.cdk.tools.manipulator.BondManipulator;
  * @cdk.keyword logP
  * @cdk.keyword lipophilicity
  * @cdk.keyword refractivity
- * @see org.openscience.cdk.tools.CDKHydrogenAdder
+ * @see CDKHydrogenAdder
  */
 public class ALOGPDescriptor extends AbstractMolecularDescriptor implements IMolecularDescriptor {
 

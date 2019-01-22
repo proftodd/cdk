@@ -39,7 +39,7 @@ import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.io.MDLReader;
 import org.openscience.cdk.smsd.labelling.CanonicalLabellingAdaptor;
 import org.openscience.cdk.smsd.labelling.ICanonicalMoleculeLabeller;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

@@ -59,7 +59,7 @@ import org.openscience.cdk.basestereo.Octahedral;
 import org.openscience.cdk.basestereo.SquarePlanar;
 import org.openscience.cdk.basestereo.TrigonalBipyramidal;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
 import org.openscience.cdk.tools.manipulator.BondManipulator;
