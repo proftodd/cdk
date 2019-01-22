@@ -16,7 +16,7 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.renderer.visitor;
+package org.openscience.cdk.rendererawt.visitor;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -63,6 +63,7 @@ import org.openscience.cdk.renderer.generators.BasicSceneGenerator;
 import org.openscience.cdk.renderer.generators.BasicSceneGenerator.ArrowHeadWidth;
 import org.openscience.cdk.renderer.generators.BasicSceneGenerator.Scale;
 import org.openscience.cdk.renderer.generators.BasicSceneGenerator.UseAntiAliasing;
+import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 
 /**
  * Implementation of the {@link IDrawVisitor} interface for the AWT

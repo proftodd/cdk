@@ -27,7 +27,7 @@ import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.elements.Bounds;
 import org.openscience.cdk.renderer.elements.RectangleElement;
 import org.openscience.cdk.renderer.generators.BasicSceneGenerator;
-import org.openscience.cdk.renderer.visitor.AWTDrawVisitor;
+import org.openscience.cdk.rendererawt.visitor.AWTDrawVisitor;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 
 import java.awt.Graphics2D;

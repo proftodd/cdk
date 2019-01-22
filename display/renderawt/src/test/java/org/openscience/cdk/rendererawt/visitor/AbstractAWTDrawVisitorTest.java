@@ -16,7 +16,7 @@
  * along with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.renderer.visitor;
+package org.openscience.cdk.rendererawt.visitor;
 
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -30,6 +30,7 @@ import org.junit.Test;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderer.font.IFontManager;
+import org.openscience.cdk.rendererawt.visitor.AbstractAWTDrawVisitor;
 
 /**
  * @cdk.module  test-renderawt

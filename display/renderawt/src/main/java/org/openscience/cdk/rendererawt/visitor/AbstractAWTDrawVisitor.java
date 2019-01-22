@@ -17,7 +17,9 @@
  *  along with this program; if not, write to the Free Software
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.renderer.visitor;
+package org.openscience.cdk.rendererawt.visitor;
+
+import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;
