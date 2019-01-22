@@ -29,8 +29,8 @@ import org.openscience.cdk.interfaces.IChemObjectListener;
 import org.openscience.cdk.interfaces.ICrystal;
 import org.openscience.cdk.interfaces.IReactionSet;
 import org.openscience.cdk.interfaces.IRingSet;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Debugging data class.

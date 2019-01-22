@@ -27,8 +27,8 @@ import org.openscience.cdk.qsar.AbstractAtomicDescriptor;
 import org.openscience.cdk.qsar.DescriptorSpecification;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.DoubleResult;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * The calculation of total partial charges of an heavy atom is based on MMFF94

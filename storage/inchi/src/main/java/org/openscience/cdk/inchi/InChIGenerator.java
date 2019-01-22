@@ -56,8 +56,8 @@ import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
 import org.openscience.cdk.basestereo.ExtendedTetrahedral;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * <p>This class generates the IUPAC International Chemical Identifier (InChI) for

@@ -23,9 +23,8 @@ import org.apache.log4j.BasicConfigurator;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.logging.tools.LoggingTool;
 import org.openscience.cdk.tools.AbstractLoggingToolTest;
-import org.openscience.cdk.tools.ILoggingTool;
+import org.openscience.cdk.logging.ILoggingTool;
 
 /**
  * @cdk.module test-log4j

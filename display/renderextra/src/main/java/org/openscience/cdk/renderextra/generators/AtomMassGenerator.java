@@ -26,8 +26,8 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.generators.IGenerator;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * {@link IGenerator} that can render mass number information of atoms.

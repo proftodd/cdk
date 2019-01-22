@@ -40,8 +40,8 @@ import org.openscience.cdk.io.MDLReader;
 import org.openscience.cdk.smsd.labelling.CanonicalLabellingAdaptor;
 import org.openscience.cdk.smsd.labelling.ICanonicalMoleculeLabeller;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Class that handles molecules for MCS search.

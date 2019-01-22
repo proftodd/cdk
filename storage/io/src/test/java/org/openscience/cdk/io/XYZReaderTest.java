@@ -31,8 +31,8 @@ import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * TestCase for the reading XYZ files using a test file.

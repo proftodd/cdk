@@ -38,8 +38,8 @@ import org.openscience.cdk.interfaces.ICrystal;
 import org.openscience.cdk.io.formats.CrystClustFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.math.FortranFormat;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * @cdk.module extra

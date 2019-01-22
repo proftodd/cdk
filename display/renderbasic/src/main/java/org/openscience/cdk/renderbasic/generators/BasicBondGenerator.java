@@ -49,8 +49,8 @@ import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.Scale;
 import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
 import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.generators.IGeneratorParameter;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerComparatorBy2DCenter;
 import org.openscience.cdk.tools.manipulator.RingSetManipulator;
 

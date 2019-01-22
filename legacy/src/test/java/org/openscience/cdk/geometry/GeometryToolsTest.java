@@ -45,7 +45,7 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.io.IChemObjectReader.Mode;
 import org.openscience.cdk.io.MDLV2000Reader;
 import org.openscience.cdk.isomorphism.AtomMappingTools;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.diff.AtomContainerDiff;
 
 import static org.hamcrest.CoreMatchers.is;

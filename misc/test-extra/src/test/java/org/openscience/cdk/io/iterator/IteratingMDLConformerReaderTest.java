@@ -7,8 +7,8 @@ import org.junit.Test;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.ConformerContainer;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * TestCase for the reading MDL mol files using one test file.

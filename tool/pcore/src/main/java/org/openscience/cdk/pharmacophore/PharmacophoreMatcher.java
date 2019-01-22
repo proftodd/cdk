@@ -42,8 +42,8 @@ import org.openscience.cdk.isomorphism.Pattern;
 import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 import org.openscience.cdk.smarts.SmartsPattern;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Identifies atoms whose 3D arrangement matches a specified pharmacophore query.

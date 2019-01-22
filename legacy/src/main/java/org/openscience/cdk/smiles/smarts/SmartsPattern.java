@@ -33,7 +33,7 @@ import org.openscience.cdk.isomorphism.Mappings;
 import org.openscience.cdk.isomorphism.Pattern;
 import org.openscience.cdk.isomorphism.matchers.QueryAtomContainer;
 import org.openscience.cdk.smarts.Smarts;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import java.io.IOException;
 

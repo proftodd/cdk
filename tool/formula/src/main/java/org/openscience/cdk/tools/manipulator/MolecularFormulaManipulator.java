@@ -39,7 +39,7 @@ import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IMolecularFormula;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Class with convenience methods that provide methods to manipulate

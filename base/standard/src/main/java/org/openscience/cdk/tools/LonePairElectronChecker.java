@@ -27,6 +27,8 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.ILonePair;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Provides methods for checking whether an atoms lone pair electrons are saturated
@@ -42,7 +44,7 @@ import org.openscience.cdk.interfaces.IChemObjectBuilder;
  */
 public class LonePairElectronChecker {
 
-    private static ILoggingTool    logger = LoggingToolFactory.createLoggingTool(LonePairElectronChecker.class);
+    private static ILoggingTool logger = LoggingToolFactory.createLoggingTool(LonePairElectronChecker.class);
     private static AtomTypeFactory factory;
 
     private void createAtomTypeFactory(IChemObjectBuilder builder) {

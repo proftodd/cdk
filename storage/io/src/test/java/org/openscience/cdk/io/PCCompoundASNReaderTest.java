@@ -32,8 +32,8 @@ import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
 
 /**

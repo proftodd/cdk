@@ -29,8 +29,8 @@ import java.util.Map;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.formula.rules.IRule;
 import org.openscience.cdk.interfaces.IMolecularFormula;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * <p> Validate a molecular formula given in IMolecularformula object. The

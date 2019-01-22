@@ -23,8 +23,8 @@ import org.openscience.cdk.forcefield.mmff.Mmff;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.modeling.builder3d.MMFF94BasedParameterSetReader;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * The calculation of the MMFF94 partial charges. Charges are stored as atom

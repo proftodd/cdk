@@ -30,8 +30,8 @@ import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.io.formats.FormatFactory;
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.IChemFormatMatcher;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * A factory for creating ChemObjectReaders. The type of reader

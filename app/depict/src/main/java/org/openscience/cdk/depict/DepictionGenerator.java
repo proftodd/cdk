@@ -43,7 +43,7 @@ import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.renderbasic.generators.standard.SelectionVisibility;
 import org.openscience.cdk.renderbasic.generators.standard.StandardGenerator;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point2d;
 import java.awt.Color;

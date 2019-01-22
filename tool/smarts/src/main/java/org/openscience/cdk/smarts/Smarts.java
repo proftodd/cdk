@@ -41,8 +41,8 @@ import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 import java.util.ArrayDeque;

@@ -28,8 +28,8 @@ import org.openscience.cdk.formula.IsotopePatternGenerator;
 import org.openscience.cdk.formula.IsotopePatternManipulator;
 import org.openscience.cdk.formula.IsotopePatternSimilarity;
 import org.openscience.cdk.interfaces.IMolecularFormula;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * This class validate if the Isotope Pattern from a given IMolecularFormula

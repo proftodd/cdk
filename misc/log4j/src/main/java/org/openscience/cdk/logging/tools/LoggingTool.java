@@ -25,7 +25,7 @@ import java.io.StringReader;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.openscience.cdk.tools.ILoggingTool;
+import org.openscience.cdk.logging.ILoggingTool;
 
 /**
  * Useful for logging messages. Often used as a class static variable instantiated like:

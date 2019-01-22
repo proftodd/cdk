@@ -27,7 +27,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.io.formats.HINFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point3d;
 import java.io.BufferedWriter;

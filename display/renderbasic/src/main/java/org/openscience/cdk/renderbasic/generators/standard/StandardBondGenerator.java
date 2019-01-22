@@ -45,8 +45,8 @@ import org.openscience.cdk.renderbasic.elements.path.LineTo;
 import org.openscience.cdk.renderbasic.elements.path.MoveTo;
 import org.openscience.cdk.renderbasic.elements.path.PathElement;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.tools.manipulator.AtomContainerSetManipulator;
 
 import javax.vecmath.Point2d;

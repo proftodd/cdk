@@ -41,7 +41,7 @@ import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.basestereo.Octahedral;
 import org.openscience.cdk.basestereo.SquarePlanar;
 import org.openscience.cdk.basestereo.TrigonalBipyramidal;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;

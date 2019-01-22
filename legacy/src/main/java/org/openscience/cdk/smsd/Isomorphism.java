@@ -51,8 +51,8 @@ import org.openscience.cdk.smsd.global.TimeOut;
 import org.openscience.cdk.smsd.interfaces.AbstractMCS;
 import org.openscience.cdk.smsd.interfaces.Algorithm;
 import org.openscience.cdk.smsd.tools.MolHandler;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  *  <p>This class implements the Isomorphism- a multipurpose structure comparison tool.

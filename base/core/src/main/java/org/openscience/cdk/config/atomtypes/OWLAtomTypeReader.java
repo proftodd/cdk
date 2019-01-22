@@ -32,8 +32,8 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.openscience.cdk.config.OWLBasedAtomTypeConfigurator;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
