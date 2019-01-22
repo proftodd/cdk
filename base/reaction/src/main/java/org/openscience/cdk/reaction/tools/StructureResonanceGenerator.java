@@ -16,7 +16,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.reaction.tools;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,6 +41,8 @@ import org.openscience.cdk.reaction.type.RearrangementRadicalReaction;
 import org.openscience.cdk.reaction.type.SharingLonePairReaction;
 import org.openscience.cdk.reaction.type.parameters.IParameterReact;
 import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
+import org.openscience.cdk.tools.ILoggingTool;
+import org.openscience.cdk.tools.LoggingToolFactory;
 
 /**
  * <p>This class try to generate resonance structure for a determinate molecule.</p>
@@ -72,7 +74,7 @@ import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
  */
 public class StructureResonanceGenerator {
 
-    private ILoggingTool           logger        = LoggingToolFactory
+    private ILoggingTool logger        = LoggingToolFactory
                                                          .createLoggingTool(StructureResonanceGenerator.class);
     private List<IReactionProcess> reactionsList = new ArrayList<IReactionProcess>();
     /**Generate resonance structure without looking at the symmetry*/

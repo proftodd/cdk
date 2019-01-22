@@ -37,6 +37,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IReactionSet;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.reaction.IReactionProcess;
+import org.openscience.cdk.reaction.tools.StructureResonanceGenerator;
 import org.openscience.cdk.reaction.type.ElectronImpactNBEReaction;
 import org.openscience.cdk.reaction.type.parameters.IParameterReact;
 import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;

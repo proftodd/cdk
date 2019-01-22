@@ -28,7 +28,7 @@ import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.tools.StructureResonanceGeneratorTest;
+import org.openscience.cdk.reaction.tools.StructureResonanceGeneratorTest;
 
 /**
  * @cdk.module test-reaction

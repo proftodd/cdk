@@ -28,7 +28,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.reaction.IReactionProcess;
 import org.openscience.cdk.reaction.type.HyperconjugationReaction;
-import org.openscience.cdk.tools.StructureResonanceGenerator;
+import org.openscience.cdk.reaction.tools.StructureResonanceGenerator;
 
 /**
  * The stabilization of the positive and the negative charge

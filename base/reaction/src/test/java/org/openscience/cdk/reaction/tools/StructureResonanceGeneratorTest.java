@@ -16,7 +16,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.reaction.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -35,6 +35,7 @@ import org.openscience.cdk.isomorphism.UniversalIsomorphismTester;
 import org.openscience.cdk.isomorphism.matchers.QueryAtomContainer;
 import org.openscience.cdk.isomorphism.matchers.QueryAtomContainerCreator;
 import org.openscience.cdk.reaction.IReactionProcess;
+import org.openscience.cdk.reaction.tools.StructureResonanceGenerator;
 import org.openscience.cdk.reaction.type.HeterolyticCleavagePBReaction;
 import org.openscience.cdk.reaction.type.HyperconjugationReaction;
 import org.openscience.cdk.reaction.type.PiBondingMovementReaction;
@@ -47,6 +48,9 @@ import org.openscience.cdk.reaction.type.parameters.IParameterReact;
 import org.openscience.cdk.reaction.type.parameters.SetReactionCenter;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.templates.TestMoleculeFactory;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.LonePairElectronChecker;
+import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 import java.util.ArrayList;
@@ -61,7 +65,7 @@ import java.util.List;
 public class StructureResonanceGeneratorTest extends CDKTestCase {
 
     private final static IChemObjectBuilder builder = SilentChemObjectBuilder.getInstance();
-    LonePairElectronChecker                 lpcheck = new LonePairElectronChecker();
+    LonePairElectronChecker lpcheck = new LonePairElectronChecker();
 
     /**
      * Constructor of the StructureResonanceGeneratorTest.
