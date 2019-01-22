@@ -21,13 +21,15 @@
  *  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.legacy.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.data.Ring;
 import org.openscience.cdk.interfaces.IBond;
+import org.openscience.cdk.legacy.tools.DeAromatizationTool;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 import java.util.Iterator;
