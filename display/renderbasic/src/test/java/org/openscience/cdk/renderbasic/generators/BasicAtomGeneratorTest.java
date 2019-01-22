@@ -36,7 +36,7 @@ import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.renderer.color.IAtomColorer;
 import org.openscience.cdk.renderbasic.elements.AtomSymbolElement;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
 import org.openscience.cdk.renderbasic.elements.RectangleElement;
@@ -50,6 +50,7 @@ import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.KekuleStruc
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.Shape;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.ShowEndCarbons;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.ShowExplicitHydrogens;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.validate.ProblemMarker;
 
 /**

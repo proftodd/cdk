@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import javax.vecmath.Point2d;
 
 import org.junit.BeforeClass;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 
 /**
  * @cdk.module test-renderbasic

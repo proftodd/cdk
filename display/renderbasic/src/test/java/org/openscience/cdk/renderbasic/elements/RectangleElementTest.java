@@ -24,6 +24,7 @@ package org.openscience.cdk.renderbasic.elements;
 import java.awt.Color;
 
 import org.junit.BeforeClass;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 
 /**
  * @cdk.module test-renderbasic

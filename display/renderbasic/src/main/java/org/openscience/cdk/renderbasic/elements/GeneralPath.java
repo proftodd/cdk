@@ -36,6 +36,8 @@ import org.openscience.cdk.renderbasic.elements.path.LineTo;
 import org.openscience.cdk.renderbasic.elements.path.MoveTo;
 import org.openscience.cdk.renderbasic.elements.path.PathElement;
 import org.openscience.cdk.renderbasic.elements.path.QuadTo;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingVisitor;
 
 /**
  * A path of rendering elements from the elements.path package.

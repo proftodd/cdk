@@ -29,11 +29,11 @@ import java.util.List;
 import org.openscience.cdk.renderbasic.elements.AtomSymbolElement;
 import org.openscience.cdk.renderbasic.elements.Bounds;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
-import org.openscience.cdk.renderbasic.font.IFontManager;
+import org.openscience.cdk.renderer.font.IFontManager;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 

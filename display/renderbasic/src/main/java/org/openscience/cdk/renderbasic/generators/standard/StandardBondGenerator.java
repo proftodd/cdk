@@ -36,7 +36,7 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
 import org.openscience.cdk.renderbasic.elements.GeneralPath;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.path.Close;

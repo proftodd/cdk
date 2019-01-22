@@ -35,9 +35,10 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
-import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 
 /**
  * Generates just the aromatic indicators for rings : circles, or light-gray

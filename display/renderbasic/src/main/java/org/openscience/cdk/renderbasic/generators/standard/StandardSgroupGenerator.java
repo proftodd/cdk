@@ -31,7 +31,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
 import org.openscience.cdk.renderbasic.elements.GeneralPath;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
 import org.openscience.cdk.sgroup.Sgroup;

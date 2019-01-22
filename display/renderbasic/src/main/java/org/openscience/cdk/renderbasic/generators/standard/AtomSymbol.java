@@ -24,6 +24,8 @@
 
 package org.openscience.cdk.renderbasic.generators.standard;
 
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+
 import java.awt.Shape;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
@@ -33,7 +35,7 @@ import java.util.List;
 
 /**
  * Intermediate between an
- * {@link org.openscience.cdk.renderbasic.elements.IRenderingElement} and the atom
+ * {@link IRenderingElement} and the atom
  * data. The atom symbol represents a visible atom element with zero of more
  * adjuncts. The adjuncts are hydrogen count, charge, and mass. The atom symbol
  * is immutable and modifying a property or transforming the symbol makes a new

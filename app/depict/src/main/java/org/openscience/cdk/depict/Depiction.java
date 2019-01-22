@@ -21,7 +21,7 @@ package org.openscience.cdk.depict;
 import com.google.common.base.Charsets;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.Bounds;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.font.AWTFontManager;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;

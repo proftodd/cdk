@@ -28,7 +28,7 @@ import org.openscience.cdk.renderbasic.elements.GeneralPath;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.RectangleElement;
-import org.openscience.cdk.renderbasic.elements.TextElement;
+import org.openscience.cdk.renderer.elements.TextElement;
 
 import java.awt.Color;
 import java.awt.geom.AffineTransform;

@@ -33,10 +33,12 @@ import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.renderbasic.ElementUtility;
 import org.openscience.cdk.renderer.RendererModel;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
 
@@ -56,7 +58,7 @@ public abstract class AbstractGeneratorTest {
 
     protected BasicSceneGenerator sceneGenerator;
 
-    private IGenerator            testedGenerator;
+    private IGenerator testedGenerator;
 
     /**
      * Sets the {@link IGenerator} that is being tested.

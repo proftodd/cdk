@@ -27,7 +27,7 @@ import java.awt.image.BufferedImage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.renderer.RendererModel;
-import org.openscience.cdk.renderbasic.elements.TextElement;
+import org.openscience.cdk.renderer.elements.TextElement;
 import org.openscience.cdk.renderbasic.font.AWTFontManager;
 
 /**

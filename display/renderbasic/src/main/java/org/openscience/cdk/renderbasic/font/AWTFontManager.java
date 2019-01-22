@@ -18,6 +18,8 @@
  */
 package org.openscience.cdk.renderbasic.font;
 
+import org.openscience.cdk.renderer.font.IFontManager;
+
 import java.awt.Font;
 import java.util.HashMap;
 

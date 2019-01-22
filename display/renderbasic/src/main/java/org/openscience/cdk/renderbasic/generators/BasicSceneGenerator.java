@@ -26,9 +26,11 @@ import java.util.List;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
-import org.openscience.cdk.renderbasic.font.IFontManager.FontStyle;
-import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.font.IFontManager.FontStyle;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 
 /**
  * This generator does not create any elements, but acts as a holding place

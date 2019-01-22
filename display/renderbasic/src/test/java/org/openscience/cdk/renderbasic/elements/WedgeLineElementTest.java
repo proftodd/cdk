@@ -26,6 +26,7 @@ import java.awt.Color;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 
 /**
  * @cdk.module test-renderbasic

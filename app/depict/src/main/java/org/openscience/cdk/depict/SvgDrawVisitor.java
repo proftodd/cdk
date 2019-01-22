@@ -29,14 +29,14 @@ import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.elements.Bounds;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
 import org.openscience.cdk.renderbasic.elements.GeneralPath;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
 import org.openscience.cdk.renderbasic.elements.RectangleElement;
-import org.openscience.cdk.renderbasic.elements.TextElement;
+import org.openscience.cdk.renderer.elements.TextElement;
 import org.openscience.cdk.renderbasic.elements.path.PathElement;
-import org.openscience.cdk.renderbasic.font.IFontManager;
+import org.openscience.cdk.renderer.font.IFontManager;
 import org.openscience.cdk.renderbasic.generators.standard.StandardGenerator;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 

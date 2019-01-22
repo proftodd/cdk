@@ -26,6 +26,7 @@ import java.util.ArrayList;
 
 import org.junit.BeforeClass;
 import org.openscience.cdk.renderbasic.elements.path.PathElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 
 /**
  * @cdk.module test-renderbasic

@@ -32,6 +32,7 @@ import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderbasic.generators.standard.AbbreviationLabel.FormattedText;
+import org.openscience.cdk.renderer.generators.IGenerator;
 
 import java.awt.Font;
 import java.awt.geom.Rectangle2D;
@@ -48,7 +49,7 @@ import static org.openscience.cdk.renderbasic.generators.standard.HydrogenPositi
 /**
  * Generates {@link AtomSymbol} instances with positioned adjuncts.
  * 
- *  Note the generator is purposefully not an {@link org.openscience.cdk.renderbasic.generators.IGenerator}
+ *  Note the generator is purposefully not an {@link IGenerator}
  * and is intended as part be called from the StandardGenerator.
  *
  * @author John May

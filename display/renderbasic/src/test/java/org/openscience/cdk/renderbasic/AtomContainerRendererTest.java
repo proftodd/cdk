@@ -34,7 +34,7 @@ import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.layout.StructureDiagramGenerator;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.font.AWTFontManager;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.CompactAtom;
@@ -44,7 +44,7 @@ import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.Shape;
 import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator.ShowEndCarbons;
 import org.openscience.cdk.renderbasic.generators.BasicBondGenerator;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGenerator;
 
 /**
  * @author     maclean

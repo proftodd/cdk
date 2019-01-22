@@ -18,6 +18,9 @@
  */
 package org.openscience.cdk.renderbasic.elements;
 
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingVisitor;
+
 import java.awt.Color;
 
 

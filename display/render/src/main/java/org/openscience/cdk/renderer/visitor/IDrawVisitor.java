@@ -19,8 +19,8 @@
 package org.openscience.cdk.renderer.visitor;
 
 import org.openscience.cdk.renderer.RendererModel;
-import org.openscience.cdk.renderbasic.elements.IRenderingVisitor;
-import org.openscience.cdk.renderbasic.font.IFontManager;
+import org.openscience.cdk.renderer.elements.IRenderingVisitor;
+import org.openscience.cdk.renderer.font.IFontManager;
 
 /**
  * An {@link IDrawVisitor} is an {@link IRenderingVisitor} that can be

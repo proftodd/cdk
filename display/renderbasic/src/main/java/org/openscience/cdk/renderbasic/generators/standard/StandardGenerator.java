@@ -37,14 +37,14 @@ import org.openscience.cdk.renderer.color.UniColor;
 import org.openscience.cdk.renderbasic.elements.Bounds;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
 import org.openscience.cdk.renderbasic.elements.GeneralPath;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.LineElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
-import org.openscience.cdk.renderbasic.generators.IGeneratorParameter;
-import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;

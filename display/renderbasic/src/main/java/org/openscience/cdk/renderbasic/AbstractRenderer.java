@@ -31,15 +31,15 @@ import javax.vecmath.Point2d;
 import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.renderbasic.elements.Bounds;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
-import org.openscience.cdk.renderbasic.font.IFontManager;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.font.IFontManager;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.FitToScreen;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.FontName;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.Margin;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.Scale;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.UsedFontStyle;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.ZoomFactor;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 

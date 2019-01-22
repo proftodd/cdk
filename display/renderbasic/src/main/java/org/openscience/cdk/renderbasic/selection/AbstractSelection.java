@@ -26,6 +26,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemObject;
+import org.openscience.cdk.renderer.selection.IChemObjectSelection;
 
 /**
  * An abstract selection of {@link IChemObject}s.

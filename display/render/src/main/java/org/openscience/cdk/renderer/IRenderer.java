@@ -29,9 +29,9 @@ import java.util.List;
 import javax.vecmath.Point2d;
 
 import org.openscience.cdk.interfaces.IChemObject;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
-import org.openscience.cdk.renderbasic.generators.IGeneratorParameter;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 
 /**

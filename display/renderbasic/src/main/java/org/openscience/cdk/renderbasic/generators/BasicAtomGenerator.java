@@ -33,12 +33,14 @@ import org.openscience.cdk.renderer.color.CDK2DAtomColors;
 import org.openscience.cdk.renderer.color.IAtomColorer;
 import org.openscience.cdk.renderbasic.elements.AtomSymbolElement;
 import org.openscience.cdk.renderbasic.elements.ElementGroup;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
 import org.openscience.cdk.renderbasic.elements.MarkedElement;
 import org.openscience.cdk.renderbasic.elements.OvalElement;
 import org.openscience.cdk.renderbasic.elements.RectangleElement;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.Scale;
-import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
 import org.openscience.cdk.validate.ProblemMarker;
 
 /**
@@ -227,7 +229,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * @param atom the atom to check
      * @return true if the atom is not null, and it has non-null coordinates
      */
-    protected boolean hasCoordinates(IAtom atom) {
+    public boolean hasCoordinates(IAtom atom) {
         return atom != null && atom.getPoint2d() != null;
     }
 
@@ -259,7 +261,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * @param model the renderer model
      * @return true if this atom should not be shown
      */
-    protected boolean invisibleHydrogen(IAtom atom, RendererModel model) {
+    public boolean invisibleHydrogen(IAtom atom, RendererModel model) {
         return isHydrogen(atom) && !(Boolean) model.get(ShowExplicitHydrogens.class);
     }
 
@@ -272,7 +274,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * @param model the renderer model
      * @return true if this atom should not be shown
      */
-    protected boolean invisibleCarbon(IAtom atom, IAtomContainer atomContainer, RendererModel model) {
+    public boolean invisibleCarbon(IAtom atom, IAtomContainer atomContainer, RendererModel model) {
         return isCarbon(atom) && !showCarbon(atom, atomContainer, model);
     }
 
@@ -286,7 +288,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * @param model the renderer model
      * @return true if the atom should be drawn
      */
-    protected boolean canDraw(IAtom atom, IAtomContainer container, RendererModel model) {
+    public boolean canDraw(IAtom atom, IAtomContainer container, RendererModel model) {
         // don't draw atoms without coordinates
         if (!hasCoordinates(atom)) {
             return false;
@@ -377,7 +379,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * @param model the renderer model
      * @return true if the carbon should be shown
      */
-    protected boolean showCarbon(IAtom carbonAtom, IAtomContainer container, RendererModel model) {
+    public boolean showCarbon(IAtom carbonAtom, IAtomContainer container, RendererModel model) {
 
         if ((Boolean) model.get(KekuleStructure.class)) return true;
 
@@ -402,7 +404,7 @@ public class BasicAtomGenerator implements IGenerator<IAtomContainer> {
      * substructure. If not, the color from the CDK2DAtomColor is used (if
      * selected). Otherwise, the atom is colored black.
      */
-    protected Color getAtomColor(IAtom atom, RendererModel model) {
+    public Color getAtomColor(IAtom atom, RendererModel model) {
         Color atomColor = model.get(AtomColor.class);
         if ((Boolean) model.get(ColorByType.class)) {
             atomColor = ((IAtomColorer) model.get(AtomColorer.class)).getAtomColor(atom);

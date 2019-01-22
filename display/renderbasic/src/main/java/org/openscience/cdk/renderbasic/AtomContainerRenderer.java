@@ -29,12 +29,12 @@ import javax.vecmath.Point2d;
 
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.renderbasic.elements.IRenderingElement;
-import org.openscience.cdk.renderbasic.font.IFontManager;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.font.IFontManager;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.BondLength;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.Scale;
 import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.ZoomFactor;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.IRenderer;
 import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;

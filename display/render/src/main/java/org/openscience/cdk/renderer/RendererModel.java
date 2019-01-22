@@ -39,10 +39,10 @@ import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObject;
-import org.openscience.cdk.renderbasic.generators.IGenerator;
-import org.openscience.cdk.renderbasic.generators.IGeneratorParameter;
-import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
-import org.openscience.cdk.renderbasic.selection.IChemObjectSelection;
+import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderer.generators.IGeneratorParameter;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderer.selection.IChemObjectSelection;
 
 /**
  * Model for {@link IRenderer} that contains settings for drawing objects.
