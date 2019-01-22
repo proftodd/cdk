@@ -27,11 +27,11 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.renderer.font.AWTFontManager;
-import org.openscience.cdk.renderer.generators.BasicAtomGenerator;
-import org.openscience.cdk.renderer.generators.BasicBondGenerator;
-import org.openscience.cdk.renderer.generators.BasicSceneGenerator;
-import org.openscience.cdk.renderer.generators.IGenerator;
+import org.openscience.cdk.renderbasic.font.AWTFontManager;
+import org.openscience.cdk.renderbasic.generators.BasicAtomGenerator;
+import org.openscience.cdk.renderbasic.generators.BasicBondGenerator;
+import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
+import org.openscience.cdk.renderbasic.generators.IGenerator;
 
 /**
  * @cdk.module test-renderextra

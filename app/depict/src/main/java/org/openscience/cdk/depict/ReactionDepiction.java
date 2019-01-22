@@ -25,11 +25,11 @@ package org.openscience.cdk.depict;
 
 import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.renderer.RendererModel;
-import org.openscience.cdk.renderer.elements.Bounds;
-import org.openscience.cdk.renderer.elements.GeneralPath;
-import org.openscience.cdk.renderer.elements.LineElement;
-import org.openscience.cdk.renderer.elements.RectangleElement;
-import org.openscience.cdk.renderer.generators.BasicSceneGenerator;
+import org.openscience.cdk.renderbasic.elements.Bounds;
+import org.openscience.cdk.renderbasic.elements.GeneralPath;
+import org.openscience.cdk.renderbasic.elements.LineElement;
+import org.openscience.cdk.renderbasic.elements.RectangleElement;
+import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
 import org.openscience.cdk.rendererawt.visitor.AWTDrawVisitor;
 import org.openscience.cdk.renderer.visitor.IDrawVisitor;
 

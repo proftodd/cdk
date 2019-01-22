@@ -21,7 +21,7 @@
  */
 package org.openscience.cdk.renderer;
 
-import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
+import org.openscience.cdk.renderbasic.generators.parameter.AbstractGeneratorParameter;
 
 /**
  * Helper class for the unit tests in {@link RendererModelTest}.

@@ -28,9 +28,8 @@ import java.awt.image.BufferedImage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.renderer.RendererModel;
-import org.openscience.cdk.renderer.elements.IRenderingElement;
-import org.openscience.cdk.renderer.font.IFontManager;
-import org.openscience.cdk.rendererawt.visitor.AbstractAWTDrawVisitor;
+import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderbasic.font.IFontManager;
 
 /**
  * @cdk.module  test-renderawt

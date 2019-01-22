@@ -39,10 +39,10 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemObject;
-import org.openscience.cdk.renderer.elements.IRenderingElement;
-import org.openscience.cdk.renderer.generators.IGenerator;
-import org.openscience.cdk.renderer.generators.IGeneratorParameter;
-import org.openscience.cdk.renderer.selection.IChemObjectSelection;
+import org.openscience.cdk.renderbasic.elements.IRenderingElement;
+import org.openscience.cdk.renderbasic.generators.IGenerator;
+import org.openscience.cdk.renderbasic.generators.IGeneratorParameter;
+import org.openscience.cdk.renderbasic.selection.IChemObjectSelection;
 
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.MatcherAssert.assertThat;
