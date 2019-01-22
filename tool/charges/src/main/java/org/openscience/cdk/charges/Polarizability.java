@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.charges;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.graph.PathTools;
 import org.openscience.cdk.interfaces.IAtom;

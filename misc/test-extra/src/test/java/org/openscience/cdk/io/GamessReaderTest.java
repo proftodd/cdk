@@ -10,8 +10,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemObject;
 
 /**
  * A Test case for the "GamessReader" class.
@@ -151,7 +151,7 @@ public class GamessReaderTest extends SimpleChemObjectReaderTest {
      *
      * @throws	Exception	may be thrown by the "IChemObject" object.
      *
-     * @see org.openscience.cdk.ChemObject
+     * @see ChemObject
      */
     //TODO Update method comments with appropriate information.
     @Test

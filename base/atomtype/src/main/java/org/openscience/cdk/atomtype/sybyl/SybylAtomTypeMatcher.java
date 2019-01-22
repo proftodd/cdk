@@ -22,7 +22,7 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.atomtype.IAtomTypeMatcher;

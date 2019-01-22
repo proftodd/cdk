@@ -21,8 +21,7 @@ package org.openscience.cdk.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.tools.DataFeatures;
+import org.openscience.cdk.core.CDKConstants;
 
 /**
  * Included so that CoreCoverageTest won't complain. The class does not have
@@ -30,7 +29,7 @@ import org.openscience.cdk.tools.DataFeatures;
  *
  * @cdk.module test-core
  *
- * @see org.openscience.cdk.CDKConstants
+ * @see CDKConstants
  */
 public class DataFeaturesTest extends CDKTestCase {
 

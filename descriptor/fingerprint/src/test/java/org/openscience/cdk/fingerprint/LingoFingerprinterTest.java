@@ -25,10 +25,7 @@ package org.openscience.cdk.fingerprint;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.fingerprint.AbstractFingerprinterTest;
-import org.openscience.cdk.fingerprint.ICountFingerprint;
-import org.openscience.cdk.fingerprint.IFingerprinter;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.smiles.SmilesParser;
 

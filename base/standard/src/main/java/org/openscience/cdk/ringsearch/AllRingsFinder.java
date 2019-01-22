@@ -26,7 +26,7 @@
  */
 package org.openscience.cdk.ringsearch;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.AllCycles;
 import org.openscience.cdk.graph.GraphUtil;

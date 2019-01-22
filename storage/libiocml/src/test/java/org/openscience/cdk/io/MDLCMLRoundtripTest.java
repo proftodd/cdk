@@ -28,7 +28,8 @@ import java.io.StringWriter;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
 
@@ -62,7 +63,7 @@ public class MDLCMLRoundtripTest {
         cmlWriter.close();
         //Read this again
         CMLReader cmlreader = new CMLReader(new ByteArrayInputStream(writer.toString().getBytes()));
-        IChemFile file = (IChemFile) cmlreader.read(new org.openscience.cdk.ChemFile());
+        IChemFile file = (IChemFile) cmlreader.read(new ChemFile());
         cmlreader.close();
         //And finally write as mol
         StringWriter writermdl = new StringWriter();

@@ -26,7 +26,7 @@ package org.openscience.cdk.layout;
 import com.google.common.collect.FluentIterable;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;

@@ -21,7 +21,7 @@ package org.openscience.cdk.debug;
 import java.util.List;
 import java.util.Map;
 
-import org.openscience.cdk.Monomer;
+import org.openscience.cdk.data.Monomer;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;

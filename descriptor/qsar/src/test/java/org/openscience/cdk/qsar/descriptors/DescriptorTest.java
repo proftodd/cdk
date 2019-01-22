@@ -22,9 +22,9 @@ import java.lang.reflect.Constructor;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.standard.IImplementationSpecification;
 import org.openscience.cdk.qsar.IDescriptor;
 
 /**

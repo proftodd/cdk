@@ -24,8 +24,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.openscience.cdk.AminoAcid;
-import org.openscience.cdk.ChemFile;
+import org.openscience.cdk.data.AminoAcid;
+import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.dict.DictRef;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAminoAcid;

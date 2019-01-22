@@ -25,7 +25,7 @@ import java.io.OutputStreamWriter;
 import java.io.StringWriter;
 import java.io.Writer;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.sybyl.SybylAtomTypeMatcher;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;

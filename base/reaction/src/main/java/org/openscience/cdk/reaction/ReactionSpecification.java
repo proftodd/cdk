@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.reaction;
 
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.standard.IImplementationSpecification;
 
 /**
  * Class that is used to distribute reactions specifications.

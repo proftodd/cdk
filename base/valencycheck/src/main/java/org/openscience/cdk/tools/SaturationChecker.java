@@ -26,7 +26,7 @@ package org.openscience.cdk.tools;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.Cycles;

@@ -23,7 +23,7 @@
 package org.openscience.cdk.ringsearch;
 
 import org.junit.Test;
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainer;
 
 import static org.hamcrest.CoreMatchers.is;

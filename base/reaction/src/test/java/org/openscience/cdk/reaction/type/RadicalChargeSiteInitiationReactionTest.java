@@ -20,9 +20,9 @@ package org.openscience.cdk.reaction.type;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.SingleElectron;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.SingleElectron;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;

@@ -21,7 +21,7 @@ package org.openscience.cdk.tools;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.charges.Electronegativity;
 import org.openscience.cdk.charges.GasteigerMarsiliPartialCharges;
 import org.openscience.cdk.charges.GasteigerPEPEPartialCharges;

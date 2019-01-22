@@ -23,8 +23,10 @@ import org.hamcrest.core.Is;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -99,8 +101,8 @@ public class SMARTSTest extends CDKTestCase {
     }
 
     private IAtomContainer createEthane() {
-        IAtomContainer container = new org.openscience.cdk.AtomContainer(); // SMILES "CC"
-        IAtom carbon = new org.openscience.cdk.Atom("C");
+        IAtomContainer container = new AtomContainer(); // SMILES "CC"
+        IAtom carbon = new Atom("C");
         IAtom carbon2 = carbon.getBuilder().newInstance(IAtom.class, "C");
         carbon.setImplicitHydrogenCount(3);
         carbon2.setImplicitHydrogenCount(3);
@@ -145,8 +147,8 @@ public class SMARTSTest extends CDKTestCase {
         try {
             IChemObjectBuilder builder = DefaultChemObjectBuilder.getInstance();
 
-            SymbolQueryAtom c1 = new SymbolQueryAtom(new org.openscience.cdk.Atom("C"));
-            SymbolAndChargeQueryAtom c2 = new SymbolAndChargeQueryAtom(new org.openscience.cdk.Atom("C"));
+            SymbolQueryAtom c1 = new SymbolQueryAtom(new Atom("C"));
+            SymbolAndChargeQueryAtom c2 = new SymbolAndChargeQueryAtom(new Atom("C"));
 
             IAtomContainer c = TestMoleculeFactory.makeAlkane(2);
 

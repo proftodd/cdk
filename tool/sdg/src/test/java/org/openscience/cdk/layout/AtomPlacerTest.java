@@ -30,9 +30,9 @@ import javax.vecmath.Vector2d;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;

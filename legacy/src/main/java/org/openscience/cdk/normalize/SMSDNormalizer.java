@@ -31,11 +31,11 @@ import java.util.Map;
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.PseudoAtom;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.PseudoAtom;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.exception.CDKException;

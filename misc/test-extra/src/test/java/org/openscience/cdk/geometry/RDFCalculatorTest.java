@@ -22,9 +22,9 @@ import javax.vecmath.Point3d;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * This class defines regression tests that should ensure that the source code
@@ -63,7 +63,7 @@ public class RDFCalculatorTest extends CDKTestCase {
     @Test
     public void testCalculate() {
         RDFCalculator calculator = new RDFCalculator(0.0, 5.0, 0.1, 0.0);
-        AtomContainer h2mol = new org.openscience.cdk.AtomContainer();
+        AtomContainer h2mol = new AtomContainer();
         Atom h1 = new Atom("H");
         h1.setPoint3d(new Point3d(-0.5, 0.0, 0.0));
         Atom h2 = new Atom("H");
@@ -95,7 +95,7 @@ public class RDFCalculatorTest extends CDKTestCase {
                 return 1.0;
             }
         });
-        AtomContainer h2mol = new org.openscience.cdk.AtomContainer();
+        AtomContainer h2mol = new AtomContainer();
         Atom h1 = new Atom("H");
         h1.setPoint3d(new Point3d(-0.5, 0.0, 0.0));
         Atom h2 = new Atom("H");
@@ -127,7 +127,7 @@ public class RDFCalculatorTest extends CDKTestCase {
                 return atom.getCharge() * atom2.getCharge();
             }
         });
-        AtomContainer h2mol = new org.openscience.cdk.AtomContainer();
+        AtomContainer h2mol = new AtomContainer();
         Atom h1 = new Atom("H");
         h1.setPoint3d(new Point3d(-0.5, 0.0, 0.0));
         h1.setCharge(+1.0);
@@ -161,7 +161,7 @@ public class RDFCalculatorTest extends CDKTestCase {
                 return atom.getCharge() * atom2.getCharge();
             }
         });
-        AtomContainer h2mol = new org.openscience.cdk.AtomContainer();
+        AtomContainer h2mol = new AtomContainer();
         Atom h1 = new Atom("H");
         h1.setPoint3d(new Point3d(-0.5, 0.0, 0.0));
         h1.setCharge(+1.0);

@@ -24,7 +24,7 @@ package org.openscience.cdk.aromaticity;
 
 import java.util.Iterator;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.CDKException;
@@ -52,7 +52,7 @@ import org.openscience.cdk.ringsearch.AllRingsFinder;
  * @cdk.module     standard
  * @cdk.githash
  *
- * @see org.openscience.cdk.CDKConstants
+ * @see CDKConstants
  * @see CDKHueckelAromaticityDetector
  * @deprecated use {@link Aromaticity} with the {@link org.openscience.cdk.aromaticity.ElectronDonation#cdkAllowingExocyclic()} model
  */

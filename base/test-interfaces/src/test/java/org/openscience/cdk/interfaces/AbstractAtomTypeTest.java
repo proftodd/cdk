@@ -20,7 +20,7 @@ package org.openscience.cdk.interfaces;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtomType.Hybridization;
 import org.openscience.cdk.tools.diff.AtomTypeDiff;
 

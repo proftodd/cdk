@@ -23,7 +23,7 @@
 package org.openscience.cdk.ringsearch;
 
 import org._3pq.jgrapht.UndirectedGraph;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.graph.MoleculeGraphs;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

@@ -20,9 +20,8 @@ package org.openscience.cdk.formula.rules;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Isotope;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.exception.CDKException;
+import org.openscience.cdk.data.Isotope;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.formula.MolecularFormula;
 import org.openscience.cdk.interfaces.IMolecularFormula;
 

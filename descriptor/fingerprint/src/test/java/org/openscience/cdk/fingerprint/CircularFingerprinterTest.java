@@ -46,10 +46,10 @@ import java.util.zip.ZipInputStream;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDK;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.SlowTest;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.core.CDK;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.exception.InvalidSmilesException;
 import org.openscience.cdk.interfaces.IAtom;

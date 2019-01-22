@@ -116,7 +116,7 @@ public class LogicalOperatorAtom extends SMARTSAtom {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.ChemObject#getFlag(int)
+     * @see org.openscience.cdk.data.ChemObject#getFlag(int)
      */
     @Deprecated
     @Override

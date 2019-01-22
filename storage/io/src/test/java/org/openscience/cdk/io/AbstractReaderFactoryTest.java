@@ -24,10 +24,10 @@
 package org.openscience.cdk.io;
 
 import org.junit.Assert;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemModel;
-import org.openscience.cdk.Reaction;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemModel;
+import org.openscience.cdk.data.Reaction;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IChemModel;

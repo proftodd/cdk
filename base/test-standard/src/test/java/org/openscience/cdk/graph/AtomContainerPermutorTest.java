@@ -20,9 +20,9 @@ package org.openscience.cdk.graph;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.interfaces.IBond;
 
 /**
@@ -32,7 +32,7 @@ public class AtomContainerPermutorTest extends CDKTestCase {
 
     @Test
     public void testAtomPermutation() {
-        AtomContainer ac = new org.openscience.cdk.AtomContainer();
+        AtomContainer ac = new AtomContainer();
         AtomContainer result;
         String atoms = new String("");
         ac.addAtom(new Atom("C"));
@@ -61,7 +61,7 @@ public class AtomContainerPermutorTest extends CDKTestCase {
 
     @Test
     public void testBondPermutation() {
-        AtomContainer ac = new org.openscience.cdk.AtomContainer();
+        AtomContainer ac = new AtomContainer();
         AtomContainer result;
         String bonds = new String("");
         ac.addAtom(new Atom("C"));

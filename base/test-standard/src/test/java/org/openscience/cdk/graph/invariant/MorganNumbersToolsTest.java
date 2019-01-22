@@ -23,10 +23,9 @@ import java.io.InputStream;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.io.IChemObjectReader.Mode;

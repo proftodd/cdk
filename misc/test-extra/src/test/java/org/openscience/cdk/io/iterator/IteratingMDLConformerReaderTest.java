@@ -4,9 +4,9 @@ import java.io.InputStream;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ConformerContainer;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ConformerContainer;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

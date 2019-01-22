@@ -23,7 +23,7 @@
 
 package org.openscience.cdk.fingerprint;
 
-import org.openscience.cdk.CDK;
+import org.openscience.cdk.core.CDK;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 

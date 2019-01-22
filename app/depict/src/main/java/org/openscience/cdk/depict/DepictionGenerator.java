@@ -19,7 +19,7 @@
 package org.openscience.cdk.depict;
 
 import com.google.common.collect.FluentIterable;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;
@@ -854,7 +854,7 @@ public final class DepictionGenerator {
 
     /**
      * Display a molecule title with each depiction. The title
-     * is specified by setting the {@link org.openscience.cdk.CDKConstants#TITLE}
+     * is specified by setting the {@link CDKConstants#TITLE}
      * property. For reactions only the main components have their
      * title displayed.
      *
@@ -868,7 +868,7 @@ public final class DepictionGenerator {
 
     /**
      * Display a reaction title with the depiction. The title
-     * is specified by setting the {@link org.openscience.cdk.CDKConstants#TITLE}
+     * is specified by setting the {@link CDKConstants#TITLE}
      * property on the {@link IReaction} instance.
      *
      * @return new generator for method chaining

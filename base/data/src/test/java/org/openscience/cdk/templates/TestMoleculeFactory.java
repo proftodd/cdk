@@ -25,9 +25,8 @@ package org.openscience.cdk.templates;
 
 import javax.vecmath.Point2d;
 
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

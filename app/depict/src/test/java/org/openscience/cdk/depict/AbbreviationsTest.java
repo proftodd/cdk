@@ -23,10 +23,8 @@
 
 package org.openscience.cdk.depict;
 
-import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.exception.InvalidSmilesException;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.sgroup.Sgroup;
 import org.openscience.cdk.sgroup.SgroupType;

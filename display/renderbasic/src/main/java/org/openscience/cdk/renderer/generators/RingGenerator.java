@@ -19,7 +19,7 @@
  */
 package org.openscience.cdk.renderer.generators;
 
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 
 import java.awt.Color;
 import java.util.ArrayList;

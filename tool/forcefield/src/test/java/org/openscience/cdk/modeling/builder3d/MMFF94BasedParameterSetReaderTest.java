@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.interfaces.IAtomType;
 
 import org.junit.Test;

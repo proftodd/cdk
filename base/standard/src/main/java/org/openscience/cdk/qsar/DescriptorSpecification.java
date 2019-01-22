@@ -20,8 +20,8 @@ package org.openscience.cdk.qsar;
 
 import java.io.Serializable;
 
-import org.openscience.cdk.CDK;
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.core.CDK;
+import org.openscience.cdk.standard.IImplementationSpecification;
 
 /**
  * Class that is used to distribute descriptor specifications.

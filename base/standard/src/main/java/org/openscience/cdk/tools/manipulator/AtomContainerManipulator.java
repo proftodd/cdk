@@ -24,7 +24,7 @@
  *  */
 package org.openscience.cdk.tools.manipulator;
 
-import static org.openscience.cdk.CDKConstants.SINGLE_OR_DOUBLE;
+import static org.openscience.cdk.core.CDKConstants.SINGLE_OR_DOUBLE;
 import static org.openscience.cdk.interfaces.IDoubleBondStereochemistry.Conformation;
 
 import java.io.IOException;
@@ -40,7 +40,7 @@ import java.util.Objects;
 import java.util.Set;
 
 import com.google.common.collect.Maps;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.config.Elements;

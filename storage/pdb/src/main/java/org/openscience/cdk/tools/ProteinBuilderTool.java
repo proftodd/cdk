@@ -24,7 +24,7 @@
  */
 package org.openscience.cdk.tools;
 
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAminoAcid;
 import org.openscience.cdk.interfaces.IAtom;

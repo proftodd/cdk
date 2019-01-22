@@ -31,12 +31,12 @@ import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.AtomContainerSet;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemModel;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.AtomContainerSet;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemModel;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -48,7 +48,7 @@ import org.openscience.cdk.graph.invariant.InvPair;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 
 import static org.junit.Assert.assertThat;
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

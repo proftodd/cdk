@@ -23,7 +23,7 @@
  */
 package org.openscience.cdk.protein.data;
 
-import org.openscience.cdk.Monomer;
+import org.openscience.cdk.data.Monomer;
 import org.openscience.cdk.interfaces.IPDBMonomer;
 
 /**

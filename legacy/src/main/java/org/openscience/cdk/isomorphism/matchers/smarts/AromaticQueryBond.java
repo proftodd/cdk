@@ -65,7 +65,7 @@ public class AromaticQueryBond extends SMARTSBond {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.Bond#toString()
+     * @see org.openscience.cdk.data.Bond#toString()
      */
     @Override
     public String toString() {

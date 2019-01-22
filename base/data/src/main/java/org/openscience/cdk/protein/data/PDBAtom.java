@@ -25,7 +25,7 @@ package org.openscience.cdk.protein.data;
 
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.Atom;
+import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IPDBAtom;
 

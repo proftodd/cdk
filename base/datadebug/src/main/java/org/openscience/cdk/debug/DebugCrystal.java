@@ -23,7 +23,7 @@ import java.util.Map;
 
 import javax.vecmath.Vector3d;
 
-import org.openscience.cdk.Crystal;
+import org.openscience.cdk.data.Crystal;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;

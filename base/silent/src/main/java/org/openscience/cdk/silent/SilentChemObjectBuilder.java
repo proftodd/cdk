@@ -19,7 +19,7 @@
  */
 package org.openscience.cdk.silent;
 
-import org.openscience.cdk.DynamicFactory;
+import org.openscience.cdk.core.DynamicFactory;
 import org.openscience.cdk.interfaces.IAdductFormula;
 import org.openscience.cdk.interfaces.IAminoAcid;
 import org.openscience.cdk.interfaces.IAtom;

@@ -32,7 +32,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 
 /**
  * @author John May

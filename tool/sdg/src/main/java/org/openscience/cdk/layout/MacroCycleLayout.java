@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.openscience.cdk.CDKConstants.ISPLACED;
+import static org.openscience.cdk.core.CDKConstants.ISPLACED;
 
 /**
  * A class for helping layout macrocycles.

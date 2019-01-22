@@ -25,7 +25,7 @@ import java.util.Set;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.config.atomtypes.owl.OWLAtomTypeMappingReader;
 
 /**

@@ -29,9 +29,9 @@ import javax.vecmath.Vector3d;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.tools.ILoggingTool;
 import org.openscience.cdk.tools.LoggingToolFactory;
 

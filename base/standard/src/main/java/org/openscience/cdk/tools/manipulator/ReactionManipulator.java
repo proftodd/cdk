@@ -22,8 +22,8 @@
  *  */
 package org.openscience.cdk.tools.manipulator;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ReactionRole;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.reactions.ReactionRole;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;

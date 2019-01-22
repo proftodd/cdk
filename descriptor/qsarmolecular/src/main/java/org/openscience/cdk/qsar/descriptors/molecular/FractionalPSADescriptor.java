@@ -30,7 +30,7 @@ package org.openscience.cdk.qsar.descriptors.molecular;
 
 import java.io.IOException;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.exception.CDKException;

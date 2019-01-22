@@ -26,7 +26,7 @@ import javax.vecmath.Point3d;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IBond.Order;
 
 /**

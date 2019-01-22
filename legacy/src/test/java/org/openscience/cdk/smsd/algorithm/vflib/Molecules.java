@@ -46,8 +46,8 @@ package org.openscience.cdk.smsd.algorithm.vflib;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;

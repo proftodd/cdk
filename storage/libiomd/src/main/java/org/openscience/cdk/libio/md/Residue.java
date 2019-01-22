@@ -22,7 +22,7 @@
  */
 package org.openscience.cdk.libio.md;
 
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainer;
 
 /**

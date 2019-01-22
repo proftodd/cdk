@@ -21,7 +21,7 @@ package org.openscience.cdk.config.atomtypes;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;

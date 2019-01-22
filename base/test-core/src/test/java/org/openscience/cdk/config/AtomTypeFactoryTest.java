@@ -24,19 +24,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Source;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.Schema;
-import javax.xml.validation.SchemaFactory;
-import javax.xml.validation.Validator;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IAtomType.Hybridization;
@@ -235,7 +229,7 @@ public class AtomTypeFactoryTest extends CDKTestCase {
     @Test
     public void testConfigure_IAtom() throws Exception {
         IAtomType atomType;
-        IAtom atom = new org.openscience.cdk.Atom();
+        IAtom atom = new Atom();
         atom.setAtomTypeName("C.ar");
         AtomTypeFactory factory = AtomTypeFactory.getInstance("org/openscience/cdk/config/data/mol2_atomtypes.xml",
                 new ChemObject().getBuilder());

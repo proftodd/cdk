@@ -24,8 +24,8 @@
  */
 package org.openscience.cdk.smsd.tools;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.graph.ConnectivityChecker;
 import org.openscience.cdk.interfaces.IAtom;

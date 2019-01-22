@@ -500,7 +500,7 @@
                         <!-- format tests do not work (cyclic dependency) -->
                         <exclude>**/io/formats/*FormatTest.java</exclude>
                     </excludes>
-                    <excludedGroups>org.openscience.cdk.SlowTest</excludedGroups>
+                    <excludedGroups>org.openscience.cdk.tools.SlowTest</excludedGroups>
                 </configuration>
             </plugin>
             <plugin>
@@ -737,7 +737,7 @@
                                 <!-- not a test class -->
                                 <exclude>**/TestMoleculeFactory.java</exclude>
                             </excludes>
-                            <groups>org.openscience.cdk.SlowTest</groups>
+                            <groups>org.openscience.cdk.tools.SlowTest</groups>
                         </configuration>
                     </plugin>
                 </plugins>

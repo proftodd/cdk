@@ -26,8 +26,8 @@ package org.openscience.cdk.renderer;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.Bond;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.Bond;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IBond;
 

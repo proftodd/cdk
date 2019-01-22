@@ -26,7 +26,7 @@ package org.openscience.cdk.tools.manipulator;
 import java.io.IOException;
 import java.util.*;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.config.Isotopes;

@@ -5,8 +5,7 @@ import java.io.Reader;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ConformerContainer;
+import org.openscience.cdk.data.ConformerContainer;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 
@@ -42,7 +41,7 @@ import org.openscience.cdk.interfaces.IChemObjectBuilder;
  * @cdk.module extra
  * @cdk.githash
  * @author Rajarshi Guha
- * @see org.openscience.cdk.ConformerContainer
+ * @see ConformerContainer
  * @cdk.keyword file format SDF
  * @cdk.keyword conformer conformation
  */

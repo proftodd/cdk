@@ -25,10 +25,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.standard.IImplementationSpecification;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.io.ISimpleChemObjectReader;

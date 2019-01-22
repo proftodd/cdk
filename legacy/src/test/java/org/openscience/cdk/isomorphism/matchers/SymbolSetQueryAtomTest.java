@@ -22,9 +22,9 @@ package org.openscience.cdk.isomorphism.matchers;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 
 /**
  * Checks the functionality of the IsomorphismTester

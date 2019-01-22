@@ -25,11 +25,9 @@ package org.openscience.cdk.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.Ring;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.Ring;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.tools.DeAromatizationTool;
 import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 import java.util.Iterator;

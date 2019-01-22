@@ -23,7 +23,7 @@
 
 package org.openscience.cdk.io;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
@@ -67,7 +67,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.openscience.cdk.CDKConstants.ATOM_ATOM_MAPPING;
+import static org.openscience.cdk.core.CDKConstants.ATOM_ATOM_MAPPING;
 
 /**
  * Ctab V3000 format output. This writer provides output to the more modern (but less widely

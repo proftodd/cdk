@@ -26,7 +26,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.inchi.InChINumbersTools;
 import org.openscience.cdk.inchi.InChIGenerator;

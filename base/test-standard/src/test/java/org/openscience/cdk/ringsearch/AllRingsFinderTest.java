@@ -25,10 +25,10 @@ import org.junit.Assert;
 import org.junit.Assume;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.Ring;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Ring;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
@@ -140,7 +140,7 @@ public class AllRingsFinderTest extends CDKTestCase {
         String filename = "data/mdl/porphyrin.mol";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         MDLV2000Reader reader = new MDLV2000Reader(ins);
-        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.data.ChemFile());
         IChemSequence seq = chemFile.getChemSequence(0);
         IChemModel model = seq.getChemModel(0);
         IAtomContainer molecule = model.getMoleculeSet().getAtomContainer(0);
@@ -177,7 +177,7 @@ public class AllRingsFinderTest extends CDKTestCase {
         String filename = "data/mdl/choloylcoa.mol";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         MDLV2000Reader reader = new MDLV2000Reader(ins);
-        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.data.ChemFile());
         IChemSequence seq = chemFile.getChemSequence(0);
         IChemModel model = seq.getChemModel(0);
         IAtomContainer molecule = model.getMoleculeSet().getAtomContainer(0);
@@ -194,7 +194,7 @@ public class AllRingsFinderTest extends CDKTestCase {
         String filename = "data/mdl/azulene.mol";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         MDLV2000Reader reader = new MDLV2000Reader(ins);
-        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.data.ChemFile());
         IChemSequence seq = chemFile.getChemSequence(0);
         IChemModel model = seq.getChemModel(0);
         IAtomContainer molecule = model.getMoleculeSet().getAtomContainer(0);
@@ -215,7 +215,7 @@ public class AllRingsFinderTest extends CDKTestCase {
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
 
         CMLReader reader = new CMLReader(ins);
-        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.data.ChemFile());
         IChemSequence seq = chemFile.getChemSequence(0);
         IChemModel model = seq.getChemModel(0);
         IAtomContainer mol = model.getMoleculeSet().getAtomContainer(0);
@@ -255,7 +255,7 @@ public class AllRingsFinderTest extends CDKTestCase {
         //String filename = "data/NCI_diversity_978.mol.cml";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         CMLReader reader = new CMLReader(ins);
-        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile chemFile = (IChemFile) reader.read(new org.openscience.cdk.data.ChemFile());
         IChemSequence seq = chemFile.getChemSequence(0);
         IChemModel model = seq.getChemModel(0);
         IAtomContainer mol = model.getMoleculeSet().getAtomContainer(0);

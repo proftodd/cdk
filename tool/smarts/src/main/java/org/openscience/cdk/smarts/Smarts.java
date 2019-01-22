@@ -23,10 +23,10 @@
 
 package org.openscience.cdk.smarts;
 
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.BondRef;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ReactionRole;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.core.BondRef;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.reactions.ReactionRole;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

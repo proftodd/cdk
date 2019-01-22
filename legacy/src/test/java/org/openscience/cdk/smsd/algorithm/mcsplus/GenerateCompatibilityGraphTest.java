@@ -26,7 +26,7 @@ import static org.junit.Assert.assertNotNull;
 
 import java.io.IOException;
 
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.AtomContainer;
 
 import org.junit.After;
 import org.junit.AfterClass;

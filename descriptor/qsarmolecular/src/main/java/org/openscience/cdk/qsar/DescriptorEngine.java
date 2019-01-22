@@ -21,7 +21,7 @@ package org.openscience.cdk.qsar;
 import nu.xom.Attribute;
 import nu.xom.Element;
 import nu.xom.Elements;
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.standard.IImplementationSpecification;
 import org.openscience.cdk.dict.Dictionary;
 import org.openscience.cdk.dict.DictionaryDatabase;
 import org.openscience.cdk.dict.Entry;

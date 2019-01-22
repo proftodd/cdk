@@ -25,6 +25,7 @@
 package org.openscience.cdk.smiles;
 
 import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
@@ -48,14 +49,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.openscience.cdk.CDKConstants.ATOM_ATOM_MAPPING;
+import static org.openscience.cdk.core.CDKConstants.ATOM_ATOM_MAPPING;
 import static org.openscience.cdk.interfaces.IDoubleBondStereochemistry.Conformation;
 import static org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
 
 /**
  * Convert the Beam toolkit object model to the CDK. Currently the aromatic
  * bonds from SMILES are loaded as singly bonded {@link IBond}s with the {@link
- * org.openscience.cdk.CDKConstants#ISAROMATIC} flag set.
+ * CDKConstants#ISAROMATIC} flag set.
  *
  * <blockquote><pre>
  * IChemObjectBuilder builder = SilentChemObjectBuilder.getInstance();

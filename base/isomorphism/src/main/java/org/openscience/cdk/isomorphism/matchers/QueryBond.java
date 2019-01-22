@@ -23,8 +23,8 @@ import java.util.Iterator;
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.BondRef;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.BondRef;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
@@ -370,7 +370,7 @@ public class QueryBond extends QueryChemObject implements IQueryBond {
      * Returns the query bond order of this query bond.
      *
      * @return The query bond order of this query bond
-     * @see org.openscience.cdk.CDKConstants org.openscience.cdk.CDKConstants
+     * @see CDKConstants org.openscience.cdk.core.CDKConstants
      *      for predefined values.
      * @see #setOrder
      */
@@ -383,8 +383,8 @@ public class QueryBond extends QueryChemObject implements IQueryBond {
      * Sets the bond order of this query bond.
      *
      * @param order The query bond order to be assigned to this query bond
-     * @see org.openscience.cdk.CDKConstants
-     *      org.openscience.cdk.CDKConstants for predefined values.
+     * @see CDKConstants
+     *      org.openscience.cdk.core.CDKConstants for predefined values.
      * @see #getOrder
      */
     @Override
@@ -398,7 +398,7 @@ public class QueryBond extends QueryChemObject implements IQueryBond {
      *
      * @return The stereo descriptor for this query bond
      * @see #setStereo
-     * @see org.openscience.cdk.CDKConstants for predefined values.
+     * @see CDKConstants for predefined values.
      */
     @Override
     public IQueryBond.Stereo getStereo() {
@@ -410,7 +410,7 @@ public class QueryBond extends QueryChemObject implements IQueryBond {
      *
      * @param stereo The stereo descriptor to be assigned to this query bond.
      * @see #getStereo
-     * @see org.openscience.cdk.CDKConstants for predefined values.
+     * @see CDKConstants for predefined values.
      */
     @Override
     public void setStereo(IQueryBond.Stereo stereo) {

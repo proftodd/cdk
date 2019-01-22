@@ -25,10 +25,10 @@
 package org.openscience.cdk.aromaticity;
 
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

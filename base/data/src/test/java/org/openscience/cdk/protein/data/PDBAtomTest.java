@@ -24,6 +24,7 @@ import javax.vecmath.Point3d;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.interfaces.AbstractPDBAtomTest;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IChemObject;
@@ -89,8 +90,8 @@ public class PDBAtomTest extends AbstractPDBAtomTest {
     @Override
     public void testCompare_Object() {
         IPDBAtom someAtom = new PDBAtom("C");
-        if (someAtom instanceof org.openscience.cdk.Atom) {
-            org.openscience.cdk.Atom atom = (org.openscience.cdk.Atom) someAtom;
+        if (someAtom instanceof Atom) {
+            Atom atom = (Atom) someAtom;
             Assert.assertTrue(atom.compare(atom));
             IAtom hydrogen = atom.getBuilder().newInstance(IAtom.class, "H");
             Assert.assertFalse(atom.compare(hydrogen));

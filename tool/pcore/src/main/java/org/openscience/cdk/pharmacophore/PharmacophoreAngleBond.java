@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.pharmacophore;
 
-import org.openscience.cdk.Bond;
+import org.openscience.cdk.data.Bond;
 
 /**
  * Represents an angle relationship between three pharmacophore groups.

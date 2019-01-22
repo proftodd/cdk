@@ -37,8 +37,8 @@ import java.util.Map;
 
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.rebond.RebondTool;

@@ -26,7 +26,7 @@ package org.openscience.cdk.silent;
 import java.io.Serializable;
 
 import com.google.common.base.Objects;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IElement;
@@ -104,7 +104,7 @@ public class AtomType extends Isotope implements IAtomType, Serializable, Clonea
      * Constructor for the AtomType object.
      *
      * Defaults to a zero formal charge. All
-     * other fields are set to {@link org.openscience.cdk.CDKConstants#UNSET}.
+     * other fields are set to {@link CDKConstants#UNSET}.
      *
      * @param elementSymbol  Symbol of the atom
      */

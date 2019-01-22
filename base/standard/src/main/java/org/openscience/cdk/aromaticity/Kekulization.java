@@ -35,7 +35,7 @@ import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
 
 import java.util.BitSet;
 
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 import static org.openscience.cdk.graph.GraphUtil.EdgeToBondMap;
 import static org.openscience.cdk.interfaces.IBond.Order.DOUBLE;
 import static org.openscience.cdk.interfaces.IBond.Order.SINGLE;

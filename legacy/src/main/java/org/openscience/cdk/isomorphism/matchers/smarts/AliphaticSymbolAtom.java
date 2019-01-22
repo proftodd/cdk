@@ -17,7 +17,6 @@
  */
 package org.openscience.cdk.isomorphism.matchers.smarts;
 
-import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 
@@ -55,7 +54,7 @@ public class AliphaticSymbolAtom extends SMARTSAtom {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.PseudoAtom#toString()
+     * @see org.openscience.cdk.data.PseudoAtom#toString()
      */
     @Override
     public String toString() {

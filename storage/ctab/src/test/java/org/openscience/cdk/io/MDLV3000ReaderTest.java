@@ -25,8 +25,8 @@ package org.openscience.cdk.io;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -119,7 +119,7 @@ public class MDLV3000ReaderTest extends SimpleChemObjectReaderTest {
     
     @Test public void pseudoAtomReplacement() throws Exception {
         try (MDLV3000Reader reader = new MDLV3000Reader(getClass().getResourceAsStream("pseudoAtomReplacement.mol"))) {
-            IAtomContainer container = reader.read(new org.openscience.cdk.AtomContainer(0, 0, 0, 0));
+            IAtomContainer container = reader.read(new org.openscience.cdk.data.AtomContainer(0, 0, 0, 0));
             for (IAtom atom : container.getBond(9).atoms()) {
                 Assert.assertTrue(container.contains(atom));
             }
@@ -128,7 +128,7 @@ public class MDLV3000ReaderTest extends SimpleChemObjectReaderTest {
 
     @Test public void positionalVariation() throws Exception {
         try (MDLV3000Reader reader = new MDLV3000Reader(getClass().getResourceAsStream("multicenterBond.mol"))) {
-            IAtomContainer container = reader.read(new org.openscience.cdk.AtomContainer(0, 0, 0, 0));
+            IAtomContainer container = reader.read(new org.openscience.cdk.data.AtomContainer(0, 0, 0, 0));
             assertThat(container.getBondCount(), is(8));
             List<Sgroup> sgroups = container.getProperty(CDKConstants.CTAB_SGROUPS);
             assertNotNull(sgroups);
@@ -139,7 +139,7 @@ public class MDLV3000ReaderTest extends SimpleChemObjectReaderTest {
 
     @Test public void radicalsInCH3() throws Exception {
         try (MDLV3000Reader reader = new MDLV3000Reader(getClass().getResourceAsStream("CH3.mol"))) {
-            IAtomContainer container = reader.read(new org.openscience.cdk.AtomContainer(0, 0, 0, 0));
+            IAtomContainer container = reader.read(new org.openscience.cdk.data.AtomContainer(0, 0, 0, 0));
             assertThat(container.getSingleElectronCount(), is(1));
             assertThat(container.getAtom(0).getImplicitHydrogenCount(), is(3));
         }

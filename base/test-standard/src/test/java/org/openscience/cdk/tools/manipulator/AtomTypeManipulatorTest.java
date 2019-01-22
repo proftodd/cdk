@@ -20,11 +20,11 @@ package org.openscience.cdk.tools.manipulator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomType;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.silent.Atom;
 import org.openscience.cdk.silent.AtomType;
 

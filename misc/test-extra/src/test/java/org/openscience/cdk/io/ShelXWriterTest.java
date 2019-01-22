@@ -29,8 +29,8 @@ import javax.vecmath.Vector3d;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Crystal;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Crystal;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.geometry.CrystalGeometryTools;
 import org.openscience.cdk.interfaces.ICrystal;
 

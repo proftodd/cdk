@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.structgen.stochastic.operator;
 
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * @cdk.module test-structgen

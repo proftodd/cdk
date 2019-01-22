@@ -14,7 +14,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Vector;
 
 import nu.xom.Attribute;
 import nu.xom.Document;
@@ -22,7 +21,7 @@ import nu.xom.Element;
 import nu.xom.ProcessingInstruction;
 import nu.xom.Text;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

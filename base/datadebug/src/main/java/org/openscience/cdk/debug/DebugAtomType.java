@@ -20,7 +20,7 @@ package org.openscience.cdk.debug;
 
 import java.util.Map;
 
-import org.openscience.cdk.AtomType;
+import org.openscience.cdk.data.AtomType;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectChangeEvent;

@@ -28,7 +28,7 @@ import java.io.StringReader;
 
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.PhysicalConstants;
+import org.openscience.cdk.extra.PhysicalConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -147,7 +147,7 @@ public class GamessReader extends DefaultChemObjectReader {
     /*
      * (non-Javadoc) (Javadoc is automaticly inherited from the link below)
      * @see
-     * org.openscience.cdk.io.ChemObjectIO#accepts(org.openscience.cdk.ChemObject
+     * org.openscience.cdk.io.ChemObjectIO#accepts(org.openscience.cdk.data.ChemObject
      * )
      */
     //TODO Update comment with appropriate information to comply Constructor's documentation.
@@ -182,7 +182,7 @@ public class GamessReader extends DefaultChemObjectReader {
     /*
      * (non-Javadoc) (Javadoc is automaticly inherited from the link below)
      * @see
-     * org.openscience.cdk.io.ChemObjectReader#read(org.openscience.cdk.ChemObject
+     * org.openscience.cdk.io.ChemObjectReader#read(org.openscience.cdk.data.ChemObject
      * )
      */
     @Override
@@ -418,7 +418,7 @@ public class GamessReader extends DefaultChemObjectReader {
      *
      * @return	The scaling conversion factor: 1 if no scaling is needed and <code>BOHR_TO_ANGSTROM</code> if scaling has to be performed.
      *
-     * @see org.openscience.cdk.PhysicalConstants#BOHR_TO_ANGSTROM
+     * @see PhysicalConstants#BOHR_TO_ANGSTROM
      * @see org.openscience.cdk.io.GamessReader#BOHR_UNIT
      * @see org.openscience.cdk.io.GamessReader#ANGSTROM_UNIT
      */

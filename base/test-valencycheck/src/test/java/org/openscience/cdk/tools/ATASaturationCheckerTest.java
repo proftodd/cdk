@@ -21,10 +21,10 @@ package org.openscience.cdk.tools;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomType;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomType;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.exception.InvalidSmilesException;
@@ -46,7 +46,7 @@ import org.openscience.cdk.tools.manipulator.AtomTypeManipulator;
  * @cdk.created 2012-04-18
  * @cdk.module  test-valencycheck
  */
-public class ATASaturationCheckerTest extends org.openscience.cdk.CDKTestCase {
+public class ATASaturationCheckerTest extends CDKTestCase {
 
     SaturationChecker                      satcheck   = null;
     boolean                                standAlone = false;

@@ -23,8 +23,8 @@ import java.util.Iterator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * Checks the functionality of {@link IMolecularFormula} implementations.

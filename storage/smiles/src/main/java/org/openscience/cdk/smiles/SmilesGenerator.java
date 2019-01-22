@@ -22,7 +22,7 @@
  */
 package org.openscience.cdk.smiles;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.ConnectedComponents;
@@ -201,7 +201,7 @@ import java.util.Set;
  * @see org.openscience.cdk.stereo.StereoElementFactory
  * @see org.openscience.cdk.interfaces.ITetrahedralChirality
  * @see org.openscience.cdk.interfaces.IDoubleBondStereochemistry
- * @see org.openscience.cdk.CDKConstants
+ * @see CDKConstants
  * @see SmilesParser
  */
 public final class SmilesGenerator {
@@ -251,7 +251,7 @@ public final class SmilesGenerator {
 
     /**
      * Specifies that the generator should write atom classes in SMILES. Atom
-     * classes are provided by the {@link org.openscience.cdk.CDKConstants#ATOM_ATOM_MAPPING}
+     * classes are provided by the {@link CDKConstants#ATOM_ATOM_MAPPING}
      * property. This method returns a new SmilesGenerator to use.
      *
      * <blockquote><pre>

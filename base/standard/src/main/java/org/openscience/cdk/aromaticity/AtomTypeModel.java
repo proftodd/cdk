@@ -26,7 +26,7 @@ package org.openscience.cdk.aromaticity;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.NoSuchAtomTypeException;
 import org.openscience.cdk.interfaces.IAtom;

@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.debug;
 
-import org.openscience.cdk.RingSet;
+import org.openscience.cdk.data.RingSet;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IRing;

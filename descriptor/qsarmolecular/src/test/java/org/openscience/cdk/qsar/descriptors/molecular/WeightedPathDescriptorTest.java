@@ -24,7 +24,8 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
@@ -70,7 +71,7 @@ public class WeightedPathDescriptorTest extends MolecularDescriptorTest {
         String filename = "data/mdl/wpo.sdf";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         ISimpleChemObjectReader reader = new MDLV2000Reader(ins);
-        IChemFile content = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile content = (IChemFile) reader.read(new ChemFile());
         List cList = ChemFileManipulator.getAllAtomContainers(content);
         mol = (IAtomContainer) cList.get(0);
         mol = AtomContainerManipulator.removeHydrogens(mol);
@@ -86,7 +87,7 @@ public class WeightedPathDescriptorTest extends MolecularDescriptorTest {
         filename = "data/mdl/wpn.sdf";
         ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         reader = new MDLV2000Reader(ins);
-        content = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        content = (IChemFile) reader.read(new ChemFile());
         cList = ChemFileManipulator.getAllAtomContainers(content);
         mol = (IAtomContainer) cList.get(0);
         mol = AtomContainerManipulator.removeHydrogens(mol);

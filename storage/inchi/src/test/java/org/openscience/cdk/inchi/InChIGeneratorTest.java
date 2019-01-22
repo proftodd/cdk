@@ -33,8 +33,8 @@ import javax.vecmath.Point3d;
 import net.sf.jniinchi.INCHI_OPTION;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.*;
 import org.openscience.cdk.config.Elements;
+import org.openscience.cdk.data.*;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
@@ -50,6 +50,7 @@ import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import net.sf.jniinchi.INCHI_RET;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * TestCase for the InChIGenerator.

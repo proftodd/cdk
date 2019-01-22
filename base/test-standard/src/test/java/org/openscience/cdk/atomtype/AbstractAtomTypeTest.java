@@ -25,8 +25,8 @@ import java.util.Map;
 import java.util.Set;
 
 import org.junit.Assert;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.NoSuchAtomTypeException;
 import org.openscience.cdk.interfaces.IAtom;

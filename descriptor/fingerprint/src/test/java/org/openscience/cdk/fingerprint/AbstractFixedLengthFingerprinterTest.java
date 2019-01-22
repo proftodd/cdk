@@ -24,9 +24,8 @@ package org.openscience.cdk.fingerprint;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;
 import org.openscience.cdk.aromaticity.Kekulization;
 import org.openscience.cdk.exception.CDKException;

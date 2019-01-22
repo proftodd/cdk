@@ -27,7 +27,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.exception.InvalidSmilesException;
 import org.openscience.cdk.interfaces.IAtomContainer;

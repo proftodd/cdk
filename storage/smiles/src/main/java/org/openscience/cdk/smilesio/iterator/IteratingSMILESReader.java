@@ -29,7 +29,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.NoSuchElementException;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
@@ -81,7 +81,7 @@ public class IteratingSMILESReader extends DefaultIteratingChemObjectReader<IAto
      *
      * @param  in  The Reader to read from
      * @param builder The builder to use
-     * @see org.openscience.cdk.DefaultChemObjectBuilder
+     * @see DefaultChemObjectBuilder
      * @see org.openscience.cdk.silent.SilentChemObjectBuilder
      */
     public IteratingSMILESReader(Reader in, IChemObjectBuilder builder) {

@@ -34,7 +34,7 @@ import java.util.StringTokenizer;
 import javax.vecmath.Point3d;
 
 import com.google.common.collect.ImmutableMap;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.exception.CDKException;

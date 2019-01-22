@@ -26,14 +26,14 @@ package org.openscience.cdk.io;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemModel;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.PseudoAtom;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemModel;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.PseudoAtom;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -63,7 +63,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 
 /**
  * TestCase for the writer MDL mol files using one test file.

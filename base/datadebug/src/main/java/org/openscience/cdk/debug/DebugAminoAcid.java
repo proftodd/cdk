@@ -21,7 +21,7 @@ package org.openscience.cdk.debug;
 import java.util.List;
 import java.util.Map;
 
-import org.openscience.cdk.AminoAcid;
+import org.openscience.cdk.data.AminoAcid;
 import org.openscience.cdk.interfaces.IAminoAcid;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

@@ -18,7 +18,7 @@
  */
 package org.openscience.cdk.qsar;
 
-import org.openscience.cdk.IImplementationSpecification;
+import org.openscience.cdk.standard.IImplementationSpecification;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.qsar.result.IDescriptorResult;

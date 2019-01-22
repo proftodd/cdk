@@ -27,7 +27,8 @@ import java.io.ByteArrayInputStream;
 import nu.xom.Element;
 
 import org.junit.Assert;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.interfaces.IChemFile;
@@ -67,7 +68,7 @@ public class CMLRoundTripTool extends CDKTestCase {
         logger.debug("CML string: ", cmlString);
         CMLReader reader = new CMLReader(new ByteArrayInputStream(cmlString.getBytes()));
 
-        IChemFile file = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile file = (IChemFile) reader.read(new ChemFile());
         reader.close();
         Assert.assertNotNull(file);
         Assert.assertEquals(1, file.getChemSequenceCount());
@@ -115,7 +116,7 @@ public class CMLRoundTripTool extends CDKTestCase {
         logger.debug("CML string: ", cmlString);
         CMLReader reader = new CMLReader(new ByteArrayInputStream(cmlString.getBytes()));
 
-        IChemFile file = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile file = (IChemFile) reader.read(new ChemFile());
         reader.close();
         Assert.assertNotNull(file);
         Assert.assertEquals(1, file.getChemSequenceCount());

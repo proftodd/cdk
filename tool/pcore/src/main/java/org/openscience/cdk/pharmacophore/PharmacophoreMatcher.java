@@ -30,7 +30,8 @@ import java.util.Set;
 import javax.vecmath.Point3d;
 
 import com.google.common.collect.HashBiMap;
-import org.openscience.cdk.AtomRef;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.data.ConformerContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;
@@ -62,7 +63,7 @@ import org.openscience.cdk.tools.LoggingToolFactory;
  * 
  * Given the query pharmacophore one can use this class to check with it occurs in a specified molecule.
  * Note that for full generality pharmacophore searches are performed using conformations of molecules.
- * This can easily be accomplished using this class together with the {@link org.openscience.cdk.ConformerContainer}
+ * This can easily be accomplished using this class together with the {@link ConformerContainer}
  * class.  See the example below.
  * 
  * Currently this class will allow you to perform pharmacophore searches using triads, quads or any number

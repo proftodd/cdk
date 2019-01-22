@@ -24,7 +24,7 @@ package org.openscience.cdk.smsd.algorithm.mcsplus;
 
 import static org.junit.Assert.assertNotNull;
 
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.exception.CDKException;
 
 import org.junit.After;

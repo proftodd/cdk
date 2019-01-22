@@ -24,9 +24,9 @@
 package org.openscience.cdk.smarts;
 
 import org.junit.Test;
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.BondRef;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.core.BondRef;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -37,7 +37,6 @@ import org.openscience.cdk.isomorphism.matchers.QueryAtom;
 import org.openscience.cdk.isomorphism.matchers.QueryAtomContainer;
 import org.openscience.cdk.isomorphism.matchers.QueryBond;
 import org.openscience.cdk.silent.AtomContainer;
-import org.openscience.cdk.smarts.Smarts;
 
 import static org.hamcrest.CoreMatchers.anyOf;
 import static org.hamcrest.CoreMatchers.is;

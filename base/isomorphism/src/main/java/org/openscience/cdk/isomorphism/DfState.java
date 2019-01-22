@@ -165,7 +165,7 @@ final class DfState implements Iterable<int[]> {
             return BUILDER;
         for (String name : new String[]{
                 "org.openscience.cdk.silent.SilentChemObjectBuilder",
-                "org.openscience.cdk.DefaultChemObjectBuilder"
+                "org.openscience.cdk.data.DefaultChemObjectBuilder"
         }) {
             try {
                 Class<?> cls    = Class.forName(name);

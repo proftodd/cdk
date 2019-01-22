@@ -25,7 +25,7 @@
 package org.openscience.cdk.forcefield.mmff;
 
 import org.junit.Assert;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.smiles.SmilesGenerator;

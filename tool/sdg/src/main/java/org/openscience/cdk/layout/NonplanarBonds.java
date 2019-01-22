@@ -26,7 +26,7 @@ package org.openscience.cdk.layout;
 
 import com.google.common.collect.Maps;
 import com.google.common.primitives.Ints;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.interfaces.IAtom;

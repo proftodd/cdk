@@ -38,7 +38,7 @@ import java.util.Arrays;
 import java.util.Set;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 import static org.openscience.cdk.graph.GraphUtil.EdgeToBondMap;
 
 /**

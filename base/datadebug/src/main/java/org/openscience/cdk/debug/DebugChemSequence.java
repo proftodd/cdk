@@ -20,7 +20,7 @@ package org.openscience.cdk.debug;
 
 import java.util.Map;
 
-import org.openscience.cdk.ChemSequence;
+import org.openscience.cdk.data.ChemSequence;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemObjectChangeEvent;
 import org.openscience.cdk.interfaces.IChemObjectListener;

@@ -26,12 +26,11 @@ import javax.vecmath.Point2d;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.PseudoAtom;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.PseudoAtom;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;

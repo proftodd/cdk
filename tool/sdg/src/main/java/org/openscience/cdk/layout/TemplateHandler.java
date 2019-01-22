@@ -27,7 +27,7 @@
 package org.openscience.cdk.layout;
 
 import com.google.common.collect.FluentIterable;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;

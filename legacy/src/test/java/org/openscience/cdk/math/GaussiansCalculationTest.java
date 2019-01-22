@@ -22,8 +22,8 @@
  */
 package org.openscience.cdk.math;
 
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemModel;

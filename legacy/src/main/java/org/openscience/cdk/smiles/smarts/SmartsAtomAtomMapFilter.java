@@ -27,8 +27,8 @@ import com.google.common.base.Predicate;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 import com.google.common.primitives.Ints;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ReactionRole;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.reactions.ReactionRole;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 

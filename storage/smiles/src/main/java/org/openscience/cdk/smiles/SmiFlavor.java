@@ -23,6 +23,7 @@
 
 package org.openscience.cdk.smiles;
 
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IPseudoAtom;
@@ -49,7 +50,7 @@ public final class SmiFlavor {
 
     /**
      * Output atom-atom mapping for reactions and atom classes for molecules. The
-     * map index is set on an atom with property {@link org.openscience.cdk.CDKConstants#ATOM_ATOM_MAPPING}
+     * map index is set on an atom with property {@link CDKConstants#ATOM_ATOM_MAPPING}
      * using {@link org.openscience.cdk.interfaces.IAtom#setProperty(Object, Object)}.
      */
     public static final int AtomAtomMap        = 0x004;
@@ -138,7 +139,7 @@ public final class SmiFlavor {
 
     /**
      * Output atom values, atom values are specified by the property 
-     * {@link org.openscience.cdk.CDKConstants#COMMENT} using 
+     * {@link CDKConstants#COMMENT} using
      * {@link org.openscience.cdk.interfaces.IAtom#setProperty(Object, Object)}
      */
     public static final int CxAtomValue         = 0x010000;

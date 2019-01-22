@@ -18,11 +18,11 @@
  */
 package org.openscience.cdk.io.inchi;
 
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.AtomContainerSet;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemModel;
-import org.openscience.cdk.ChemSequence;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.AtomContainerSet;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemModel;
+import org.openscience.cdk.data.ChemSequence;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.tools.ILoggingTool;

@@ -24,14 +24,14 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemObject;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.LonePair;
-import org.openscience.cdk.SingleElectron;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemObject;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.LonePair;
+import org.openscience.cdk.data.SingleElectron;
 import org.openscience.cdk.exception.InvalidSmilesException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
@@ -67,7 +67,7 @@ public class ConnectivityCheckerTest extends CDKTestCase {
     @Test
     public void testPartitionIntoMolecules_IAtomContainer() {
         //logger.debug(atomCon);
-        AtomContainer atomCon = new org.openscience.cdk.AtomContainer();
+        AtomContainer atomCon = new AtomContainer();
         atomCon.add(TestMoleculeFactory.make4x3CondensedRings());
         atomCon.add(TestMoleculeFactory.makeAlphaPinene());
         atomCon.add(TestMoleculeFactory.makeSpiroRings());
@@ -81,7 +81,7 @@ public class ConnectivityCheckerTest extends CDKTestCase {
      */
     @Test
     public void testPartitionIntoMoleculesKeepsAtomIDs() {
-        AtomContainer atomCon = new org.openscience.cdk.AtomContainer();
+        AtomContainer atomCon = new AtomContainer();
         Atom atom1 = new Atom("C");
         atom1.setID("atom1");
         Atom atom2 = new Atom("C");
@@ -105,7 +105,7 @@ public class ConnectivityCheckerTest extends CDKTestCase {
     @Test
     public void testPartitionIntoMolecules_IsConnected_Consistency() {
         //logger.debug(atomCon);
-        AtomContainer atomCon = new org.openscience.cdk.AtomContainer();
+        AtomContainer atomCon = new AtomContainer();
         atomCon.add(TestMoleculeFactory.make4x3CondensedRings());
         atomCon.add(TestMoleculeFactory.makeAlphaPinene());
         atomCon.add(TestMoleculeFactory.makeSpiroRings());
@@ -124,7 +124,7 @@ public class ConnectivityCheckerTest extends CDKTestCase {
      */
     @Test
     public void testDontDeleteSingleElectrons() {
-        AtomContainer atomCon = new org.openscience.cdk.AtomContainer();
+        AtomContainer atomCon = new AtomContainer();
         // make two molecules; one with an LonePair, the other with a SingleElectron
         IAtomContainer mol1 = new AtomContainer();
         Atom atom1 = new Atom("C");

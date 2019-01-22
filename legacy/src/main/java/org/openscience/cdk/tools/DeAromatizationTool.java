@@ -25,8 +25,8 @@ package org.openscience.cdk.tools;
 
 import java.util.List;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.Element;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.Element;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
