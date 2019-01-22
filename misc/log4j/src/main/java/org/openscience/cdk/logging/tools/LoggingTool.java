@@ -17,7 +17,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.tools;
+package org.openscience.cdk.logging.tools;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
@@ -25,6 +25,7 @@ import java.io.StringReader;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.openscience.cdk.tools.ILoggingTool;
 
 /**
  * Useful for logging messages. Often used as a class static variable instantiated like:

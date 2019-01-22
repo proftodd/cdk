@@ -20,6 +20,7 @@ package org.openscience.cdk.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.logging.tools.LoggingTool;
 
 /**
  * @cdk.module test-core
