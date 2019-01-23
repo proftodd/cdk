@@ -44,7 +44,7 @@ import org.openscience.cdk.io.formats.IResourceFormat;
 import org.openscience.cdk.io.setting.BooleanIOSetting;
 import org.openscience.cdk.io.setting.IOSetting;
 import org.openscience.cdk.io.setting.StringIOSetting;
-import org.openscience.cdk.ioformats.tools.DataFeatures;
+import org.openscience.cdk.io.formats.tools.DataFeatures;
 import org.openscience.cdk.standard.tools.IDCreator;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;

@@ -35,7 +35,7 @@ import java.util.Map;
 
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;
-import org.openscience.cdk.ioformats.tools.DataFeatures;
+import org.openscience.cdk.io.formats.tools.DataFeatures;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 

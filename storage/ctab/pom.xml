@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>org.openscience.cdk</groupId>
-            <artifactId>cdk-ioformats</artifactId>
+            <artifactId>cdk-coreio</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
