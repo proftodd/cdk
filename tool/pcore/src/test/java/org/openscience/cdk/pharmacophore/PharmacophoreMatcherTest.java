@@ -28,14 +28,14 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.ConformerContainer;
+import org.openscience.cdk.ctab.io.iterator.ConformerContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.io.iterator.IteratingMDLConformerReader;
-import org.openscience.cdk.io.iterator.IteratingSDFReader;
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.BondRef;
+import org.openscience.cdk.ctab.io.iterator.event.IteratingMDLConformerReader;
+import org.openscience.cdk.ctab.io.iterator.IteratingSDFReader;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.core.BondRef;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 
 /**

@@ -19,13 +19,13 @@ package org.openscience.cdk.qsar.descriptors.substance;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.Substance;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Substance;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.interfaces.ISubstance;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.qsar.result.IntegerResult;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
 
 public class OxygenAtomCountDescriptorTest extends SubstanceDescriptorTest {
 

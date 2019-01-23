@@ -25,9 +25,9 @@
 package org.openscience.cdk.isomorphism;
 
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 
-import static org.openscience.cdk.CDKConstants.ISAROMATIC;
+import static org.openscience.cdk.core.CDKConstants.ISAROMATIC;
 
 /**
  * Defines compatibility checking of bonds for (subgraph)-isomorphism mapping.

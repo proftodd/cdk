@@ -21,9 +21,8 @@ package org.openscience.cdk.config;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.ChemObject;
-import org.openscience.cdk.config.CDKBasedAtomTypeConfigurator;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.ChemObject;
+import org.openscience.cdk.tools.CDKTestCase;
 
 import java.io.InputStream;
 

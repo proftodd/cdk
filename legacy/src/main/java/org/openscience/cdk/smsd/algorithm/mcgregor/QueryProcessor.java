@@ -26,7 +26,7 @@ package org.openscience.cdk.smsd.algorithm.mcgregor;
 import java.util.ArrayList;
 import java.util.List;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 
 /**
  * Class to handle mappings of query molecule.

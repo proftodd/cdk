@@ -23,7 +23,7 @@
 
 package org.openscience.cdk.geometry;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
@@ -35,10 +35,10 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.sgroup.Sgroup;
 import org.openscience.cdk.sgroup.SgroupBracket;
 import org.openscience.cdk.sgroup.SgroupKey;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.ChemModelManipulator;
-import org.openscience.cdk.tools.manipulator.ReactionManipulator;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
+import org.openscience.cdk.standard.tools.manipulator.ChemModelManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ReactionManipulator;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;
@@ -1162,7 +1162,7 @@ public final class GeometryUtil {
         double ratio;
         /*
          * Desired bond length for storing structures in MDL mol files This
-         * should probably be set externally (from system wide settings)
+         * should probably be set externally (from system wide setting)
          */
         double desiredBondLength = 1.5;
         // loop over all bonds and determine the mean bond distance

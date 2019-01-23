@@ -26,7 +26,7 @@ package org.openscience.cdk.layout;
 
 import com.google.common.collect.Maps;
 import com.google.common.primitives.Ints;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.interfaces.IAtom;
@@ -36,12 +36,12 @@ import org.openscience.cdk.interfaces.IDoubleBondStereochemistry;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.ringsearch.RingSearch;
-import org.openscience.cdk.stereo.Atropisomeric;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.Octahedral;
-import org.openscience.cdk.stereo.SquarePlanar;
-import org.openscience.cdk.stereo.TrigonalBipyramidal;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.basestereo.Atropisomeric;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.Octahedral;
+import org.openscience.cdk.basestereo.SquarePlanar;
+import org.openscience.cdk.basestereo.TrigonalBipyramidal;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point2d;
 import javax.vecmath.Vector2d;

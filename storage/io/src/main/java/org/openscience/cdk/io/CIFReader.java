@@ -28,8 +28,8 @@ import org.openscience.cdk.geometry.CrystalGeometryTools;
 import org.openscience.cdk.interfaces.*;
 import org.openscience.cdk.io.formats.CIFFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;

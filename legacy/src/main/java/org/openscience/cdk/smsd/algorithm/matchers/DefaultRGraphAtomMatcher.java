@@ -48,7 +48,7 @@ package org.openscience.cdk.smsd.algorithm.matchers;
 
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 /**
  * Checks if atom is matching between query and target molecules.

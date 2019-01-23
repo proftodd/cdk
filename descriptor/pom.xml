@@ -13,7 +13,6 @@
     <modules>
         <module>fingerprint</module>
         <module>cip</module>
-        <module>signature</module>
         <module>qsar</module>
         <module>ionpot</module>
         <module>qsaratomic</module>

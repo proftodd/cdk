@@ -27,11 +27,11 @@ import java.io.InputStream;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.Crystal;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.Crystal;
 import org.openscience.cdk.geometry.CrystalGeometryTools;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * @cdk.module test-io

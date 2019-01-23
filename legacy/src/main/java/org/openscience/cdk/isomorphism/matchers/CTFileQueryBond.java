@@ -22,10 +22,11 @@
  */
 package org.openscience.cdk.isomorphism.matchers;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 
 /**
  * Captures query bond types defined in the CTFile.

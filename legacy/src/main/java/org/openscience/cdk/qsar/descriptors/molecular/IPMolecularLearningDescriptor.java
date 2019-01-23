@@ -34,8 +34,8 @@ import org.openscience.cdk.qsar.result.DoubleArrayResult;
 import org.openscience.cdk.qsar.result.DoubleResult;
 import org.openscience.cdk.qsar.result.DoubleResultType;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
-import org.openscience.cdk.tools.IonizationPotentialTool;
-import org.openscience.cdk.tools.LonePairElectronChecker;
+import org.openscience.cdk.legacy.tools.IonizationPotentialTool;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
 
 /**
  *  This class returns the ionization potential of a molecule. Up to now is

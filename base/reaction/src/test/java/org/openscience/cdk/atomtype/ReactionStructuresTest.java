@@ -20,8 +20,8 @@ package org.openscience.cdk.atomtype;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.SingleElectron;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.SingleElectron;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IBond;
@@ -36,8 +36,8 @@ import org.openscience.cdk.reaction.type.HeterolyticCleavageSBReactionTest;
 import org.openscience.cdk.reaction.type.HomolyticCleavageReactionTest;
 import org.openscience.cdk.reaction.type.RadicalSiteInitiationHReactionTest;
 import org.openscience.cdk.reaction.type.SharingChargeDBReactionTest;
-import org.openscience.cdk.tools.LonePairElectronChecker;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
  * @cdk.module test-reaction

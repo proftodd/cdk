@@ -20,8 +20,8 @@ package org.openscience.cdk.debug;
 
 import org.openscience.cdk.interfaces.IPDBMonomer;
 import org.openscience.cdk.protein.data.PDBMonomer;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Debugging data class.

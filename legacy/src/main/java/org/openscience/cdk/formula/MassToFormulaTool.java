@@ -32,19 +32,20 @@ import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.config.IsotopeFactory;
 import org.openscience.cdk.exception.CDKException;
-import org.openscience.cdk.formula.rules.ChargeRule;
-import org.openscience.cdk.formula.rules.ElementRule;
-import org.openscience.cdk.formula.rules.IRule;
-import org.openscience.cdk.formula.rules.ToleranceRangeRule;
+import org.openscience.cdk.io.formula.rules.ChargeRule;
+import org.openscience.cdk.io.formula.rules.ElementRule;
+import org.openscience.cdk.io.formula.rules.IRule;
+import org.openscience.cdk.io.formula.rules.ToleranceRangeRule;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.interfaces.IMolecularFormulaSet;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaRangeManipulator;
+import org.openscience.cdk.io.formula.MolecularFormulaRange;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaRangeManipulator;
 
 /**
  * <p>Tool to determine molecular formula consistent with a given accurate mass. The

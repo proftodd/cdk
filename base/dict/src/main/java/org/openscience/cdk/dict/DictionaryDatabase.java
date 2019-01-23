@@ -30,8 +30,8 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Database of dictionaries listing entries with compounds, fragments

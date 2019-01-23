@@ -30,23 +30,20 @@ import java.util.Set;
 import javax.vecmath.Point3d;
 
 import com.google.common.collect.HashBiMap;
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.aromaticity.Aromaticity;
-import org.openscience.cdk.aromaticity.ElectronDonation;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.ctab.io.iterator.ConformerContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
-import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.isomorphism.Mappings;
 import org.openscience.cdk.isomorphism.Pattern;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 import org.openscience.cdk.smarts.SmartsPattern;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Identifies atoms whose 3D arrangement matches a specified pharmacophore query.
@@ -66,7 +63,7 @@ import org.openscience.cdk.tools.LoggingToolFactory;
  * 
  * Given the query pharmacophore one can use this class to check with it occurs in a specified molecule.
  * Note that for full generality pharmacophore searches are performed using conformations of molecules.
- * This can easily be accomplished using this class together with the {@link org.openscience.cdk.ConformerContainer}
+ * This can easily be accomplished using this class together with the {@link ConformerContainer}
  * class.  See the example below.
  * 
  * Currently this class will allow you to perform pharmacophore searches using triads, quads or any number

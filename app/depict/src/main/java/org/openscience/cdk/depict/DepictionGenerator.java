@@ -19,7 +19,7 @@
 package org.openscience.cdk.depict;
 
 import com.google.common.collect.FluentIterable;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;
@@ -33,17 +33,17 @@ import org.openscience.cdk.renderer.RendererModel;
 import org.openscience.cdk.renderer.SymbolVisibility;
 import org.openscience.cdk.renderer.color.CDK2DAtomColors;
 import org.openscience.cdk.renderer.color.IAtomColorer;
-import org.openscience.cdk.renderer.elements.Bounds;
-import org.openscience.cdk.renderer.elements.ElementGroup;
+import org.openscience.cdk.renderbasic.elements.Bounds;
+import org.openscience.cdk.renderbasic.elements.ElementGroup;
 import org.openscience.cdk.renderer.elements.IRenderingElement;
-import org.openscience.cdk.renderer.elements.MarkedElement;
-import org.openscience.cdk.renderer.generators.BasicSceneGenerator;
-import org.openscience.cdk.renderer.generators.BasicSceneGenerator.BackgroundColor;
+import org.openscience.cdk.renderbasic.elements.MarkedElement;
+import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator;
+import org.openscience.cdk.renderbasic.generators.BasicSceneGenerator.BackgroundColor;
 import org.openscience.cdk.renderer.generators.IGenerator;
 import org.openscience.cdk.renderer.generators.IGeneratorParameter;
-import org.openscience.cdk.renderer.generators.standard.SelectionVisibility;
-import org.openscience.cdk.renderer.generators.standard.StandardGenerator;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.renderbasic.generators.standard.SelectionVisibility;
+import org.openscience.cdk.renderbasic.generators.standard.StandardGenerator;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import javax.vecmath.Point2d;
 import java.awt.Color;
@@ -854,7 +854,7 @@ public final class DepictionGenerator {
 
     /**
      * Display a molecule title with each depiction. The title
-     * is specified by setting the {@link org.openscience.cdk.CDKConstants#TITLE}
+     * is specified by setting the {@link CDKConstants#TITLE}
      * property. For reactions only the main components have their
      * title displayed.
      *
@@ -868,7 +868,7 @@ public final class DepictionGenerator {
 
     /**
      * Display a reaction title with the depiction. The title
-     * is specified by setting the {@link org.openscience.cdk.CDKConstants#TITLE}
+     * is specified by setting the {@link CDKConstants#TITLE}
      * property on the {@link IReaction} instance.
      *
      * @return new generator for method chaining

@@ -23,7 +23,7 @@ import static org.mockito.Mockito.when;
 
 import java.io.IOException;
 
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.tools.diff.tree.IDifference;
 

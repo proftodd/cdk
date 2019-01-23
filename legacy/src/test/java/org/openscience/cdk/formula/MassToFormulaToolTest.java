@@ -26,20 +26,21 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.io.formula.MolecularFormulaRange;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.config.IsotopeFactory;
-import org.openscience.cdk.formula.rules.ChargeRule;
-import org.openscience.cdk.formula.rules.ElementRule;
-import org.openscience.cdk.formula.rules.IRule;
-import org.openscience.cdk.formula.rules.IsotopePatternRule;
-import org.openscience.cdk.formula.rules.ToleranceRangeRule;
+import org.openscience.cdk.io.formula.rules.ChargeRule;
+import org.openscience.cdk.io.formula.rules.ElementRule;
+import org.openscience.cdk.io.formula.rules.IRule;
+import org.openscience.cdk.io.formula.rules.IsotopePatternRule;
+import org.openscience.cdk.io.formula.rules.ToleranceRangeRule;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.interfaces.IMolecularFormulaSet;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 
 /**
  * Checks the functionality of the MassToFormulaTool.

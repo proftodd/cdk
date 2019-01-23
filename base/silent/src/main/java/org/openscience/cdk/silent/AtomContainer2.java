@@ -22,7 +22,7 @@
  */
 package org.openscience.cdk.silent;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.NoSuchAtomException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -37,14 +37,14 @@ import org.openscience.cdk.interfaces.IPDBAtom;
 import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.interfaces.ISingleElectron;
 import org.openscience.cdk.interfaces.IStereoElement;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.BondRef;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.core.BondRef;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.sgroup.Sgroup;
-import org.openscience.cdk.stereo.DoubleBondStereochemistry;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.tools.manipulator.SgroupManipulator;
 
 import java.util.ArrayList;

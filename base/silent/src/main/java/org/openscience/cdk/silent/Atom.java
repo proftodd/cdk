@@ -28,8 +28,8 @@ import java.util.Objects;
 import javax.vecmath.Point2d;
 import javax.vecmath.Point3d;
 
-import org.openscience.cdk.AtomRef;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.AtomRef;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -376,7 +376,7 @@ public class Atom extends AtomType implements IAtom, Serializable, Cloneable {
      *
      * @param  stereoParity  The stereo parity for this atom
      *
-     * @see    org.openscience.cdk.CDKConstants for predefined values.
+     * @see    CDKConstants for predefined values.
      * @see    #getStereoParity
      */
     @Override
@@ -417,7 +417,7 @@ public class Atom extends AtomType implements IAtom, Serializable, Cloneable {
      * @return    A point in 3d fractional unit cell space. Null if unset.
      *
      * @see       #setFractionalPoint3d
-     * @see       org.openscience.cdk.CDKConstants for predefined values.
+     * @see       CDKConstants for predefined values.
      */
     @Override
     public Point3d getFractionalPoint3d() {
@@ -430,7 +430,7 @@ public class Atom extends AtomType implements IAtom, Serializable, Cloneable {
      *
      * @return    The stereo parity for this atom
      *
-     * @see       org.openscience.cdk.CDKConstants
+     * @see       CDKConstants
      * @see       #setStereoParity
      */
     @Override

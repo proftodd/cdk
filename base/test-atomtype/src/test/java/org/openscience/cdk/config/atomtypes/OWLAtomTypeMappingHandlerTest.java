@@ -21,7 +21,8 @@ package org.openscience.cdk.config.atomtypes;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.config.atomtypes.owl.OWLAtomTypeMappingHandler;
 
 /**
  * Checks the functionality of the {@link OWLAtomTypeMappingHandler}.

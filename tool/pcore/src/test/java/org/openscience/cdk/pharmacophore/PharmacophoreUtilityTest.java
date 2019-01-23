@@ -27,14 +27,13 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ConformerContainer;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.ctab.io.iterator.ConformerContainer;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.io.iterator.IteratingMDLConformerReader;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
+import org.openscience.cdk.ctab.io.iterator.event.IteratingMDLConformerReader;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
 
 /**
  * @cdk.module test-pcore

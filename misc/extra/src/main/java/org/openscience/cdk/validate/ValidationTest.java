@@ -19,6 +19,7 @@
  */
 package org.openscience.cdk.validate;
 
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IChemObject;
 
 /**
@@ -28,7 +29,7 @@ import org.openscience.cdk.interfaces.IChemObject;
  * @cdk.githash
  * @cdk.created  2003-03-28
  *
- * @see      org.openscience.cdk.ChemObject
+ * @see      ChemObject
  * @cdk.keyword atom, chemical validation
  */
 public class ValidationTest {

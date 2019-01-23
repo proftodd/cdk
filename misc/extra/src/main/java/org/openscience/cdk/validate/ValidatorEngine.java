@@ -33,8 +33,8 @@ import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.IReactionSet;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import java.util.Hashtable;
 import java.util.Iterator;
@@ -84,7 +84,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateAtom(IAtom subject) {
-        logger.info("Validating org.openscience.cdk.Atom");
+        logger.info("Validating org.openscience.cdk.data.Atom");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -98,7 +98,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateAtomContainer(IAtomContainer subject) {
-        logger.info("Validating org.openscience.cdk.AtomContainer");
+        logger.info("Validating org.openscience.cdk.data.AtomContainer");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -122,7 +122,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateAtomType(IAtomType subject) {
-        logger.info("Validating org.openscience.cdk.AtomType");
+        logger.info("Validating org.openscience.cdk.data.AtomType");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -136,7 +136,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateBond(IBond subject) {
-        logger.info("Validating org.openscience.cdk.Bond");
+        logger.info("Validating org.openscience.cdk.data.Bond");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -154,7 +154,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateChemFile(IChemFile subject) {
-        logger.info("Validating org.openscience.cdk.ChemFile");
+        logger.info("Validating org.openscience.cdk.data.ChemFile");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -171,7 +171,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateChemModel(IChemModel subject) {
-        logger.info("Validating org.openscience.cdk.ChemModel");
+        logger.info("Validating org.openscience.cdk.data.ChemModel");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -197,7 +197,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateChemObject(IChemObject subject) {
-        logger.info("Validating org.openscience.cdk.ChemObject");
+        logger.info("Validating org.openscience.cdk.data.ChemObject");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -210,7 +210,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateChemSequence(IChemSequence subject) {
-        logger.info("Validating org.openscience.cdk.ChemSequence");
+        logger.info("Validating org.openscience.cdk.data.ChemSequence");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -228,7 +228,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateCrystal(ICrystal subject) {
-        logger.info("Validating org.openscience.cdk.Crystal");
+        logger.info("Validating org.openscience.cdk.data.Crystal");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -242,7 +242,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateElectronContainer(IElectronContainer subject) {
-        logger.info("Validating org.openscience.cdk.ElectronContainer");
+        logger.info("Validating org.openscience.cdk.data.ElectronContainer");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -256,7 +256,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateElement(IElement subject) {
-        logger.info("Validating org.openscience.cdk.Element");
+        logger.info("Validating org.openscience.cdk.data.Element");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -270,7 +270,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateIsotope(IIsotope subject) {
-        logger.info("Validating org.openscience.cdk.Isotope");
+        logger.info("Validating org.openscience.cdk.data.Isotope");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -298,7 +298,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateReaction(IReaction subject) {
-        logger.info("Validating org.openscience.cdk.Reaction");
+        logger.info("Validating org.openscience.cdk.data.Reaction");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {
@@ -337,7 +337,7 @@ public class ValidatorEngine implements IValidator {
 
     @Override
     public ValidationReport validateReactionSet(IReactionSet subject) {
-        logger.info("Validating org.openscience.cdk.ReactionSet");
+        logger.info("Validating org.openscience.cdk.data.ReactionSet");
         ValidationReport report = new ValidationReport();
         // apply validators
         for (IValidator test : validators.values()) {

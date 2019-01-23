@@ -23,7 +23,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import org.openscience.cdk.ReactionSet;
+import org.openscience.cdk.data.ReactionSet;
 import org.openscience.cdk.interfaces.IReaction;
 
 /**

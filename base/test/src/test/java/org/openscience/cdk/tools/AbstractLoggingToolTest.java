@@ -21,7 +21,7 @@ package org.openscience.cdk.tools;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.logging.ILoggingTool;
 
 /**
  * @cdk.module test

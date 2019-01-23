@@ -30,8 +30,8 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.Ignore;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -39,7 +39,7 @@ import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.tools.HOSECodeGenerator;
+import org.openscience.cdk.standard.tools.HOSECodeGenerator;
 
 import org.junit.Test;
 

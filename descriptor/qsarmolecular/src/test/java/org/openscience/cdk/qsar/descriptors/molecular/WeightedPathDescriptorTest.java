@@ -24,17 +24,18 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openscience.cdk.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.io.ISimpleChemObjectReader;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.DoubleArrayResult;
 import org.openscience.cdk.smiles.SmilesParser;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
-import org.openscience.cdk.tools.manipulator.ChemFileManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
 
 /**
  * TestSuite that runs all QSAR tests.
@@ -70,7 +71,7 @@ public class WeightedPathDescriptorTest extends MolecularDescriptorTest {
         String filename = "data/mdl/wpo.sdf";
         InputStream ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         ISimpleChemObjectReader reader = new MDLV2000Reader(ins);
-        IChemFile content = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        IChemFile content = (IChemFile) reader.read(new ChemFile());
         List cList = ChemFileManipulator.getAllAtomContainers(content);
         mol = (IAtomContainer) cList.get(0);
         mol = AtomContainerManipulator.removeHydrogens(mol);
@@ -86,7 +87,7 @@ public class WeightedPathDescriptorTest extends MolecularDescriptorTest {
         filename = "data/mdl/wpn.sdf";
         ins = this.getClass().getClassLoader().getResourceAsStream(filename);
         reader = new MDLV2000Reader(ins);
-        content = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        content = (IChemFile) reader.read(new ChemFile());
         cList = ChemFileManipulator.getAllAtomContainers(content);
         mol = (IAtomContainer) cList.get(0);
         mol = AtomContainerManipulator.removeHydrogens(mol);

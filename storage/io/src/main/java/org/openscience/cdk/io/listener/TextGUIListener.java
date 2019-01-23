@@ -135,7 +135,7 @@ public class TextGUIListener implements IReaderListener, IWriterListener {
             // get the answer, only if input != null
             if (this.in == null) {
                 // don't really ask questions. This is intentional behaviour to
-                // allow for listing all questions. The settings is now defaulted,
+                // allow for listing all questions. The setting is now defaulted,
                 // which is the intention too.
             } else {
                 boolean gotAnswer = false;

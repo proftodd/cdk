@@ -20,10 +20,9 @@ package org.openscience.cdk.validate;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IChemObject;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.validate.ProblemMarker;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * @cdk.module test-standard

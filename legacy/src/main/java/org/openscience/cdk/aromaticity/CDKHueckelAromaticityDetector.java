@@ -22,7 +22,7 @@
  */
 package org.openscience.cdk.aromaticity;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.atomtype.CDKAtomTypeMatcher;
 import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.exception.CDKException;
@@ -63,7 +63,7 @@ import java.util.Set;
  * @cdk.githash
  * @cdk.created    2007-10-05
  *
- * @see org.openscience.cdk.CDKConstants
+ * @see CDKConstants
  * @see DoubleBondAcceptingAromaticityDetector
  * @deprecated use {@link Aromaticity} with the {@link ElectronDonation#cdk()} model
  */

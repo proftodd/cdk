@@ -31,7 +31,7 @@ import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.interfaces.IStereoElement;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 import javax.vecmath.Point2d;
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.openscience.cdk.CDKConstants.ISPLACED;
+import static org.openscience.cdk.core.CDKConstants.ISPLACED;
 
 /**
  * A class for helping layout macrocycles.

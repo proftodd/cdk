@@ -20,8 +20,8 @@
  */
 package org.openscience.cdk.qsar.descriptors.molecular;
 
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.atomtype.EStateAtomTypeMatcher;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.atomtype.estate.EStateAtomTypeMatcher;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -37,11 +37,11 @@ import org.openscience.cdk.qsar.result.DoubleArrayResult;
 import org.openscience.cdk.qsar.result.DoubleArrayResultType;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
 import org.openscience.cdk.ringsearch.AllRingsFinder;
-import org.openscience.cdk.tools.AtomicProperties;
-import org.openscience.cdk.tools.CDKHydrogenAdder;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.qsar.tools.AtomicProperties;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.tools.manipulator.BondManipulator;
 
 /**
@@ -85,7 +85,7 @@ import org.openscience.cdk.tools.manipulator.BondManipulator;
  * @cdk.keyword logP
  * @cdk.keyword lipophilicity
  * @cdk.keyword refractivity
- * @see org.openscience.cdk.tools.CDKHydrogenAdder
+ * @see CDKHydrogenAdder
  */
 public class ALOGPDescriptor extends AbstractMolecularDescriptor implements IMolecularDescriptor {
 

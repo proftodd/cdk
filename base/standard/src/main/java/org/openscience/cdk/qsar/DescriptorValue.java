@@ -51,7 +51,7 @@ public class DescriptorValue implements Serializable {
      *
      * @param specification The specification
      * @param parameterNames The parameter names for the descriptors
-     * @param parameterSettings  The parameter settings
+     * @param parameterSettings  The parameter setting
      * @param value  The actual values
      * @param descriptorNames The names of the values
      */
@@ -68,7 +68,7 @@ public class DescriptorValue implements Serializable {
      *
      * @param specification The specification
      * @param parameterNames The parameter names for the descriptors
-     * @param parameterSettings  The parameter settings
+     * @param parameterSettings  The parameter setting
      * @param value  The actual values
      * @param descriptorNames The names of the values
      * @param exception The exception object that should have been caught if an error occurred during descriptor

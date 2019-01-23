@@ -26,7 +26,7 @@ package org.openscience.cdk.smiles;
 
 import com.google.common.collect.FluentIterable;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
@@ -36,12 +36,10 @@ import org.openscience.cdk.interfaces.IPseudoAtom;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.stereo.ExtendedTetrahedral;
+import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import uk.ac.ebi.beam.AtomBuilder;
-import uk.ac.ebi.beam.Bond;
 import uk.ac.ebi.beam.Graph;
 import uk.ac.ebi.beam.Element;
-import uk.ac.ebi.beam.Functions;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -56,7 +54,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
-import static org.openscience.cdk.CDKConstants.ATOM_ATOM_MAPPING;
+import static org.openscience.cdk.core.CDKConstants.ATOM_ATOM_MAPPING;
 import static org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo.ANTI_CLOCKWISE;
 import static org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo.CLOCKWISE;
 

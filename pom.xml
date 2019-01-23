@@ -50,7 +50,7 @@
     </issueManagement>
 
     <!-- define the cdk.repo.url and cdk.repo.snapshots.url properties in 
-         ~/.m2/settings.xml -->
+         ~/.m2/setting.xml -->
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -500,7 +500,7 @@
                         <!-- format tests do not work (cyclic dependency) -->
                         <exclude>**/io/formats/*FormatTest.java</exclude>
                     </excludes>
-                    <excludedGroups>org.openscience.cdk.SlowTest</excludedGroups>
+                    <excludedGroups>org.openscience.cdk.tools.SlowTest</excludedGroups>
                 </configuration>
             </plugin>
             <plugin>
@@ -737,7 +737,7 @@
                                 <!-- not a test class -->
                                 <exclude>**/TestMoleculeFactory.java</exclude>
                             </excludes>
-                            <groups>org.openscience.cdk.SlowTest</groups>
+                            <groups>org.openscience.cdk.tools.SlowTest</groups>
                         </configuration>
                     </plugin>
                 </plugins>

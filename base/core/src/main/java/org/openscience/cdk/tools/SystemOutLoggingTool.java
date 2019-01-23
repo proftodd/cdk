@@ -18,6 +18,8 @@
  */
 package org.openscience.cdk.tools;
 
+import org.openscience.cdk.logging.ILoggingTool;
+
 import java.io.BufferedReader;
 import java.io.PrintWriter;
 import java.io.StringReader;

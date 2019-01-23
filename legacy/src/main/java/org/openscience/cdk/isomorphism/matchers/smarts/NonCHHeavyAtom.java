@@ -56,7 +56,7 @@ public class NonCHHeavyAtom extends SMARTSAtom {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.PseudoAtom#toString()
+     * @see org.openscience.cdk.data.PseudoAtom#toString()
      */
     @Override
     public String toString() {

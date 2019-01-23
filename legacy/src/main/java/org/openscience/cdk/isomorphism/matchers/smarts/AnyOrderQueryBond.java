@@ -20,7 +20,7 @@ package org.openscience.cdk.isomorphism.matchers.smarts;
 
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
 
 /**
  * This matches a bond of any order.
@@ -61,7 +61,7 @@ public class AnyOrderQueryBond extends SMARTSBond {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.Bond#toString()
+     * @see org.openscience.cdk.data.Bond#toString()
      */
     @Override
     public String toString() {

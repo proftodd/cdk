@@ -21,15 +21,15 @@ package org.openscience.cdk.charges;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.SlowTest;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
-import org.openscience.cdk.tools.LonePairElectronChecker;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.standard.tools.LonePairElectronChecker;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 
 /**
 * TestSuite that runs all tests.

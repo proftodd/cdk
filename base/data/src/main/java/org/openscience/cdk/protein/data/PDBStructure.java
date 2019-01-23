@@ -16,7 +16,7 @@
  */
 package org.openscience.cdk.protein.data;
 
-import org.openscience.cdk.ChemObject;
+import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.interfaces.IPDBStructure;
 
 /**

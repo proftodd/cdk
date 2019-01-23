@@ -24,8 +24,8 @@ package org.openscience.cdk.smsd.algorithm.single;
 
 import static org.junit.Assert.assertNotNull;
 
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

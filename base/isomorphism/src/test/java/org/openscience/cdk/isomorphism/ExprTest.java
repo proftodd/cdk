@@ -24,9 +24,9 @@
 package org.openscience.cdk.isomorphism;
 
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.ReactionRole;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.reactions.ReactionRole;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtom;

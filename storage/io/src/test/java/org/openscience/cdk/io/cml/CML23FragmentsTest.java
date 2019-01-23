@@ -24,8 +24,9 @@ package org.openscience.cdk.io.cml;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.dict.DictRef;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -42,7 +43,7 @@ import org.openscience.cdk.qsar.DescriptorSpecification;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.DoubleResult;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
-import org.openscience.cdk.stereo.TetrahedralChirality;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 
 import java.io.ByteArrayInputStream;
 import java.util.Iterator;
@@ -510,7 +511,7 @@ public class CML23FragmentsTest extends CDKTestCase {
     private IChemFile parseCMLString(String cmlString) throws Exception {
         IChemFile chemFile = null;
         CMLReader reader = new CMLReader(new ByteArrayInputStream(cmlString.getBytes()));
-        chemFile = (IChemFile) reader.read(new org.openscience.cdk.ChemFile());
+        chemFile = (IChemFile) reader.read(new ChemFile());
         reader.close();
         return chemFile;
     }

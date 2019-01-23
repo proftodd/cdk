@@ -18,7 +18,6 @@
  */
 package org.openscience.cdk.isomorphism.matchers.smarts;
 
-import org.openscience.cdk.CDKConstants;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 
@@ -65,7 +64,7 @@ public class OrderQueryBond extends SMARTSBond {
 
     /*
      * (non-Javadoc)
-     * @see org.openscience.cdk.Bond#toString()
+     * @see org.openscience.cdk.data.Bond#toString()
      */
     @Override
     public String toString() {

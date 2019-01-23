@@ -17,7 +17,7 @@
  */
 package org.openscience.cdk.atomtype.mapper;
 
-import org.openscience.cdk.config.atomtypes.OWLAtomTypeMappingReader;
+import org.openscience.cdk.config.atomtypes.owl.OWLAtomTypeMappingReader;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

@@ -21,9 +21,8 @@ package org.openscience.cdk.event;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.event.ChemObjectChangeEvent;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.tools.CDKTestCase;
 
 /**
  * Checks the functionality of the ChemObjectChangeEvent class.

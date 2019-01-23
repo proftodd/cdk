@@ -26,8 +26,8 @@ import java.util.List;
 import org.openscience.cdk.config.atomtypes.OWLAtomTypeReader;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * AtomType resource that reads the atom type configuration from an OWL file.

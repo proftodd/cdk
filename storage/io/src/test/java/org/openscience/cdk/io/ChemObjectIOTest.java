@@ -24,11 +24,11 @@ package org.openscience.cdk.io;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemFile;
-import org.openscience.cdk.ChemModel;
-import org.openscience.cdk.DefaultChemObjectBuilder;
-import org.openscience.cdk.Reaction;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemFile;
+import org.openscience.cdk.data.ChemModel;
+import org.openscience.cdk.data.DefaultChemObjectBuilder;
+import org.openscience.cdk.data.Reaction;
 import org.openscience.cdk.debug.DebugAtomContainer;
 import org.openscience.cdk.debug.DebugChemFile;
 import org.openscience.cdk.debug.DebugChemModel;

@@ -22,7 +22,7 @@
  */
 package org.openscience.cdk.fingerprint;
 
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtom;
@@ -33,7 +33,6 @@ import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.smarts.SmartsPattern;
 import org.openscience.cdk.tools.periodictable.PeriodicTable;
 
-import java.io.IOException;
 import java.util.BitSet;
 import java.util.HashMap;
 import java.util.Map;

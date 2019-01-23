@@ -24,6 +24,7 @@
 
 package org.openscience.cdk.aromaticity;
 
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.ringsearch.RingSearch;
 
@@ -79,8 +80,8 @@ public abstract class ElectronDonation {
      * runtime exception is thrown.  The model accepts cyclic atoms which
      * are {@link org.openscience.cdk.interfaces.IAtom.Hybridization#SP2} or
      * {@link org.openscience.cdk.interfaces.IAtom.Hybridization#PLANAR3}
-     * hybridised. The {@link org.openscience.cdk.CDKConstants#PI_BOND_COUNT} and
-     * {@link org.openscience.cdk.CDKConstants#LONE_PAIR_COUNT} to determine how
+     * hybridised. The {@link CDKConstants#PI_BOND_COUNT} and
+     * {@link CDKConstants#LONE_PAIR_COUNT} to determine how
      * many electrons an atom type can contribute. Generally these values are
      * not automatically configured and so several atom types are cached
      * for lookup: <ul> <li>N.planar3: 2 electrons </li>
@@ -104,8 +105,8 @@ public abstract class ElectronDonation {
      * runtime exception is thrown.  The model accepts cyclic atoms which
      * are {@link org.openscience.cdk.interfaces.IAtom.Hybridization#SP2} or
      * {@link org.openscience.cdk.interfaces.IAtom.Hybridization#PLANAR3}
-     * hybridised. The {@link org.openscience.cdk.CDKConstants#PI_BOND_COUNT} and
-     * {@link org.openscience.cdk.CDKConstants#LONE_PAIR_COUNT} to determine how
+     * hybridised. The {@link CDKConstants#PI_BOND_COUNT} and
+     * {@link CDKConstants#LONE_PAIR_COUNT} to determine how
      * many electrons an atom type can contribute. Generally these values are
      * not automatically configured and so several atom types are cached
      * for lookup: <ul> <li>N.planar3: 2 electrons </li>

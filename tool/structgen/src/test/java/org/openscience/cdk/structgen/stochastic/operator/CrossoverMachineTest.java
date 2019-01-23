@@ -24,16 +24,16 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.SlowTest;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.graph.ConnectivityChecker;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
-import org.openscience.cdk.io.SMILESReader;
+import org.openscience.cdk.smilesio.SMILESReader;
 import org.openscience.cdk.silent.AtomContainerSet;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 
 /**
  * @cdk.module test-structgen

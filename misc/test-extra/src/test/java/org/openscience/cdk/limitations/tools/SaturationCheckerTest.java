@@ -22,11 +22,11 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.Bond;
-import org.openscience.cdk.CDKConstants;
-import org.openscience.cdk.CDKTestCase;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.data.Bond;
+import org.openscience.cdk.core.CDKConstants;
+import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -34,7 +34,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.SaturationChecker;
+import org.openscience.cdk.tools.valencycheck.SaturationChecker;
 
 /**
  * This class shows some limitations of algorithms in the SaturationChecker
@@ -45,7 +45,7 @@ import org.openscience.cdk.tools.SaturationChecker;
  * @author     egonw
  * @cdk.created    2003-11-02
  *
- * @see org.openscience.cdk.tools.SaturationChecker
+ * @see SaturationChecker
  */
 @Ignore("Limitations actually cause failing tests")
 public class SaturationCheckerTest extends CDKTestCase {

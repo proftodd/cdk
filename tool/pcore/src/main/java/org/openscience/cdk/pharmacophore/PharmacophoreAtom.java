@@ -18,9 +18,9 @@
  */
 package org.openscience.cdk.pharmacophore;
 
-import org.openscience.cdk.Atom;
+import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.interfaces.IAtom;
-import org.openscience.cdk.AtomRef;
+import org.openscience.cdk.core.AtomRef;
 
 import javax.vecmath.Point3d;
 import java.util.Arrays;

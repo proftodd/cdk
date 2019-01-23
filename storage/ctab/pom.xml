@@ -19,7 +19,12 @@
         </dependency>
         <dependency>
             <groupId>org.openscience.cdk</groupId>
-            <artifactId>cdk-ioformats</artifactId>
+            <artifactId>cdk-coreio</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openscience.cdk</groupId>
+            <artifactId>cdk-data</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
@@ -83,7 +88,12 @@
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.openscience.cdk</groupId>
+            <artifactId>cdk-coreio</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>

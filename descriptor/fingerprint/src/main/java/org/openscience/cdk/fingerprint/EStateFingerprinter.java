@@ -22,7 +22,6 @@
  */
 package org.openscience.cdk.fingerprint;
 
-import org.openscience.cdk.config.fragments.EStateFragments;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.smarts.SmartsPattern;

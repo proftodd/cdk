@@ -56,14 +56,14 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtom;
-import org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer;
-import org.openscience.cdk.isomorphism.matchers.IQueryBond;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtom;
+import org.openscience.cdk.isomorphismmatchers.IQueryAtomContainer;
+import org.openscience.cdk.isomorphismmatchers.IQueryBond;
 import org.openscience.cdk.smsd.algorithm.matchers.AtomMatcher;
 import org.openscience.cdk.smsd.algorithm.matchers.BondMatcher;
 import org.openscience.cdk.smsd.algorithm.matchers.DefaultBondMatcher;
@@ -216,7 +216,7 @@ public class CDKMCS {
      * @return     the first isomorph atom mapping found projected on sourceGraph.
      * This is atom List of CDKRMap objects containing Ids of matching atoms.
      * @throws org.openscience.cdk.exception.CDKException if the first molecules is not an instance of
-     *  {@link org.openscience.cdk.isomorphism.matchers.IQueryAtomContainer}
+     *  {@link IQueryAtomContainer}
      */
     public static List<CDKRMap> getIsomorphAtomsMap(IAtomContainer sourceGraph, IAtomContainer targetGraph,
             boolean shouldMatchBonds) throws CDKException {

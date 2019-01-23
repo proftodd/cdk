@@ -24,6 +24,7 @@ package org.openscience.cdk.renderer.generators.parameter;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openscience.cdk.renderer.generators.IGeneratorParameter;
+import org.openscience.cdk.renderer.generators.parameter.AbstractGeneratorParameter;
 
 /**
  * @cdk.module test-render

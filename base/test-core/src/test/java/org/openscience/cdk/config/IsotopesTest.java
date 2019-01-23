@@ -21,10 +21,11 @@ package org.openscience.cdk.config;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.Element;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.Element;
+import org.openscience.cdk.data.Isotope;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IIsotope;
@@ -66,7 +67,7 @@ public class IsotopesTest extends CDKTestCase {
     public void testConfigure_IAtom_IIsotope() throws Exception {
         Isotopes isofac = Isotopes.getInstance();
         Atom atom = new Atom("H");
-        IIsotope isotope = new org.openscience.cdk.Isotope("H", 2);
+        IIsotope isotope = new Isotope("H", 2);
         isofac.configure(atom, isotope);
         Assert.assertEquals(2, atom.getMassNumber().intValue());
     }
@@ -140,7 +141,7 @@ public class IsotopesTest extends CDKTestCase {
 
     @Test
     public void testConfigureAtoms_IAtomContainer() throws Exception {
-        AtomContainer container = new org.openscience.cdk.AtomContainer();
+        AtomContainer container = new AtomContainer();
         container.addAtom(new Atom("C"));
         container.addAtom(new Atom("H"));
         container.addAtom(new Atom("N"));

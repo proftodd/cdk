@@ -28,7 +28,8 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.io.CMLWriter;
+import org.openscience.cdk.libio.cml.CMLRoundTripTool;
+import org.openscience.cdk.libio.cml.CMLWriter;
 import org.openscience.cdk.libio.cml.Convertor;
 import org.openscience.cdk.libio.cml.QSARCustomizer;
 import org.openscience.cdk.qsar.DescriptorSpecification;
@@ -36,8 +37,8 @@ import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.IMolecularDescriptor;
 import org.openscience.cdk.qsar.descriptors.molecular.WeightDescriptor;
 import org.openscience.cdk.templates.TestMoleculeFactory;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 import java.io.StringWriter;
 

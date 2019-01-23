@@ -24,6 +24,7 @@
 
 package org.openscience.cdk.stereo;
 
+import org.openscience.cdk.basestereo.*;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.interfaces.IAtom;

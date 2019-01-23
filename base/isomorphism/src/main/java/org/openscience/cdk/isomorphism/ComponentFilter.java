@@ -26,7 +26,7 @@
 package org.openscience.cdk.isomorphism;
 
 import com.google.common.base.Predicate;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.graph.ConnectedComponents;
 import org.openscience.cdk.graph.GraphUtil;
 import org.openscience.cdk.interfaces.IAtomContainer;

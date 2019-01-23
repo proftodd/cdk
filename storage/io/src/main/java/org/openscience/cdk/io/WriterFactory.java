@@ -35,8 +35,9 @@ import java.util.Map;
 
 import org.openscience.cdk.io.formats.IChemFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
+import org.openscience.cdk.io.formats.tools.DataFeatures;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
 
 /**
  * Helper tool to create IChemObjectWriters.
@@ -77,7 +78,7 @@ public class WriterFactory {
      * @param  features the data features for which a IChemFormat is searched
      * @return          an array of IChemFormat's that can contain the given features
      *
-     * @see    org.openscience.cdk.tools.DataFeatures
+     * @see    DataFeatures
      */
     public IChemFormat[] findChemFormats(int features) {
         if (formats == null) loadFormats();

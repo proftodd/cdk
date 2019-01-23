@@ -24,7 +24,7 @@ import java.util.Iterator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.openscience.cdk.tools.manipulator.AtomContainerComparator;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerComparator;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;

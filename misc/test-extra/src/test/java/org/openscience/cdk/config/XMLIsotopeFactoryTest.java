@@ -25,23 +25,17 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Source;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.Schema;
-import javax.xml.validation.SchemaFactory;
-import javax.xml.validation.Validator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.Atom;
-import org.openscience.cdk.AtomContainer;
-import org.openscience.cdk.CDKTestCase;
-import org.openscience.cdk.ChemObject;
-import org.openscience.cdk.Element;
+import org.openscience.cdk.data.Atom;
+import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.tools.CDKTestCase;
+import org.openscience.cdk.data.ChemObject;
+import org.openscience.cdk.data.Element;
+import org.openscience.cdk.data.Isotope;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IElement;
 import org.openscience.cdk.interfaces.IIsotope;
@@ -101,7 +95,7 @@ public class XMLIsotopeFactoryTest extends CDKTestCase {
     public void testConfigure_IAtom_IIsotope() throws Exception {
         XMLIsotopeFactory isofac = XMLIsotopeFactory.getInstance(new ChemObject().getBuilder());
         Atom atom = new Atom("H");
-        IIsotope isotope = new org.openscience.cdk.Isotope("H", 2);
+        IIsotope isotope = new Isotope("H", 2);
         isofac.configure(atom, isotope);
         Assert.assertEquals(2, atom.getMassNumber().intValue());
     }
@@ -198,7 +192,7 @@ public class XMLIsotopeFactoryTest extends CDKTestCase {
 
     @Test
     public void testConfigureAtoms_IAtomContainer() throws Exception {
-        AtomContainer container = new org.openscience.cdk.AtomContainer();
+        AtomContainer container = new AtomContainer();
         container.addAtom(new Atom("C"));
         container.addAtom(new Atom("H"));
         container.addAtom(new Atom("N"));

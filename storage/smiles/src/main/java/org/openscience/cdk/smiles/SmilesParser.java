@@ -26,7 +26,7 @@ package org.openscience.cdk.smiles;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
-import org.openscience.cdk.CDKConstants;
+import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.exception.InvalidSmilesException;
 import org.openscience.cdk.graph.ConnectivityChecker;
 import org.openscience.cdk.interfaces.IAtom;
@@ -43,9 +43,9 @@ import org.openscience.cdk.sgroup.SgroupKey;
 import org.openscience.cdk.sgroup.SgroupType;
 import org.openscience.cdk.smiles.CxSmilesState.DataSgroup;
 import org.openscience.cdk.smiles.CxSmilesState.PolymerSgroup;
-import org.openscience.cdk.tools.ILoggingTool;
-import org.openscience.cdk.tools.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.AtomContainerManipulator;
+import org.openscience.cdk.logging.ILoggingTool;
+import org.openscience.cdk.logging.LoggingToolFactory;
+import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import uk.ac.ebi.beam.Graph;
 
 import javax.vecmath.Point2d;
@@ -106,7 +106,7 @@ import java.util.Set;
  *
  * <b>Atom Class</b>
  *
- * The atom class is stored as the {@link org.openscience.cdk.CDKConstants#ATOM_ATOM_MAPPING}
+ * The atom class is stored as the {@link CDKConstants#ATOM_ATOM_MAPPING}
  * property.
  *
  * <blockquote><pre>

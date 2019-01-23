@@ -26,6 +26,9 @@ import java.awt.geom.AffineTransform;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.renderer.elements.IRenderingElement;
+import org.openscience.cdk.renderer.elements.IRenderingVisitor;
+import org.openscience.cdk.renderer.elements.TextElement;
 
 /**
  * @cdk.module test-render
