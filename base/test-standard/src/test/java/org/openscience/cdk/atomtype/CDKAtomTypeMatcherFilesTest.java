@@ -28,7 +28,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomType;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.io.CMLReader;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.silent.ChemFile;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;

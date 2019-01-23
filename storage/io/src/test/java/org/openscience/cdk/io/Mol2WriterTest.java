@@ -26,6 +26,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.aromaticity.Aromaticity;

@@ -62,13 +62,13 @@ public class MDLV2000Format extends SimpleChemFormatMatcher implements IChemForm
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLV2000Reader";
+        return "org.openscience.cdk.ctab.io.MDLV2000Reader";
     }
 
     /** {@inheritDoc} */
     @Override
     public String getWriterClassName() {
-        return "org.openscience.cdk.io.MDLV2000Writer";
+        return "org.openscience.cdk.ctab.io.MDLV2000Writer";
     }
 
     /** {@inheritDoc} */

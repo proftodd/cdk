@@ -62,7 +62,7 @@ public class MDLV3000Format extends SimpleChemFormatMatcher implements IChemForm
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLV3000Reader";
+        return "org.openscience.cdk.ctab.io.MDLV3000Reader";
     }
 
     /** {@inheritDoc} */

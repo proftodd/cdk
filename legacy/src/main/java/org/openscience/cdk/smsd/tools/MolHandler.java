@@ -36,7 +36,7 @@ import org.openscience.cdk.geometry.BondTools;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IPseudoAtom;
-import org.openscience.cdk.io.MDLReader;
+import org.openscience.cdk.ctab.io.MDLReader;
 import org.openscience.cdk.smsd.labelling.CanonicalLabellingAdaptor;
 import org.openscience.cdk.smsd.labelling.ICanonicalMoleculeLabeller;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;

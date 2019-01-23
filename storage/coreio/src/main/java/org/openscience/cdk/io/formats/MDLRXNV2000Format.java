@@ -66,7 +66,7 @@ public class MDLRXNV2000Format extends AbstractResourceFormat implements IChemFo
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLRXNV2000Reader";
+        return "org.openscience.cdk.ctab.io.MDLRXNV2000Reader";
     }
 
     /** {@inheritDoc} */

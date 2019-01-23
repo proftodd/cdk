@@ -38,7 +38,7 @@ import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.interfaces.IRing;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.io.IChemObjectReader.Mode;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.logging.ILoggingTool;

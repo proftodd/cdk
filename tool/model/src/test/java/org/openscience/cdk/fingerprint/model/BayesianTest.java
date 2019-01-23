@@ -37,7 +37,7 @@ import org.openscience.cdk.tools.SlowTest;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.fingerprint.CircularFingerprinter;
 import org.openscience.cdk.interfaces.IAtomContainer;
-import org.openscience.cdk.io.iterator.IteratingSDFReader;
+import org.openscience.cdk.ctab.io.iterator.IteratingSDFReader;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 

@@ -64,7 +64,7 @@ public class MDLFormat extends SimpleChemFormatMatcher implements IChemFormatMat
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLReader";
+        return "org.openscience.cdk.ctab.io.MDLReader";
     }
 
     /** {@inheritDoc} */

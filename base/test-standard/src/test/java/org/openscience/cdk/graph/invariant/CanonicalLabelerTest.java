@@ -42,7 +42,7 @@ import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.io.CMLReader;
 import org.openscience.cdk.io.CMLWriter;
 import org.openscience.cdk.io.IChemObjectReader.Mode;
-import org.openscience.cdk.io.MDLReader;
+import org.openscience.cdk.ctab.io.MDLReader;
 import org.openscience.cdk.smiles.SmilesParser;
 import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;

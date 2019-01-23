@@ -44,7 +44,7 @@ import org.openscience.cdk.interfaces.IDoubleBondStereochemistry;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
 import org.openscience.cdk.interfaces.ITetrahedralChirality.Stereo;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.basestereo.ExtendedTetrahedral;
 import org.openscience.cdk.basestereo.TetrahedralChirality;

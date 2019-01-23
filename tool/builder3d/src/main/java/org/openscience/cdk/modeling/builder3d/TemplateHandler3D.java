@@ -45,7 +45,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IRingSet;
-import org.openscience.cdk.io.iterator.IteratingSDFReader;
+import org.openscience.cdk.ctab.io.iterator.IteratingSDFReader;
 import org.openscience.cdk.isomorphism.Mappings;
 import org.openscience.cdk.isomorphism.Pattern;
 import org.openscience.cdk.isomorphism.UniversalIsomorphismTester;

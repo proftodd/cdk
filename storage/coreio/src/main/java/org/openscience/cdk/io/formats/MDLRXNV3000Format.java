@@ -64,7 +64,7 @@ public class MDLRXNV3000Format extends SimpleChemFormatMatcher implements IChemF
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLRXNV3000Reader";
+        return "org.openscience.cdk.ctab.io.MDLRXNV3000Reader";
     }
 
     /** {@inheritDoc} */

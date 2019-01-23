@@ -26,7 +26,7 @@ import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.data.ChemObject;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.io.IChemObjectReader.Mode;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 
 /**
  * @cdk.module test-extra

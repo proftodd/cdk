@@ -34,7 +34,7 @@ import org.openscience.cdk.config.AtomTypeFactory;
 import org.openscience.cdk.config.Elements;
 import org.openscience.cdk.interfaces.*;
 import org.openscience.cdk.interfaces.IBond.Order;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.silent.SilentChemObjectBuilder;
 import org.openscience.cdk.extra.tools.AtomTypeTools;

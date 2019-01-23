@@ -64,7 +64,7 @@ public class MDLRXNFormat extends SimpleChemFormatMatcher implements IChemFormat
     /** {@inheritDoc} */
     @Override
     public String getReaderClassName() {
-        return "org.openscience.cdk.io.MDLRXNReader";
+        return "org.openscience.cdk.ctab.io.MDLRXNReader";
     }
 
     /** {@inheritDoc} */

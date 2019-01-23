@@ -32,6 +32,7 @@ import javax.vecmath.Vector3d;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openscience.cdk.ctab.io.MDLRXNWriter;
 import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.data.ChemFile;

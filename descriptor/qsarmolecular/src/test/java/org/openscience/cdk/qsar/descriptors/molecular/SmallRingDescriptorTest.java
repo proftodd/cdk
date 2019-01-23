@@ -40,8 +40,8 @@ import java.util.zip.ZipInputStream;
 
 import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.exception.CDKException;
-import org.openscience.cdk.io.MDLV2000Reader;
-import org.openscience.cdk.io.MDLV2000Writer;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Writer;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.IntegerArrayResult;
 import org.openscience.cdk.logging.ILoggingTool;

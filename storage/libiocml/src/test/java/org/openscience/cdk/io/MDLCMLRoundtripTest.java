@@ -32,6 +32,10 @@ import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IChemFile;
+import org.openscience.cdk.io.CMLReader;
+import org.openscience.cdk.ctab.io.MDLReader;
+import org.openscience.cdk.ctab.io.MDLV2000Writer;
+import org.openscience.cdk.io.CMLWriter;
 
 /**
  * Combined TestCase for the reading/writing of mdl and cml files.

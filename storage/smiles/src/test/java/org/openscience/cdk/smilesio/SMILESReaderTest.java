@@ -25,6 +25,7 @@ package org.openscience.cdk.smilesio;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openscience.cdk.ctab.io.MDLReader;
 import org.openscience.cdk.data.AtomContainerSet;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.exception.CDKException;
@@ -51,7 +52,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  *
  * @cdk.module test-smiles
  *
- * @see org.openscience.cdk.io.MDLReader
+ * @see MDLReader
  */
 public class SMILESReaderTest extends SimpleChemObjectReaderTest {
 

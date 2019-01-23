@@ -31,7 +31,7 @@ import javax.vecmath.Point3d;
 
 import com.google.common.collect.HashBiMap;
 import org.openscience.cdk.core.AtomRef;
-import org.openscience.cdk.io.iterator.ConformerContainer;
+import org.openscience.cdk.ctab.io.iterator.ConformerContainer;
 import org.openscience.cdk.exception.CDKException;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;

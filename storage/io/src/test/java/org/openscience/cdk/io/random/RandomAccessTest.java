@@ -24,6 +24,7 @@ package org.openscience.cdk.io.random;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.ctab.io.random.RandomAccessSDFReader;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.interfaces.IAtomContainer;

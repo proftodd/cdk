@@ -4,7 +4,9 @@ import java.io.InputStream;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openscience.cdk.io.iterator.event.IteratingMDLConformerReader;
+import org.openscience.cdk.ctab.io.MDLReader;
+import org.openscience.cdk.ctab.io.iterator.ConformerContainer;
+import org.openscience.cdk.ctab.io.iterator.event.IteratingMDLConformerReader;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.logging.ILoggingTool;
@@ -15,7 +17,7 @@ import org.openscience.cdk.logging.LoggingToolFactory;
  *
  * @cdk.module test-extra
  *
- * @see org.openscience.cdk.io.MDLReader
+ * @see MDLReader
  */
 public class IteratingMDLConformerReaderTest extends CDKTestCase {
 

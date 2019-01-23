@@ -39,7 +39,7 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IStereoElement;
 import org.openscience.cdk.interfaces.ITetrahedralChirality;
-import org.openscience.cdk.io.iterator.IteratingSDFReader;
+import org.openscience.cdk.ctab.io.iterator.IteratingSDFReader;
 import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
 import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;

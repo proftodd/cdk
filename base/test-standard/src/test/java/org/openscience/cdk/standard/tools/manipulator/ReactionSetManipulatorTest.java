@@ -27,7 +27,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.data.AtomContainer;
-import org.openscience.cdk.standard.tools.manipulator.ReactionSetManipulator;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.data.ReactionSet;
@@ -39,7 +38,7 @@ import org.openscience.cdk.interfaces.IChemObject;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.IReactionSet;
-import org.openscience.cdk.io.MDLRXNReader;
+import org.openscience.cdk.ctab.io.MDLRXNReader;
 
 /**
  * @cdk.module test-standard

@@ -40,7 +40,7 @@ import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IRingSet;
-import org.openscience.cdk.io.MDLV2000Reader;
+import org.openscience.cdk.ctab.io.MDLV2000Reader;
 import org.openscience.cdk.ringsearch.RingPartitioner;
 import org.openscience.cdk.templates.TestMoleculeFactory;
 import org.openscience.cdk.tools.diff.AtomContainerDiff;
