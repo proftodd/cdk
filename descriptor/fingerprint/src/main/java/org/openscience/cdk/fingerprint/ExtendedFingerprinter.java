@@ -23,11 +23,11 @@
 package org.openscience.cdk.fingerprint;
 
 import org.openscience.cdk.exception.CDKException;
+import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IRingSet;
 import org.openscience.cdk.ringsearch.RingPartitioner;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
 
 import java.util.List;
 import java.util.Map;

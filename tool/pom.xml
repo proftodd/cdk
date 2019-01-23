@@ -15,7 +15,6 @@
         <module>builder3dtools</module>
         <module>charges</module>
         <module>forcefield</module>
-        <module>formula</module>
         <module>fragment</module>
         <module>group</module>
         <module>hash</module>

@@ -60,7 +60,7 @@ import org.openscience.cdk.interfaces.IStrand;
 import org.openscience.cdk.standard.tools.IDCreator;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.standard.tools.manipulator.ReactionSchemeManipulator;
 import org.xmlcml.cml.base.CMLElement;
 import org.xmlcml.cml.element.CMLAtom;

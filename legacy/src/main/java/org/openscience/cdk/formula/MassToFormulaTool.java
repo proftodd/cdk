@@ -43,8 +43,8 @@ import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.interfaces.IMolecularFormulaSet;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaRangeManipulator;
+import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.formula.manipulator.MolecularFormulaRangeManipulator;
 
 /**
  * <p>Tool to determine molecular formula consistent with a given accurate mass. The

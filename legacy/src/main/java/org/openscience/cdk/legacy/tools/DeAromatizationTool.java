@@ -36,7 +36,7 @@ import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.ringsearch.RingPartitioner;
 import org.openscience.cdk.ringsearch.SSSRFinder;
-import org.openscience.cdk.tools.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
 
 /**
  * Methods that takes a ring of which all bonds are aromatic, and assigns single

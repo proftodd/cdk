@@ -13,7 +13,6 @@
     <modules>
         <module>ctab</module>
         <module>io</module>
-        <module>ioformats</module>
         <module>iordf</module>
         <module>libiocml</module>
         <module>libiomd</module>
