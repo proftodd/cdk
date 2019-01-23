@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *  */
-package org.openscience.cdk.io.cml;
+package org.openscience.cdk.libio.cml;
 
 import java.io.IOException;
 import java.io.StringWriter;
@@ -50,7 +50,6 @@ import org.openscience.cdk.interfaces.IIsotope;
 import org.openscience.cdk.interfaces.IMolecularFormula;
 import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.IReactionScheme;
-import org.openscience.cdk.io.CMLWriter;
 import org.openscience.cdk.silent.AtomContainer;
 import org.openscience.cdk.silent.AtomContainerSet;
 import org.openscience.cdk.silent.ChemModel;

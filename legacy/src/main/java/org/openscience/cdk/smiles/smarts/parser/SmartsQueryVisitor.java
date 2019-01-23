@@ -17,6 +17,8 @@
  */
 package org.openscience.cdk.smiles.smarts.parser;
 
+import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
+import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.core.CDKConstants;
 import org.openscience.cdk.reactions.ReactionRole;
 import org.openscience.cdk.interfaces.IAtom;
@@ -62,8 +64,6 @@ import org.openscience.cdk.isomorphism.matchers.smarts.TotalConnectionAtom;
 import org.openscience.cdk.isomorphism.matchers.smarts.TotalHCountAtom;
 import org.openscience.cdk.isomorphism.matchers.smarts.TotalRingConnectionAtom;
 import org.openscience.cdk.isomorphism.matchers.smarts.TotalValencyAtom;
-import org.openscience.cdk.basestereo.DoubleBondStereochemistry;
-import org.openscience.cdk.basestereo.TetrahedralChirality;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;
 import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;

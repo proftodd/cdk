@@ -33,6 +33,7 @@ import org.junit.Test;
 
 import org.openscience.cdk.data.Atom;
 import org.openscience.cdk.data.AtomContainer;
+import org.openscience.cdk.libio.cml.CMLWriter;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.exception.CDKException;
@@ -40,7 +41,6 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.io.CMLReader;
-import org.openscience.cdk.io.CMLWriter;
 import org.openscience.cdk.io.cml.MDMoleculeConvention;
 import org.openscience.cdk.libio.cml.Convertor;
 import org.openscience.cdk.libio.cml.MDMoleculeCustomizer;

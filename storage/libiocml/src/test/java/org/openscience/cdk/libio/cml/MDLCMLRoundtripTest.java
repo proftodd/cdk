@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  *  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.libio.cml;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -35,7 +35,6 @@ import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.io.CMLReader;
 import org.openscience.cdk.ctab.io.MDLReader;
 import org.openscience.cdk.ctab.io.MDLV2000Writer;
-import org.openscience.cdk.io.CMLWriter;
 
 /**
  * Combined TestCase for the reading/writing of mdl and cml files.

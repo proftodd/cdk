@@ -28,6 +28,7 @@ import javax.vecmath.Point3d;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.openscience.cdk.libio.cml.CMLRoundTripTool;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

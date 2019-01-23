@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.openscience.cdk.data.AtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IPDBAtom;
-import org.openscience.cdk.io.CMLWriter;
 import org.openscience.cdk.protein.data.PDBAtom;
 import org.openscience.cdk.logging.ILoggingTool;
 import org.openscience.cdk.logging.LoggingToolFactory;

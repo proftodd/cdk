@@ -22,7 +22,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.libio.cml;
 
 import nu.xom.Attribute;
 import nu.xom.Document;
@@ -42,6 +42,7 @@ import org.openscience.cdk.interfaces.IPDBPolymer;
 import org.openscience.cdk.interfaces.IReaction;
 import org.openscience.cdk.interfaces.IReactionScheme;
 import org.openscience.cdk.interfaces.IReactionSet;
+import org.openscience.cdk.io.DefaultChemObjectWriter;
 import org.openscience.cdk.io.cml.CustomSerializer;
 import org.openscience.cdk.io.formats.CMLFormat;
 import org.openscience.cdk.io.formats.IResourceFormat;

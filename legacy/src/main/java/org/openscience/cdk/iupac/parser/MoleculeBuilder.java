@@ -34,9 +34,9 @@ import org.openscience.cdk.interfaces.IBond;
 import org.openscience.cdk.interfaces.IBond.Order;
 import org.openscience.cdk.interfaces.IChemObjectBuilder;
 import org.openscience.cdk.interfaces.IRing;
-import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
+import org.openscience.cdk.tools.valencycheck.CDKHydrogenAdder;
 
 import java.util.Iterator;
 import java.util.List;

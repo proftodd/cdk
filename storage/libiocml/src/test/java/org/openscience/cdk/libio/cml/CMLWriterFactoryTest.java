@@ -21,10 +21,12 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 U
  */
-package org.openscience.cdk.io;
+package org.openscience.cdk.libio.cml;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.io.IChemObjectWriter;
+import org.openscience.cdk.io.WriterFactory;
 import org.openscience.cdk.io.formats.CMLFormat;
 import org.openscience.cdk.io.formats.IChemFormat;
 

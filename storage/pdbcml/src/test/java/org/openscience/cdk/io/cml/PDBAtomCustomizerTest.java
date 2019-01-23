@@ -29,6 +29,7 @@ import java.io.StringWriter;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openscience.cdk.libio.cml.CMLWriter;
 import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.data.ChemFile;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -37,7 +38,6 @@ import org.openscience.cdk.interfaces.IChemFile;
 import org.openscience.cdk.interfaces.IChemModel;
 import org.openscience.cdk.interfaces.IChemSequence;
 import org.openscience.cdk.io.CMLReader;
-import org.openscience.cdk.io.CMLWriter;
 import org.openscience.cdk.io.ISimpleChemObjectReader;
 import org.openscience.cdk.io.PDBReader;
 import org.openscience.cdk.libio.cml.PDBAtomCustomizer;

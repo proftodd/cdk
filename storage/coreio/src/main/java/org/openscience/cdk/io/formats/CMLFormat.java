@@ -70,7 +70,7 @@ public class CMLFormat extends SimpleChemFormatMatcher implements IChemFormatMat
     /** {@inheritDoc} */
     @Override
     public String getWriterClassName() {
-        return "org.openscience.cdk.io.CMLWriter";
+        return "org.openscience.cdk.libio.cml.CMLWriter";
     }
 
     /** {@inheritDoc} */
