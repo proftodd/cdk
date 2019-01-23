@@ -23,7 +23,7 @@
 package org.openscience.cdk.fingerprint;
 
 import org.openscience.cdk.exception.CDKException;
-import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.graph.Cycles;
 import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IRingSet;

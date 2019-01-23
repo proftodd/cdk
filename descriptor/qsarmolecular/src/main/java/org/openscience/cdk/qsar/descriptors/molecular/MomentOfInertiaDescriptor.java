@@ -26,7 +26,7 @@ import javax.vecmath.Point3d;
 import org.openscience.cdk.config.Isotopes;
 import org.openscience.cdk.config.IsotopeFactory;
 import org.openscience.cdk.exception.CDKException;
-import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.geometry.GeometryUtil;
 import org.openscience.cdk.interfaces.IAtom;
 import org.openscience.cdk.interfaces.IAtomContainer;

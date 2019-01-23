@@ -49,7 +49,7 @@ import org.openscience.cdk.tools.CDKTestCase;
 import org.openscience.cdk.standard.tools.manipulator.AtomContainerManipulator;
 import org.openscience.cdk.standard.tools.manipulator.AtomTypeManipulator;
 import org.openscience.cdk.standard.tools.manipulator.ChemFileManipulator;
-import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

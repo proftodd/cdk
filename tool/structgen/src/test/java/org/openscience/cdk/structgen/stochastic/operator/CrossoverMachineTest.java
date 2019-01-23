@@ -33,7 +33,7 @@ import org.openscience.cdk.interfaces.IAtomContainer;
 import org.openscience.cdk.interfaces.IAtomContainerSet;
 import org.openscience.cdk.smilesio.SMILESReader;
 import org.openscience.cdk.silent.AtomContainerSet;
-import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 
 /**
  * @cdk.module test-structgen

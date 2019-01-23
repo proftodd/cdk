@@ -21,7 +21,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openscience.cdk.data.DefaultChemObjectBuilder;
 import org.openscience.cdk.data.Substance;
-import org.openscience.cdk.formula.manipulator.MolecularFormulaManipulator;
+import org.openscience.cdk.io.formula.manipulator.MolecularFormulaManipulator;
 import org.openscience.cdk.interfaces.ISubstance;
 import org.openscience.cdk.qsar.DescriptorValue;
 import org.openscience.cdk.qsar.result.IDescriptorResult;
